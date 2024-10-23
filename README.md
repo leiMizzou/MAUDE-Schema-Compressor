@@ -227,8 +227,8 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Contact
 
-For any questions or suggestions, please open an issue on the [GitHub repository](https://github.com/yourusername/maude-schema-analysis/issues) or contact [your.email@example.com](mailto:your.email@example.com).
+For any questions or suggestions, please open an issue on the [GitHub repository](https://github.com/leiMizzou/maude-schema-analysis/issues) or contact [lhua0420@gmail.com](mailto:lhua0420@gmail.com).
 
 ---
 
-*This project is maintained by [Your Name](https://github.com/yourusername).*
+*This project is maintained by [Lei Hua](https://github.com/leiMizzou).*
