@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2008",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "857525",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2008/01/25",
+            "brand_name": "ENDO GIA ROTICULATOR 45-3.5 SULU",
+            "generic_name": "DISPOSABLE SURGICAL STAPLER",
+            "manufacturer_d_name": "NORTH HAVEN - USS",
+            "manufacturer_d_address_1": "195 MCDERMOTT RD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "NORTH HAVEN",
+            "manufacturer_d_state_code": "CT",
+            "manufacturer_d_zip_code": "06473",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "06473",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "030455",
+            "lot_number": "UNK",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "GAG",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "863494",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2008/02/01",
+            "brand_name": "STARCLOSE VASCULAR CLOSURE SYSTEM",
+            "generic_name": null,
+            "manufacturer_d_name": "ABBOTT VASCULAR-VASCULAR SOLUTIONS-REDWOOD CITY",
+            "manufacturer_d_address_1": "26531 YNEZ ROAD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "TEMECULA",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92591",
+            "manufacturer_d_zip_code_ext": "462",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "92591 4628",
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2009/09/30",
+            "model_number": null,
+            "catalog_number": "14677-01",
+            "lot_number": "59189-6H",
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "2008/01/24",
+            "device_report_product_code": "MGB",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "863558",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2008/02/08",
+            "brand_name": "LEFEPAK 20 DEFIBRILLATOR/MONITOR",
+            "generic_name": null,
+            "manufacturer_d_name": "PHYSIO-CONTROL, INC",
+            "manufacturer_d_address_1": null,
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "REDMOND",
+            "manufacturer_d_state_code": "WA",
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "20",
+            "catalog_number": "3202487",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "LDD",
+            "device_age_text": "1.5 YR",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

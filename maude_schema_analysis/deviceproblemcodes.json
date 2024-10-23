@@ -1,0 +1,31 @@
+{
+    "table_name": "deviceproblemcodes",
+    "structure": [
+        {
+            "name": "ï_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "old_to_be_deactivated",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "ï_1": "1001",
+            "old_to_be_deactivated": "Failure To Run On AC/DC"
+        },
+        {
+            "ï_1": "1002",
+            "old_to_be_deactivated": "Abnormal"
+        },
+        {
+            "ï_1": "1003",
+            "old_to_be_deactivated": "Absorption"
+        }
+    ]
+}

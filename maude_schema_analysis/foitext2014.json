@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2014",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "3546763",
+            "mdr_text_key": "3975489",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE CATHETER WAS FOUND TO BE CLOGGED UP AT THE END VIA MRI. THE CATHETER HAD REPORTEDLY BEEN CLOGGED FOR A WHILE AND THE PATIENT HAD GONE THROUGH PAIN AND WITHDRAWAL. IT WAS INDICATED THAT THE HEALTHCARE PROVIDER (HCP) HAD TOLD THE PATIENT THAT HE WOULD NOT NEED TO HAVE SURGERY. THEY WANTED TO DRAIN ALL OF THE MORPHINE OUT OF THE PUMP AND CATHETER TO PUT A SALINE SOLUTION IN. THE PUMP WOULD BE LEFT TO PUSH THE SALINE SOLUTION THROUGH FOR ABOUT FOUR MONTHS. IT WAS STATED THAT THE PATIENT HAD BEEN ON 18MG/DAY AND WAS WONDERING IF IT WOULD BE ADEQUATE TO TAKE 90MG ORALLY. HE WAS FIRST GIVEN ORAL DILAUDID, BUT IT MADE HIM SICK TO HIS STOMACH. IT WAS NOTED TO BE POWERFUL AND EVERYBODY¿S PLUMBING IS DIFFERENT, BUT IT DIDN¿T WORK FOR HIM. THE PATIENT WAS THEN GIVEN MORPHINE SULFATE, WHICH WAS THE SAME DRUG THAT WAS IN THE PUMP. HE HAD BEEN STARTED ON 15MG TABLETS, BUT WAS LATER GIVEN 30MG TABLETS. THE REPORTER STATED THAT SOMETHING HAD TO BE GETTING THROUGH, BECAUSE THE PATIENT WAS NOT TAKING THAT MANY OF THE MORPHINE SULFATE (MS) PILLS. IT WAS NOTED THAT THE PATIENT WAS WORRIED ABOUT OVERDOSING. IT WAS INDICATED THAT IT HAD BEEN GOING ON FOR PRETTY CLOSE TO A MONTH, IF NOT A MONTH AND A HALF; HOWEVER, IT WAS UNCLEAR WHAT THE REPORTER WAS REFERRING TO. THE REPORTER THOUGHT THE PATIENT MIGHT BE PUT ON 90MG/DAY AND THE PATIENT DID NOT WANT TO GO THROUGH THAT EVER AGAIN. IT WAS STATED THAT THE PATIENT FELT HE SHOULD BE RECOVERED AT THE TIME OF REPORT. THE PATIENT WAS DISABLED AND ¿NOT A PRODUCTIVE MEMBER OF SOCIETY¿. HE DIDN¿T KNOW HOW THEY WERE ¿WORKING THEIR THINGS.¿ THREE DAYS LATER, IT WAS REPORTED THAT THERE WAS A GRANULOMA AT THE TIP OF THE CATHETER. THE PATIENT WOULD BE COVERED WITH ORAL MEDICATIONS FOR AROUND FOUR MONTHS AND WOULD THEN HAVE A REPEAT MRI. THE PUMP HAD BEEN FILLED WITH SALINE ON (B)(6) 2013."
+        },
+        {
+            "mdr_report_key": "3546717",
+            "mdr_text_key": "3975490",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE SET SCREW SLIPPED DURING INSERTION IN THE BONE SCREW. THE SET SCREW WAS REMOVED AND REPLACED. NO PATIENT COMPLICATIONS WERE REPORTED."
+        },
+        {
+            "mdr_report_key": "3546721",
+            "mdr_text_key": "3975492",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED VIA REPAIR WORK ORDER THAT THE POWER CORD WAS PULLED OUT OF THE POWER INLET. NO PATIENT WAS AFFECTED AND NO ADVERSE CONSEQUENCE OR CLINICALLY RELEVANT DELAY IN TREATMENT WAS REPORTED."
+        }
+    ]
+}

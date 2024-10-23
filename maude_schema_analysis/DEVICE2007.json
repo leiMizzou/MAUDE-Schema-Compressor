@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2007",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "529433",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2007/02/13",
+            "brand_name": "ARROW PERCUTANEOUS SHEATH INTRODUCER SET",
+            "generic_name": "CATHETER INTRODUCER",
+            "manufacturer_d_name": "ARROW INTL., INC.",
+            "manufacturer_d_address_1": "*",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "READING",
+            "manufacturer_d_state_code": "PA",
+            "manufacturer_d_zip_code": "19605",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "19605",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "SI-09880",
+            "lot_number": "UNK",
+            "other_id_number": "*",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DYB",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "676618",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2007/08/10",
+            "brand_name": "FINELINE II",
+            "generic_name": "IMPLANTABLE LEAD",
+            "manufacturer_d_name": "CARDIAC PACEMAKERS, INC.",
+            "manufacturer_d_address_1": "GUIDANT PUERTO RICO B.V.",
+            "manufacturer_d_address_2": "#12, RD. #698",
+            "manufacturer_d_city": "DORADO",
+            "manufacturer_d_state_code": "PR",
+            "manufacturer_d_zip_code": "00646",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "00646",
+            "device_operator": "000",
+            "expiration_date_of_device": "2005/11/07",
+            "model_number": "4456",
+            "catalog_number": "*",
+            "lot_number": "*",
+            "other_id_number": "*",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DTB",
+            "device_age_text": "19 MO",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "692135",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2007/03/19",
+            "brand_name": "CONTACK RENEWAL 3",
+            "generic_name": "IMPLANTABLE CHF GENERATOR",
+            "manufacturer_d_name": "*",
+            "manufacturer_d_address_1": "*",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "CLONMEL",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "*",
+            "manufacturer_d_postal_code": null,
+            "device_operator": "000",
+            "expiration_date_of_device": "2004/07/30",
+            "model_number": "H175",
+            "catalog_number": "*",
+            "lot_number": "*",
+            "other_id_number": "*",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "NIK",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

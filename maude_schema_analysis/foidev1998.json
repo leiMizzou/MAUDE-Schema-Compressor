@@ -1,0 +1,418 @@
+{
+    "table_name": "foidev1998",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_other_id_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_device_family",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_contained",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_in_months",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_preamendment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_transitional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__exempt_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_first_marketed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_ceased_marketing",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "204104",
+            "device_event_key": "198243",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/24/1998",
+            "brand_name": "FLO-GARD 6301 DUAL CHANNEL VOLUMETRIC INFUSION PUMP",
+            "generic_name": "INFUSION PUMP",
+            "manufacturer_d_name": "BAXTER HEALTHCARE PTE. LTD.",
+            "manufacturer_d_address_1": "2 WOODLANDS INDUSTRIAL PARK D",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SINGAPORE",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SN",
+            "manufacturer_d_postal_code": "2573",
+            "expiration_date_of_device": null,
+            "model_number": "6301",
+            "catalog_number": "2M8064",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "12/03/1998",
+            "device_report_product_code": "FRN",
+            "device_age_text": "5 YR",
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "FLO-GARD 6301 DUAL CHANNEL VOLUMETRIC INFUSION PUMP",
+            "baseline_generic_name": "INFUSION PUMP",
+            "baseline_model_no": "6301",
+            "baseline_catalog_no": "2M8064",
+            "baseline_other_id_no": null,
+            "baseline_device_family": "LARGE VOLUME INFUSION PUMP, FLO-GARD 6000 SERIES",
+            "baseline_shelf_life_contained": "N",
+            "baseline_shelf_life_in_months": "*",
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K915523",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/01/1991",
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "204103",
+            "device_event_key": "198242",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/24/1998",
+            "brand_name": "THREE WAY STANDARD BORE STOPCOCK",
+            "generic_name": "STOPCOCKS",
+            "manufacturer_d_name": "BAXTER HEALTHCARE CORP.",
+            "manufacturer_d_address_1": "ROAD 721, KM. 0.3",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "AIBONITO",
+            "manufacturer_d_state_code": "PR",
+            "manufacturer_d_zip_code": "00705",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "2C6240",
+            "lot_number": "U381764R",
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "R",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "FMG",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "baseline_brand_name": "THREE WAY STANDARD BORE STOPCOCK",
+            "baseline_generic_name": "STOPCOCK",
+            "baseline_model_no": null,
+            "baseline_catalog_no": "2C6240",
+            "baseline_other_id_no": null,
+            "baseline_device_family": "THREE WAY STANDARD BORE STOPCOCK",
+            "baseline_shelf_life_contained": null,
+            "baseline_shelf_life_in_months": null,
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K862691",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/28/1997",
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "204102",
+            "device_event_key": "198241",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/23/1998",
+            "brand_name": "7200AE MICROPROCESSOR VENTILATOR",
+            "generic_name": "VOLUME VENTILATOR",
+            "manufacturer_d_name": "NELLCOR PURITAN BENNETT",
+            "manufacturer_d_address_1": "2200 FARADAY AVE.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "CARLSBAD",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92008",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": null,
+            "model_number": "7200AE",
+            "catalog_number": "7200AE",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "CBK",
+            "device_age_text": "10 YR",
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "7200 SERIES VENTILATOR",
+            "baseline_generic_name": "VOLUME VENTILATOR",
+            "baseline_model_no": "7200AE",
+            "baseline_catalog_no": null,
+            "baseline_other_id_no": null,
+            "baseline_device_family": "7200 SERIES VENTILATOR",
+            "baseline_shelf_life_contained": null,
+            "baseline_shelf_life_in_months": null,
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K823858",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/01/1993",
+            "baseline_date_ceased_marketing": null
+        }
+    ]
+}

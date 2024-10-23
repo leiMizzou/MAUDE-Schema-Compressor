@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2004",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "454678",
+            "mdr_text_key": "282438",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A PT REPORTED BLOOD GLUCOSE RESULTS OF 236MG/DL WITH A LIFESCAN METER AND 216MG/DL ON A LABORATORY DEVICE, PERFORMED WITHIN 10 MINUTES OF EACH OTHER. BETWEEN THE TESTS THERE WAS NO INTERVENTION THAT WOULD BE EXPECTED TO CHANGE THE BLOOD GLUCOSE. BASED ON STATISTICAL METHODOLOGY, THE CALCULATED DIFFERENCE OF THESE GLUCOSE RESULTS EXCEEDS LIFESCANS CRITERIA FOR ACCURACY, THEREBY INDICATING A POTENTIAL MALFUNCTION OF THE METER IN TERMS OF ACCURACY."
+        },
+        {
+            "mdr_report_key": "507099",
+            "mdr_text_key": "295460",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE PT'S STEMMED FEMORAL COMPONENT FAILED AND WAS REVISED."
+        },
+        {
+            "mdr_report_key": "507076",
+            "mdr_text_key": "295461",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "AN EYECARE PRACTIONER HAS REPORTED A PATIENT PRESENTED WITH FOREIGN BODY SENSATION AND SEVERE PAIN, OS WHILE WEARING FOCUS NIGHT AND DAY LENSES FOR APPROXIMATELY 7 DAYS OF CONTINUOUS WEAR. UPON EXMINATION, EVENT DIAGNOSED AS A CENTRAL CORNEAL ULCER WITH AFFILIATED INFILTRATE. VISUAL ACUITY REPORTED AS 20/60. THERE WAS AN ANTERIOR CHAMBER REACTION REPORTED. A CORNEAL CULTURE WAS TAKEN AND WAS POSITIVE FOR PSEUDOMONAS. THE PRACTITIONER REPORTED THAT THE PATIENT ALSO USED OPTIFREE AND HAD A LENS  CASE THAT LOOKED LIKE IT HAD NOT BEEN CHANGED RECENTLY. THE EVENT WAS TREATED WITH CILOXAN AND RESOLVED WITH A SCAR AND A VERY SLIGHT DROP IN VISUAL ACULTY (20/20 TO 20/20-2). NO FURTHER INFORMATION IS AVAILABLE AT THIS TIME."
+        }
+    ]
+}

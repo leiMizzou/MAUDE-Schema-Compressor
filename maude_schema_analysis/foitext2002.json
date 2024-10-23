@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2002",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "368695",
+            "mdr_text_key": "212304",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "CUSTOMER WAS LIFTING UNIT AND STRAP BROKE."
+        },
+        {
+            "mdr_report_key": "368711",
+            "mdr_text_key": "20683451",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "REPORTER NOTED POOR VACUUM, WHICH IMPROVED WHEN TUBING WAS MANIPULATED. PROBE WOULDN'T CUT; CHANGED PROBES TO COMPLETE PROCEDURE. NO PATIENT INJURY."
+        },
+        {
+            "mdr_report_key": "368720",
+            "mdr_text_key": "242416",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED A BURR WAS NOTED ON THE OUTER CANNULA OF THIS BIOPSY NEEDLE, FOLLOWING TEST FIRING OF THE NEEDLE DURING PREPARATION FOR A BREAST BIOPSY PROCEDURE. ANOTHER DEVICE WAS USED TO SUCCESSFULLY COMPLETE THE PROCEDURE. THE PATIENT'S CONDITION IS GOOD. THIS DEVICE IS CURRENTLY BEING EVALUATED BY THIS MANUFACTURER. FOLLOWING COMPLETION OF THE ENGINEER'S EVALUATION, A SUPPLEMENTAL MEDWATCH REPORT WILL BE FILED UNDER THE APPROPRIATE SEQUENCE NUMBER. AS A LOT NUMBER WAS NOT PROVIDED A DEVICE HISTORY SEARCH COULD NOT BE PERFORMED. FOLLOW UP INDICATED THE DEVICE WAS TEST FIRED OUTSIDE THE PATIENT. USER TECHNIQUE DURING PREPARATION OF THIS DEVICE MAY HAVE CONTRIBUTED TO THIS EVENT. HOWEVER, COMPANY IS UNABLE TO DETERMINE THE EXACT CAUSE FOR THIS EVENT."
+        }
+    ]
+}

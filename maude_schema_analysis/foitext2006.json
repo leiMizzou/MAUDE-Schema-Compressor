@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2006",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "563902",
+            "mdr_text_key": "343924",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE PT HAD CONTACTED LIFESCAN AND REPORTED THAT THEIR ONE TOUCH BASIC ENHANCED METER KEPT DISPLAYING THE INSERT STRIP MESSAGE. THERE IS NO ALLEGATION OF HARM OR SERIOUS INJURY. THE PTS METER DISPLAYED THE INSERT STRIPS MESSAGE EVEN AFTER THE TEST STRIPS WAS INSERTED INTO THE METER. DURING TROUBLESHOOTING, IT WAS VERIFIED THAT THE PTS TESTING TECHNIQUE WAS CORRECT. THEY WERE ASKED TO RETEST WITH A NEW VIAL OF TEST STRIPS, BUT THE ISSUE STILL PERSISTED AND THE MESSAGE STILL APPEARED ON THE DISPLAY. THEREFORE, THE ISSUE WAS NOT RESOLVED. THEY HAD VISITED THEIR DOCTOR SINCE THEY WERE UNABLE TO TEST ON THEIR METER. THEY DID NOT RECEIVE ANY TREATMENT AT THE DOCTORS OFFICE. BASED ON THE INFORMATION PROVIDED, THERE IS INDICATION THAT THE PRODUCT HAS MALFUNCTIONED AND THAT THE EVENT MEETS THE CRITERIA FOR A MEDICAL DEVICE REPORTABLE. HOWEVER, THERE IS NO INFORMATION TO SUGGEST THAT THE PT EXPERIENCED INJURY DUE TO THE PRODUCT. THIS CASE IS REPORTED AS A METER MALFUNCTION SINCE THE ISSUE WAS NOT RESOLVED WITH TROUBLESHOOTING. THE PT WAS SENT A REPLACEMENT METER AND TEST STRIPS."
+        },
+        {
+            "mdr_report_key": "576042",
+            "mdr_text_key": "345785",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE COMPLAINANT HAS REPORTED THAT A PATIENT (AGE AND GENDER UNKNOWN) UNDERWENT A THERAPEUTIC PROCEDURE FOR PLACEMENT OF AN ESOPHAGEAL STENT. THE ULTRAFLEX DISTAL RELEASE COVERED STENT COULD NOT BE FULLY DEPLOYED DUE TO RESISTANCE WITH THE DEPLOYMENT SUTURE. THE CLINICIAN CONTINUED TO PULL THE SUTURE RESULTING IN THE SEPARATION OF THE SUTURE FROM THE DEVICE. THERE WERE NO PATIENT COMPLICATIONS REPORTED AS A RESULT OF THE DEPLOYMENT ISSUE. NO FURTHER INFORMATION IS AVAILABLE AT THIS TIME."
+        },
+        {
+            "mdr_report_key": "580402",
+            "mdr_text_key": "346747",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "REPORTED A FAIL CODE 570. INFORMATION WAS NOT PROVIDED REGARDING WHETHER OR NOT THE FAILURE OCCURRED DURING A PT INFUSION. THE HOSP REPRESENTATIVE STATED THAT THERE HAVE BEEN NO REPORTS OF ANY PT INCIDENT INVOLVING THIS PUMP SINCE THE LAST BAXTER SERVICE EVENT."
+        }
+    ]
+}

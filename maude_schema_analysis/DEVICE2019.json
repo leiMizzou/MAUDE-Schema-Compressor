@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2019",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "7491296",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2019/03/06",
+            "brand_name": "PARADIGM REAL-TIME INSULIN INFUSION PUMP MMT-722NAS",
+            "generic_name": "PUMP, INFUSION, INSULIN, TO BE USED WITH INVASIVE GLUCOSE SENSOR",
+            "manufacturer_d_name": "MEDTRONIC PUERTO RICO OPERATIONS CO.",
+            "manufacturer_d_address_1": "CEIBA NORTE IND. PARK #50 ROAD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "JUNCOS",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "00777",
+            "manufacturer_d_zip_code_ext": "-386",
+            "manufacturer_d_country_code": null,
+            "manufacturer_d_postal_code": "00777-3869",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": "MMT-722NAS",
+            "catalog_number": "MMT-722NAS",
+            "lot_number": "A4722NASJ",
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2018/04/11",
+            "device_report_product_code": "OYC",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": "00613994373083",
+            "udi_public": "(01)00613994373083"
+        },
+        {
+            "mdr_report_key": "7811695",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2019/03/08",
+            "brand_name": "MONOPOLAR ACTIVE CORD, BOVIE/VALLEYLAB GENERATORS",
+            "generic_name": "MONOPOLAR ACTIVE CORD",
+            "manufacturer_d_name": "GYRUS ACMI, INC",
+            "manufacturer_d_address_1": "136 TURNPIKE ROAD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SOUTHBOROUGH",
+            "manufacturer_d_state_code": "MA",
+            "manufacturer_d_zip_code": "01772",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "01772",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "C650-129A",
+            "catalog_number": "C650-129A",
+            "lot_number": "1K",
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2019/02/07",
+            "device_report_product_code": "FAS",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "7987287",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2019/07/18",
+            "brand_name": "PARADIGM REAL-TIME REVEL INSULIN INFUSION PUMP MMT-723LNAL",
+            "generic_name": "PUMP, INFUSION, INSULIN, TO BE USED WITH INVASIVE GLUCOSE SENSOR",
+            "manufacturer_d_name": "MEDTRONIC PUERTO RICO OPERATIONS CO.",
+            "manufacturer_d_address_1": "CEIBA NORTE IND. PARK #50 ROAD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "JUNCOS",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "00777",
+            "manufacturer_d_zip_code_ext": "-386",
+            "manufacturer_d_country_code": null,
+            "manufacturer_d_postal_code": "00777-3869",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": "MMT-723LNAL",
+            "catalog_number": "MMT-723LNAL",
+            "lot_number": "A5723LNALJ",
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2019/07/10",
+            "device_report_product_code": "OYC",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": "00643169513891",
+            "udi_public": "(01)00643169513891"
+        }
+    ]
+}

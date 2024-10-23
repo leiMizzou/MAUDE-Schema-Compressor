@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2016",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "6162220",
+            "mdr_text_key": "100001306",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+        },
+        {
+            "mdr_report_key": "5822691",
+            "mdr_text_key": "100043721",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS ALLEGED THAT A PATIENT WAS BURNED WHILE USING THE DEVICE. IT WAS ALLEGED THAT THE HEATING PAD WAS TO HOT FOR THE PATIENTS BACK. IN RESPONSE, THE T-PUMP ASSOCIATED WITH THIS DEVICE WAS RETURNED TO STRYKER FOR EVALUATION BY A STRYKER REPRESENTATIVE. THE T-PUMP WAS SUBJECTED TO A BACKUP LIMIT THERMOSTAT TEST AS SPECIFIED IN THE MAINTENANCE MANUAL. THE T-PUMP PASSED THIS TEST SHOWING THAT THERE WAS NO COMPONENT LEVEL DEFECT CAUSING THE T-PUMP TO OVERHEAT AND CAUSE THE ALLEGED BURN. IT WAS IDENTIFIED THAT UNLESS THERE WAS A SPECIFIC PRODUCT MALFUNCTION, THE BURN WAS LIKELY MISIDENTIFIED. FOR A BURN TO OCCUR, THE T-PUMP WOULD NEED TO BE AT LEAST 44°C. WITHOUT A FAILURE OF THE BACKUP AND PRIMARY THERMOSTATS, THE HIGHEST TEMPERATURE THE T-PUMP CAN REACH IS 42°C. IT IS LIKELY THAT THE INJURY WAS MISIDENTIFIED BY THE CUSTOMER. THIS INJURY WAS MOST LIKELY A SOFT-TISSUE INJURY. THIS CAN BE ATTRIBUTED TO MECHANICAL FORCES (SUCH AS PRESSURE OR SHEER) CREATED BY THE PAD. THE REPORT HAS BEEN UPDATED TO REPRESENT THE EVENT BEING CAUSED BY THE PAD."
+        },
+        {
+            "mdr_report_key": "5822691",
+            "mdr_text_key": "100043722",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS ALLEGED THAT A PATIENT WAS BURNED WHILE USING THE DEVICE."
+        }
+    ]
+}

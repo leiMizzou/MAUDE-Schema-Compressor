@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2020",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "6298948",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2020/04/16",
+            "brand_name": null,
+            "generic_name": "DIAGNOSTIC ULTRASOUND DEVICE",
+            "manufacturer_d_name": null,
+            "manufacturer_d_address_1": null,
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": null,
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": null,
+            "manufacturer_d_postal_code": null,
+            "device_operator": "I",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "*",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "IYN",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "7982437",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2020/07/10",
+            "brand_name": "NITINOL STAPLE",
+            "generic_name": "NITINOL STAPLE",
+            "manufacturer_d_name": "TRIMED, INC.",
+            "manufacturer_d_address_1": "27533 AVENUE HOPKINS",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SANTA CLARITA, CA",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2020/12/31",
+            "model_number": "ES-10X10",
+            "catalog_number": "ES-10X10",
+            "lot_number": "317003",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "JDR",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": "00842188108952",
+            "udi_public": "00842188108952"
+        },
+        {
+            "mdr_report_key": "9537111",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2020/01/01",
+            "brand_name": "SIMPLY LEGACY 2 IMPLANT",
+            "generic_name": "DENTAL IMPLANT",
+            "manufacturer_d_name": "IMPLANT DIRECT SYBRON MANUFACTURING LLC",
+            "manufacturer_d_address_1": "3050 EAST HILLCREST DRIVE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "THOUSAND OAKS",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "91362",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "91362",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "824211U",
+            "lot_number": "144577",
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DZE",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": "N",
+            "udi_di": "10841307107415",
+            "udi_public": "10841307107415"
+        }
+    ]
+}

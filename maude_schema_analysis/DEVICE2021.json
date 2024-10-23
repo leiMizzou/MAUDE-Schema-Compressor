@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2021",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "5708753",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2021/03/12",
+            "brand_name": "POLARIS OR SOPHY",
+            "generic_name": "ADJUSTABLE VALVE",
+            "manufacturer_d_name": "SOPHYSA",
+            "manufacturer_d_address_1": "5 RUE GUY MOQUET",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": null,
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "91400",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "FR",
+            "manufacturer_d_postal_code": "91400",
+            "device_operator": null,
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "JXG",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "10988463",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2021/01/13",
+            "brand_name": "BD RAPID DETECTION OF SARS-COV-2 VERITOR¿",
+            "generic_name": "CORONAVIRUS ANTIGEN DETECTION SYSTEM",
+            "manufacturer_d_name": "BECTON, DICKINSON & CO. (SPARKS)",
+            "manufacturer_d_address_1": "7 LOVETON CIRCLE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SPARKS",
+            "manufacturer_d_state_code": "MD",
+            "manufacturer_d_zip_code": "21152",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "21152",
+            "device_operator": "000",
+            "expiration_date_of_device": null,
+            "model_number": "256066",
+            "catalog_number": "256066",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "QKP",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "Y",
+            "udi_di": "00382902560661",
+            "udi_public": "00382902560661"
+        },
+        {
+            "mdr_report_key": "11103518",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2021/01/01",
+            "brand_name": "8300 ALARIS ETCO2 MODULE",
+            "generic_name": "PUMP, INFUSION",
+            "manufacturer_d_name": "CAREFUSION SD",
+            "manufacturer_d_address_1": "10020 PACIFIC MESA BLVD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SAN DIEGO",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92121",
+            "manufacturer_d_zip_code_ext": "4386",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "921214386",
+            "device_operator": "0",
+            "expiration_date_of_device": null,
+            "model_number": "8300",
+            "catalog_number": "8300",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "CCK",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": "10885403830013",
+            "udi_public": "10885403830013"
+        }
+    ]
+}

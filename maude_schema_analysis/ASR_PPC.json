@@ -1,0 +1,67 @@
+{
+    "table_name": "ASR_PPC",
+    "structure": [
+        {
+            "name": "exemptn_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_year",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_qtr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_prob_cd",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "exemptn_no": "1997002",
+            "report_id": "E443755",
+            "product_code": "DXY",
+            "report_year": "2000",
+            "report_qtr": "1",
+            "patient_prob_cd": "1930;2013"
+        },
+        {
+            "exemptn_no": "1997002",
+            "report_id": "E467619",
+            "product_code": "LWS",
+            "report_year": "2000",
+            "report_qtr": "1",
+            "patient_prob_cd": "1930"
+        },
+        {
+            "exemptn_no": "1997002",
+            "report_id": "E467619A",
+            "product_code": "LWS",
+            "report_year": "2000",
+            "report_qtr": "1",
+            "patient_prob_cd": "1930"
+        }
+    ]
+}

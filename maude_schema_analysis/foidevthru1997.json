@@ -1,0 +1,418 @@
+{
+    "table_name": "foidevthru1997",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_other_id_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_device_family",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_contained",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_in_months",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_preamendment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_transitional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__exempt_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_first_marketed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_ceased_marketing",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "140582",
+            "device_event_key": "137244",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/24/1997",
+            "brand_name": "STAT DL 9.5 FR. 40 CC. IAB",
+            "generic_name": "INTRA-AORTIC BALLOON CATHETER",
+            "manufacturer_d_name": "DATASCOPE CORP.",
+            "manufacturer_d_address_1": "15 LAW DR.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "FAIRFIELD",
+            "manufacturer_d_state_code": "NJ",
+            "manufacturer_d_zip_code": "07004",
+            "manufacturer_d_zip_code_ext": "3206",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": "05/08/1999",
+            "model_number": "0684-00-0283",
+            "catalog_number": "0684-00-0255-01",
+            "lot_number": "05/08/99",
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "02/03/1998",
+            "device_report_product_code": "DSP",
+            "device_age_text": "7.3 YR",
+            "device_evaluated_by_manufactur": "N",
+            "baseline_brand_name": "STAT DL 9.5 FR. 40 CC. IAB WITH ACCESS.-INTERNAT.",
+            "baseline_generic_name": "INTRA-AORTIC BALLOON CATHETER",
+            "baseline_model_no": "UNK",
+            "baseline_catalog_no": "0684-00-0283",
+            "baseline_other_id_no": null,
+            "baseline_device_family": "INTRA-AORTIC BALLOON CATHETER",
+            "baseline_shelf_life_contained": "Y",
+            "baseline_shelf_life_in_months": "24",
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K980780",
+            "baseline_preamendment": "Y",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": null,
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "140581",
+            "device_event_key": "137243",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/24/1997",
+            "brand_name": "STAT DL 9.5 FR. 40 CC. IABTER",
+            "generic_name": "INTRA-AORTIC BALLOON CATHETER",
+            "manufacturer_d_name": "DATASCOPE CORP.",
+            "manufacturer_d_address_1": "15 LAW DR.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "FAIRFIELD",
+            "manufacturer_d_state_code": "NJ",
+            "manufacturer_d_zip_code": "07004",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": "08/15/1999",
+            "model_number": "0684-00-0283",
+            "catalog_number": "0684-00-0255-03",
+            "lot_number": "08/15/99",
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "01/27/1998",
+            "device_report_product_code": "DSP",
+            "device_age_text": "4 YR",
+            "device_evaluated_by_manufactur": "N",
+            "baseline_brand_name": "STAT DL 9.5 FR. 40 CC. IAB WITH ACCESS.-INTERNAT.",
+            "baseline_generic_name": "INTRA-AORTIC BALLOON CATHETER",
+            "baseline_model_no": "UNK",
+            "baseline_catalog_no": "0684-00-0283",
+            "baseline_other_id_no": null,
+            "baseline_device_family": "INTRA-AORTIC BALLOON CATHETER",
+            "baseline_shelf_life_contained": "Y",
+            "baseline_shelf_life_in_months": "24",
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K980780",
+            "baseline_preamendment": "Y",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": null,
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "140580",
+            "device_event_key": "137242",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/23/1997",
+            "brand_name": "ENDOPATH DILATING TIP TROCAR",
+            "generic_name": "TROCAR",
+            "manufacturer_d_name": "ETHICON ENDO-SURGERY, INC.",
+            "manufacturer_d_address_1": "AVE. DE LAS TORRES 7125",
+            "manufacturer_d_address_2": "COL. SALVARCAR 118",
+            "manufacturer_d_city": "CUIDAD, JUAREZ CHIHUA.",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "MX",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": "09/01/2002",
+            "model_number": null,
+            "catalog_number": "355LD",
+            "lot_number": "K4864H",
+            "other_id_number": "BATCH#.K50D7X",
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "GCJ",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "ENDOPATH DILATING TIP TROCAR",
+            "baseline_generic_name": "TROCARS",
+            "baseline_model_no": "355LD",
+            "baseline_catalog_no": "355LD",
+            "baseline_other_id_no": "*",
+            "baseline_device_family": "TROCARS",
+            "baseline_shelf_life_contained": "Y",
+            "baseline_shelf_life_in_months": "60",
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K893715",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "02/08/1994",
+            "baseline_date_ceased_marketing": null
+        }
+    ]
+}

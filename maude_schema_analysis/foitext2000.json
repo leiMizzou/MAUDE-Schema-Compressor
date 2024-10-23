@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2000",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "256763",
+            "mdr_text_key": "177184",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THIS INFORMATION WAS RECEIVED ON HEALTHCARE NETWORK OCCURRENCE IDENTIFICATION FORM. THE SURGEON WAS PERFORMING A PNEUMONECTOMY PROCEDURE WITH A TA30 (TLH) LINEAR STAPLER. THE DEVICE WAS USED ON THE BRONCHUS. AFTER THE LUNG WAS CUT FROM THE BRONCHUS THE TA30 WAS REMOVED. THE STAPLER HAD MISFIRED AND THE STAPLES NEVER CLOSED. THE BRONCHUS WAS THEN CLOSED WITH SUTURE."
+        },
+        {
+            "mdr_report_key": "256805",
+            "mdr_text_key": "161414",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "GEL IMPLANTS REMOVED IN 1991, DR REPLACED SUB-MAMMARY MISTI GOLD 300G. NEW REMOVED W/ BAKER CLASS 4 CAPSULAR CONTRACTURE PAIN DISFIGUREMENT."
+        },
+        {
+            "mdr_report_key": "256831",
+            "mdr_text_key": "21382162",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE USER RECEIVED A SHOCK FROM THE UNIT."
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+{
+    "table_name": "foidev1999",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_other_id_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_device_family",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_contained",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_in_months",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_preamendment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_transitional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__exempt_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_first_marketed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_ceased_marketing",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "256752",
+            "device_event_key": "248631",
+            "implant_flag": "Y",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/23/1999",
+            "brand_name": "ACRYSOF",
+            "generic_name": "INTRAOCULAR LENS",
+            "manufacturer_d_name": "ALCON LABORATORIES",
+            "manufacturer_d_address_1": "6065 KYLE LANE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "HUNTINGTON",
+            "manufacturer_d_state_code": "WV",
+            "manufacturer_d_zip_code": "25702",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": "10/31/2003",
+            "model_number": "MA30BA",
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "01/11/2000",
+            "device_report_product_code": "HQL",
+            "device_age_text": "1 YR",
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "1.INTRAOCULAR LENS",
+            "baseline_generic_name": null,
+            "baseline_model_no": "25",
+            "baseline_catalog_no": null,
+            "baseline_other_id_no": null,
+            "baseline_device_family": "IOL",
+            "baseline_shelf_life_contained": "Y",
+            "baseline_shelf_life_in_months": "60",
+            "baseline_pma_flag": "Y",
+            "baseline_pma_no": "P930014",
+            "baseline_510_k__flag": "N",
+            "baseline_510_k__no": null,
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/01/1979",
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "256751",
+            "device_event_key": "248630",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/20/1999",
+            "brand_name": "MINICAP PD TRANSFER SET (EASY-LOCK) WITH TWIST CLAMP",
+            "generic_name": "TRANSFER SET",
+            "manufacturer_d_name": "BAXTER HEALTHCARE CORP.",
+            "manufacturer_d_address_1": "1900 N. HIGHWAY 201",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "MT. HOME",
+            "manufacturer_d_state_code": "AR",
+            "manufacturer_d_zip_code": "72653",
+            "manufacturer_d_zip_code_ext": "2497",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "5C4482",
+            "lot_number": "NA01",
+            "other_id_number": null,
+            "device_operator": "0LP",
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "11/29/1999",
+            "device_report_product_code": "KDJ",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "MINICAP PD TRANSFER SET (EASY-LOCK) WITH TWIST CLAMP",
+            "baseline_generic_name": "TRANSFER SET",
+            "baseline_model_no": null,
+            "baseline_catalog_no": "5C4482",
+            "baseline_other_id_no": null,
+            "baseline_device_family": "CAPD TRANSFER SET",
+            "baseline_shelf_life_contained": null,
+            "baseline_shelf_life_in_months": null,
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K882498",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "07/13/1988",
+            "baseline_date_ceased_marketing": null
+        },
+        {
+            "mdr_report_key": "256750",
+            "device_event_key": "248629",
+            "implant_flag": "Y",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/23/1999",
+            "brand_name": "ACRYSOF",
+            "generic_name": "INTRAOCULAR LENS",
+            "manufacturer_d_name": "ALCON LABORATORIES, INC.",
+            "manufacturer_d_address_1": "6065 KYLE LANE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "HUNTINGTON",
+            "manufacturer_d_state_code": "WV",
+            "manufacturer_d_zip_code": "25702",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": "10/31/2004",
+            "model_number": "MA60BM",
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "HQL",
+            "device_age_text": "1 MO",
+            "device_evaluated_by_manufactur": "N",
+            "baseline_brand_name": "1.INTRAOCULAR LENS",
+            "baseline_generic_name": null,
+            "baseline_model_no": "MA60BM",
+            "baseline_catalog_no": null,
+            "baseline_other_id_no": null,
+            "baseline_device_family": "IOL",
+            "baseline_shelf_life_contained": "Y",
+            "baseline_shelf_life_in_months": "60",
+            "baseline_pma_flag": "Y",
+            "baseline_pma_no": "P930014",
+            "baseline_510_k__flag": "N",
+            "baseline_510_k__no": null,
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/01/1979",
+            "baseline_date_ceased_marketing": null
+        }
+    ]
+}

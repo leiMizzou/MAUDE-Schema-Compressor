@@ -1,0 +1,76 @@
+{
+    "table_name": "foitextAdd",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text_json",
+            "type": "JSON",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "18814363",
+            "mdr_text_key": "336614176",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "NO OSSEOINTEGRATION (DENTAL IMPLANT).",
+            "foi_text_json": null
+        },
+        {
+            "mdr_report_key": "18814351",
+            "mdr_text_key": "336614202",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "LOSS OF OSSEOINTEGRATION (DENTAL IMPLANT).",
+            "foi_text_json": null
+        },
+        {
+            "mdr_report_key": "18814353",
+            "mdr_text_key": "336614203",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "NO OSSEOINTEGRATION (DENTAL IMPLANT).",
+            "foi_text_json": null
+        }
+    ]
+}
