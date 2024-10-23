@@ -1,0 +1,71 @@
+Description of Fields in the MAUDE Database
+The following table describes the fields in the MAUDE database in display order. If a submitter did not provide information for a given field, that field will not show in the MDR.
+
+MAUDE Label	Notes
+Model Number	Model number found on the device label or accompanying packaging.
+Device Problem	Submitters are asked to enter codes that most accurately describe medical device failures or problems related to the adverse event. Additional details available on the MDR Adverse Event Codes webpages. Code descriptions can be found on the Coding Resources webpages. Any additional information provided in follow-up reports are added to previously cited device problems. 
+Patient Problem	Submitters are asked to enter codes that most accurately describe patient problems related to the adverse event. Additional details available on the MDR Adverse Event Codes webpages. Code descriptions can be found on the Coding Resources webpages. Any additional information cited in follow-up reports are added to previously provided patient problems.
+Event Date	Date of the actual or best estimate of the first onset of the adverse event.
+Event Type	Type of reportable event, e.g., death, injury, or malfunction.
+Manufacturer Narrative	For manufacturer reports. Manufacturers enter any additional information, evaluation, or clarification of data presented in previous sections, in narrative form. This information is redacted in accordance with 21 CFR 803.9. Any additional information provided in follow-up reports is added to previously provided manufacturer narratives. 
+Event Description	Description of reported event in narrative form. This information is redacted in accordance with 21 CFR 803.9. Any additional information provided in follow-up reports is added to previously provided manufacturer narratives.
+Brand Name	Trade or proprietary name of the suspect medical device as used in product labeling or in the catalogue.
+Type of Device	Generic or common name of the suspect medical device or a generally descriptive name.
+Manufacturer (Section D)	Full name and address of the manufacturer of the suspect medical device.
+Manufacturer (Section G)	Full name and address of the manufacturer site.
+Manufacturer Contact	Full name and address of the manufacturer reporting contact.
+MDR Report Key	Unique key for an MDR, assigned by MAUDE. Follow-up reports do not change this key.
+MDR Text Key	Unique key for the first narrative entered for this report, assigned by MAUDE.
+Report Number	Report numbers for mandatory reporters (manufacturers, importers, and user facilities) generally consist of three components: a registration or identification number for the submitter, the 4-digit calendar year, and a consecutive number for each report filed during the year by the submitter (e.g., 1234567-2016-00001, 1234567-2016-00002). Note that user facility identification numbers are redacted. Voluntary reports are identified with an alphanumeric number that begins with "MW" and adds a sequential number. Follow-up reports do not change an MDR's report number.
+Device Sequence Number	For reports with more than one device, this number differentiates between each device, as each device is displayed separately in the MAUDE search results.
+Product Code	Product Code of the suspected medical device (refer to the Product Classification Database search webpage for more information).
+UDI-Device Identifier	The Device Identifier (DI) portion of the medical device's full Unique Device Identifier (UDI) (see FDA's UDI webpage for more information).
+UDI-Public	Full UDI value with non-releasable Product Identifier (PI) values (such as serial numbers) redacted.
+Combination Product (y/n)	Denotes whether the suspect product is part of a combination product (see FDA's Combination Products webpage for more information).
+Reporter Country Code	Denotes the country of the initial reporter (e.g., the user, caregiver, etc.).
+PMA/PMN Number	Approved PMA or cleared 510(k), or premarket notification (PMN) number for the suspect device.
+Exemption Number	Exemption/Variance Number used to identify MDR reports that are being submitted under the conditions of an exemption or variance granted by FDA under 21 CFR 803.19.
+Number of Events Reported	Number of events that are described in the report.
+Summary Report (Y/N)	Denotes whether the report summarizes multiple reports. Typically applies to reports submitted under an exemption or variance granted by FDA under 21 CFR 803.19, or a report received under FDA's Voluntary Malfunction Summary Report Program.
+Report Source	Denotes whether this report was submitted by a Manufacturer, Distributor (Importer), User Facility, or Voluntary reporter.
+Source Type	The source through which the manufacturer became aware of the reported adverse event.
+Reporter Occupation	Denotes the initial reporter's occupation.
+Remedial Action	Denotes whether a remedial action (e.g., a recall) was initiated.
+Type of Report	Denotes whether the report is an initial report or a follow-up report. Note this field adds follow-up reports, also called supplement reports, as they are received, so readers can discern how many follow-up reports have been submitted. For example, a report with two follow-up reports will be denoted as "Initial, Follow-up, Follow-up."
+Report Date	The date the report is submitted to FDA. If a follow-up report has been submitted, this field will display the date the most recent follow-up report was submitted. Note that if an initial reporter (e.g., an importer or user facility) also sent a report to FDA, this field may include that date in addition to the date the MDR reporter submitted to FDA.
+[X] Device was involved in event	Number of devices included in the report.
+[X] Patient was involved in event	Number of patients included in the report.
+Is this an Adverse Event Report?	Denotes whether the use of a medical device is suspected to have resulted in an adverse outcome in a patient.
+Is this a Product Problem Report?	Denotes device malfunctions.
+Device Operator	Denotes the type of person operating or using the suspect medical device.
+Device Expiration Date	The expiration date found on the device itself or printed on the accompanying packaging.
+Device Model Number	Model number found on the device label or accompanying packaging (same as above).
+Device Catalogue Number	Catalogue number found in the manufacturer's catalogue, device labeling, or accompanying packaging.
+Device Lot Number	Lot number found on the label or packaging material.
+Other Device ID Number	Subfield retired in 2018.
+Was Device Available for Evaluation?	Denotes whether the device was available for evaluation by the manufacturer.
+Date Returned to Manufacturer	If the device was returned to the manufacturer, denotes the date of return.
+Is the Reporter a Health Professional?	Denotes whether the initial reporter is a health professional.
+Was the Report Sent to FDA?	Denotes whether a user facility or importer sent a separate report of the same event to FDA. User facilities are required to send reports of device-related deaths to FDA, and importers are required to send reports of device-associated deaths and serious injuries to FDA.
+Distributor Facility Aware Date	The date that the user facility's medical personnel or the importer became aware that the device has or may have caused or contributed to the reported event.
+Device Age	The age of the device or a best estimate.
+Event Location	The location of actual occurrence of the event.
+Date Report to Manufacturer	Indicates date report was sent to manufacturer from a user facility or importer. User facilities are required to send reports of device-related deaths and serious injuries to manufacturers, and importers are required to send reports of device-associated deaths, serious injuries and malfunctions to manufacturers.
+Initial Date FDA Received	Date that the initial report was received in eMDR by FDA. This date marks when FDA first became aware of the reported event and does not change when a follow-up or supplement report is received.
+Supplement Dates FDA Received	Dates that any supplement or follow-up reports were received in eMDR by FDA. This field lists the dates for each follow-up received in order of receipt.
+Initial Date Manufacturer Received	This field represents the date when a manufacturer received information that a reportable event occurred.
+Supplement Dates Manufacturer Received	For supplement or follow-up reports, manufacturers are asked to provide the date that the follow-up information was received. MAUDE will display the date the manufacturer provided in this field for each supplement or follow-up report received. This field lists the dates for each follow-up received in order of receipt. If a date is not provided by the manufacturer, MAUDE will display “Not provided” in place of a date.
+Was Device Evaluated by Manufacturer?	Denotes whether the manufacturer evaluated the suspect or a related device.
+Date Device Manufactured	The date of the manufacturing of the suspect medical device.
+Is the Device Single Use?	Denotes whether the device was labeled for single use or not.
+Is This a Reprocessed and Reused Single-Use Device?	Denotes whether a single use device was reprocessed or reused on a patient.
+Type of Device Usage	Denotes whether the use of the suspect medical device was the initial use, reuse, or unknown.
+Removal/Correction Number	The correction or removal number following the format directed by 21 CFR Part 806.
+Patient Sequence Number	For reports with more than one patient, this number differentiates between each patient. Patient fields below this one may be repeated multiple times if the report contains multiple patients.
+Treatment	Lists concomitant medical products and therapy dates. This information is redacted in accordance with 21 CFR 803.9.
+Patient Outcome(s)	Patient outcome(s) attributed to the reported event.
+Patient Age	Patient's age at the time of event onset.
+Patient Sex	Patient's sex at birth.
+Patient Weight	Patient's weight or a best estimate.
+Patient Ethnicity	Patient's ethnicity.
+Patient Race	Patient's race.
