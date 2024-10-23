@@ -140,15 +140,15 @@ maude-schema-analysis/
 ├── requirements.txt
 ├── maude_schema_analysis/
 │   ├── <table_name>.json
-│   ├── maude_schema_combined.txt
-│   ├── maude_schema_analysis.json
-│   ├── similarity_cache.json
-│   ├── manual_grouping.json
-│   ├── evaluation_results.csv
 │   ├── groupings_kmeans_manual_sim_0.7_param_3.csv
 │   ├── groupings_hierarchical_sim_0.8_param_1.0.csv
 │   └── ... other output files ...
 ├── context.txt
+├── maude_schema_combined.txt
+├── maude_schema_analysis.json
+├── similarity_cache.json
+├── manual_grouping.json
+├── evaluation_results.csv
 └── README.md
 ```
 
