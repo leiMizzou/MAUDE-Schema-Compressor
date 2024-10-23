@@ -1,0 +1,67 @@
+{
+    "table_name": "table_statistics_selfdefined",
+    "structure": [
+        {
+            "name": "table_name",
+            "type": "VARCHAR(255)",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "num_fields",
+            "type": "INTEGER",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "num_rows",
+            "type": "INTEGER",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "longest_field_name",
+            "type": "VARCHAR(255)",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "longest_field_length",
+            "type": "INTEGER",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "table_name": "DEVICEAdd",
+            "num_fields": 31,
+            "num_rows": 196188,
+            "longest_field_name": "brand_name",
+            "longest_field_length": 80,
+            "description": "Table 'DEVICEAdd' contains 31 fields and 196188 rows. The longest field is 'brand_name' with a max length of 80."
+        },
+        {
+            "table_name": "mdr96",
+            "num_fields": 17,
+            "num_rows": 79787,
+            "longest_field_name": "event_description",
+            "longest_field_length": 31882,
+            "description": "Table 'mdr96' contains 17 fields and 79787 rows. The longest field is 'event_description' with a max length of 31882."
+        },
+        {
+            "table_name": "patientAdd",
+            "num_fields": 10,
+            "num_rows": 196145,
+            "longest_field_name": "sequence_number_treatment",
+            "longest_field_length": 841,
+            "description": "Table 'patientAdd' contains 10 fields and 196145 rows. The longest field is 'sequence_number_treatment' with a max length of 841."
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr97",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M765683",
+            "date_received": "01/03/97",
+            "product_description": "ARTIFICIAL URINARY SPHINCTER",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "10700 BREN ROAD WEST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "800",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "EZY",
+            "event_description_type": "FINAL",
+            "event_description": "THE ENTIRE DEVICE WAS REMOVED FROM THE PT AND REPLACED DUE TO RECURRING INCONTINENCE. OTHER RELEVANT HISTORY, INCLUDES POST PROSTATECTOMY AND POST TUR; TURP; TURS. IMPLANT DATE IS 12/27/95. EXPLANT DATE IS 2/5/96.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M885671",
+            "date_received": "01/02/97",
+            "product_description": "VENTAK MINI+ IMPLANTABLE CARDIOVERTER DEFIBRILLATO",
+            "manufacturer_name_code": "CARDPACE",
+            "manufacturer_name": "CARDIAC PACEMAKERS, INC.",
+            "street_address": "4100 HAMLINE AVE N",
+            "city": "ST. PAUL",
+            "state": "MN",
+            "zipcode": "55112",
+            "report_type": "MALFUNCTION",
+            "model_number": "1741",
+            "catalog_number": null,
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "LWS",
+            "event_description_type": "FINAL",
+            "event_description": "IMPLANTABLE CARIOVERTER DEFIBRILLATOR (ICD) HAS BEEN IDENTIFIED AS POSSIBLY CONTAINING RESIDUAL GASES (ARGON AND HELIUM) WHICH SHOULD HAVE BEEN REPLACED WITH NITROGEN DURING THE MANUFACTURING PROCESS. THIS COULD CAUSE ELECTRICAL STRESS DAMAGE DURING THE SERVICE CHARGING PROCESS. DR WAS NOTIFIED AND THE PT WAS BROUGHT IN FOR TESTING. THREE CAPACITOR REFORMS WERE PERFORMED, DEFIBRILLATION THRESHOLDS RE-TESTED, AND NORMAL DEVICE WAS OPERATION WAS CONFIRMED. DR ELECTED TO LEAVE THE DEVICE IMPLANTED AT THIS TIME. THE DR WILL PERFORM MANUAL CAPACITOR REFORMS. THE NORMAL FOLLOW-UP SCHEDULE WILL BE FOLLOWED. THIS EVENT WAS REPORTED AFTER REVIEW OF RECORDS SHOWS THAT THE EVENT HAD NOT BEEN REPORTED EARLIER. THE DEVICE WAS TESTED AND OPERATES WITHIN SPEC AT THIS TIME.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M885680",
+            "date_received": "01/04/97",
+            "product_description": "REDY 2000",
+            "manufacturer_name_code": "GAMBHEAL",
+            "manufacturer_name": "GAMBRO HEALTHCARE",
+            "street_address": "1185 OAK ST.",
+            "city": "LAKEWOOD",
+            "state": "CO",
+            "zipcode": "80215",
+            "report_type": "MALFUNCTION",
+            "model_number": "REDY 2000",
+            "catalog_number": "604487-006",
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FKP",
+            "event_description_type": "FINAL",
+            "event_description": "AT THE BEGINNING OF A DIALYSIS TREATMENT, THE FACILITY NOTICED THAT THE \"TOTAL UF (ULTRAFILITRATION) WAS NOT READING. THERE WAS NO PT INJURY OR MEDICAL INTERVENTION. THIS MDR WAS ORIGINALLY REPORTED TO THE MFR ON 5/23/96, HOWEVER, THE MFR DETERMINED ALL RELATED COMPLAINTS TO BE MDR REPORTABLE AFTER THE NEW MDR REGULATIONS TOOK INTO EFFECT. THIS MDR WAS ALSO NOT REPORTED WITHIN THE ALLOTTED TIME PERIOD. DEVICE DISCARDED-UNABLE TO FOLLOW-UP. THE MEDICAL EQUIPMENT SERVICE TECH (MES) REPLACED THE LOAD CELL AND CALIBRATED TO MANUFACTURING SPECS. THERE WERE NO RELATED CPF DEFECTS REPORTED ON THIS MACHINE. THE AFFECTED LOAD CELL ASSEMBLY WAS NOT RETURNED FOR AN INVESTIGATION BECAUSE THE MES DISCARDED IT UPON REPLACEMENT. WITHOUT THE AFFECTED COMPONENT AN EVALUATION AS TO THE FAILURE MODE COULD NOT BE DETERMINED. IF THE LOAD CELL WAS DEFECTIVE A LOAD CELL CIRCUIT ALARM WOULD BE GENERATED. THIS ALARM CONSISTS OF A STEADY AUDIBLE ALARM, THE TOTAL UF DISPLAY FLASHES, THE ULTRAFILTRATION CONTROL IS DISABLED, AND THE MACHINE ENTERS BY-PASS AS STATED IN THE DEVICE. IF THE MACHINE DOES NOT FIND A DEFECT IN THE LOAD CELL CIRCUIT THIS ALARM WILL NOT BE GENERATED. HOWEVER, ANY FLUCUATIONS IN THE LOAD CELL DURING A TREATMENT WILL BE NOTICED IN THE UF RATE. HOWEVER, ANY FLUCUATIONS IN THE LOAD CELL DURING A TREATMENT WILL BE NOTICED IN THE UF RATE. IF THE LOAD CELL STOPPED READING AT A CERTAIN POINT THE UF CIRCUIT WOULD TRY TO COMPENSATE AND THE UF RATE WOULD INCREASE. IF THE UF RATE DOES NOT STOP INCREASING THE MACHINE WOULD GENERATE A HIGH UF RATE ALRM. IN THIS INCIDENT, FOR AN UNKNOWN REASON, THE UF RATE STOPPED INCREASING, THERFORE THE ALARM DID NOT OCCUR. THE UF RATE ALARM ENTAILS A STEADY AUDIBLE ALARM AND THE MACHINE ENTERS THE BY-PASS MODE. AS STATED IN THE DEVICE. (*)",
+            "closeout_text": " "
+        }
+    ]
+}

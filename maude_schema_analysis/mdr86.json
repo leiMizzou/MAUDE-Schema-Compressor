@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr86",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M116466",
+            "date_received": "11/26/86",
+            "product_description": "PULSE GENERATOR",
+            "manufacturer_name_code": "CORATOMIC",
+            "manufacturer_name": "CORATOMIC INC",
+            "street_address": "300 INDIAN SPRINGS ROAD",
+            "city": "INDIANA",
+            "state": "PA",
+            "zipcode": "15701",
+            "report_type": "OTHER",
+            "model_number": "EX5-205",
+            "catalog_number": null,
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DXY",
+            "event_description_type": "FINAL",
+            "event_description": "PACEMAKER IS PACING BUT NOT SENSING NOR CAPTURING. X-RAYS DIDN'T SHOW ANY PROBLEM WITH THE LEADS. THE PACEMAKER WAS REPROGRAMMED ON 11/26/85. THE REPROGRAMMING DIDN'T SOLVE THE PROBLEM. THE CARDIOLOGISTS NOW FEEL THE PROBLEM IS WITH THE LEAD.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. INFORMATION INDICATES THAT THE MEDICAL DEVICE DID NOT MALFUNCTION AND THAT THE INCIDENT WAS NOT ATTRIBUTABLE TO THE DEVICE. "
+        },
+        {
+            "access_type_and_number": "M116750",
+            "date_received": "10/08/86",
+            "product_description": "CONCEPT, TECH-SWITCH",
+            "manufacturer_name_code": "CONCEPT",
+            "manufacturer_name": "CONCEPT INC",
+            "street_address": "12707 US 195",
+            "city": "CLEARWATER",
+            "state": "FL",
+            "zipcode": "33546",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "M50-190-001",
+            "catalog_number": "9164",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "GEI",
+            "event_description_type": "FINAL",
+            "event_description": "DR WAS WORKING IN THE MOUTH AREA. HE REMOVED THE FLAT BLADE ELECTRODE. HE TAPED THE UPPER HALF OF A NEEDLE ELECTRODE AND INSERTED THE ELECTRODE IN THE PENCILETTE. THE ELECTRODE DID NOT SEAT PROPERLY IN THE PENCIL. THE PATIENT'S LIP WAS BURNT. DR ALTERED THE ELECTRODE. CO WAS UNABLE TO DO A FAILURE ANALYSIS OF THE DEVICE BECAUSE THE HOSPITAL REFUSED TO RETURN IT.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        },
+        {
+            "access_type_and_number": "M117174",
+            "date_received": "12/31/86",
+            "product_description": "PLASTI-PORE PISTON WITH RIBBON LOOP",
+            "manufacturer_name_code": "RICHMEDI",
+            "manufacturer_name": "RICHARDS MEDICAL CO.",
+            "street_address": "1450 BROOKS RD",
+            "city": "MEMPHIS",
+            "state": "TN",
+            "zipcode": "38116",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "14-077X",
+            "fda_panel_code": "EAR, NOSE AND THROAT",
+            "fda_product_code": "ETB",
+            "event_description_type": "FINAL",
+            "event_description": "PLASTIC PIECE SEPARATED FROM THE PLATINUM ROD. DEVICE IMPLANTED ABOUT 2 YRS AGO. SURGERY WAS SCHEDULED WHEN THE PT DEVELOPED DIZZINESS AND A LOSS OF HEARING. THE DR REPORTED THAT AFTER DIVIDING THE FIBROTIC TISSUE THAT WAS CLOAKING THE INCUS AND THE PROSTHESIS HE ATTEMPTED TO REMOVE THIS PROSTHESIS BY GRASPING THE PLATINUM RIBBON AND DISCOVERED THE RIBBON WAS BROKEN. THE REMOVAL SURGERY WAS COMPLETED SUCCESSFULLY. THE PROSTHESIS HAD BEEN IN THE PT FOR APPROXIMATELY TWO YEARS.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        }
+    ]
+}

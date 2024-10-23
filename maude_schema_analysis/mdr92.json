@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr92",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M258526",
+            "date_received": "01/13/92",
+            "product_description": "ENHANCED VERSATILE RECORDER",
+            "manufacturer_name_code": "PPGINDU",
+            "manufacturer_name": "PPG INDUSTRIES, INC.",
+            "street_address": "16505 W 113TH ST",
+            "city": "LENEXA",
+            "state": "KS",
+            "zipcode": "66219",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "EVR-130",
+            "catalog_number": "EVR-130",
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DRT",
+            "event_description_type": "FINAL",
+            "event_description": "USER COMPLAINED OF A 60 HZ NOISE INTERFERING WITH ECG RHYTHM WAVEFORM ON DISPLAY. DURING PROCEDURE ECG WAVEFORM WAS INTERRUPTED AND DISAPPEARED OFF OF THE SCREEN. MONITORING OF THE PT WAS INTERRUPTED. PT SUBSEQUENTLY WENT INTO TACHYCARDIA. MFR CONTACTED HOSP BUT REPORTER NOT AVAILABLE. THE ECG TRACE SUBSEQUENTLY RETURNED. TESTING AND INSPECTION OF EQUIPMENT DID NOT DISCLOSE ANY EQUIPMENT MALFUNCTION.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        },
+        {
+            "access_type_and_number": "M258565",
+            "date_received": "01/02/92",
+            "product_description": "CLIRANS HOLLOW FIBER DIALYZER",
+            "manufacturer_name_code": "TERUMO",
+            "manufacturer_name": "TERUMO MEDICAL CORP.",
+            "street_address": "2100 COTTONTAIL LN",
+            "city": "SOMERSET",
+            "state": "NJ",
+            "zipcode": "08873",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "CL*T175",
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FJI",
+            "event_description_type": "FINAL",
+            "event_description": "EXPERIENCED FIRST USE BLOOD LEAK. DIALYZER PREPROCESSED WITH GLUTERALDEHYDE ON DRS-4 AND PASSED LEAK TEST. WHEN USED FOR FIRST TIME WITH PT, UNIT LEAKED. UNIT DISCARDED. WITHOUT THE ACTUAL UNIT INVOLVED WITH THE INCIDENT, A MEANINGFUL FAILURE ANALYSIS IS NOT POSSIBLE. THE EFFECTS OF PREPROCESSING, RINSING AND/OR RINSING OF THE DIALYZER MAY CAUSE DAMAGE TO THE UNIT THAT CO CAN NOT ANTICIPATE. THIS ACCOUNT PREPROCESSED THE DIALYZERS WITH A GLUTARALDEHYDE SOLUTION PRIOR TO FIRST USE. THE PRODUCTS ARE INTENDED FOR SINGLE USE AND THE INSTRUCTIONS FOR USE, INDICATE THAT ONLY HEPARINIZED, PHYSIOLOGICAL SALINE BE USED FOR PRIMING OF THE DIALYZER. SINCE THE UNIT HAD BEEN PREPROCESSED PRIOR TO FIRST USE, IT IS POSSIBLE THAT THE LEAKAGE MAY NOT HAVE BEEN A PRODUCT FAILURE BUT, COULD HAVE BEEN CAUSED BY THE PREPROCESSING AND RINSING OF THE DIALYZER.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        },
+        {
+            "access_type_and_number": "M258674",
+            "date_received": "01/02/92",
+            "product_description": "NEEDLE LOCK DEVICE",
+            "manufacturer_name_code": "BAXTHEAL",
+            "manufacturer_name": "IV SYSTEMS DIV. BAXTER HEALTHCARE CORP.",
+            "street_address": "1 BAXTER PKWY",
+            "city": "DEERFIELD",
+            "state": "IL",
+            "zipcode": "60015",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "2C7831",
+            "fda_panel_code": "GENERAL HOSPITAL",
+            "fda_product_code": "FMI",
+            "event_description_type": "FINAL",
+            "event_description": "PT ADMITTED WITH RECURRENT SYNCOPE. HISTORY OF INSULIN DEPENDENT DIABETES AND LUPUS. DEVICE AND INTERMITTENT INFUSION PLUG (ANOTHER MFR'S) INSERTED ON 10/28/91 AND DISCONTINUED 10/31/91. SITE DOCUMENTED AS RED \"VOLAR\" SURFACE NEAR PUNCTURE SITE RIGHT FOREARM. PHLEBITIS SECONDARY TO HER IV. ON 11/7/91 DOCUMENTED \"? IMMUNOCOMPROMISED PT WITH SEPTIC PHLEBITIS. DIAGNOSIS LUPUS, INSULIN DEPENDENT DIABETIC. SOURCE OF INFECTION APPEARING TO BE HEPARIN LOCK WITH ? OF HER EASE OF INFECTION OF POSSIBLE IMMUNOCOMPROMISED STATUS HAS BEEN RAISED\". ON 11/6/91 TO SURGERY FOR INCISION AND DRAINAGE AND DEBRIDEMENT RIGHT ARM, WRIST TO MID-PROXIMAL ARM. TRANSFERRED TO ICU. CONDITION 12/11/91 IMPROVED.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        }
+    ]
+}

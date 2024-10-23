@@ -1,0 +1,751 @@
+{
+    "table_name": "mdrfoiChange",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_source_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_link_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_devices_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_patients_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "adverse_event_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_problem_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_of_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reprocessed_and_reused_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_occupation_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "health_professional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_facility_aware",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_location",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_t_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_f_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_l_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_country",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_postal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_area_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_exchange",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_phone_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_extension",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcountry",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcity",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_plocal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_manufacturer_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_date_of_manufacture",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "single_use_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "remedial_action",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "previous_use_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "removal_correction_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "type_of_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "source_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_added",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_changed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "pma_pmn_num",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "exemption_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "summary_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "noe_summarized",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "917337",
+            "event_key": null,
+            "report_number": "1043534-2007-00145",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "09/20/2007",
+            "adverse_event_flag": "Y",
+            "product_problem_flag": "Y",
+            "date_report": "05/29/2018",
+            "date_of_event": "06/13/2007",
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "000",
+            "health_professional": "Y",
+            "initial_report_to_fda": "N",
+            "date_facility_aware": "2007/06/13 04:00:00.000",
+            "report_date": null,
+            "report_to_fda": "N",
+            "date_report_to_fda": null,
+            "event_location": "001",
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": "SUSAN",
+            "manufacturer_contact_l_name": "ANDERSON",
+            "manufacturer_contact_street_1": "5677 AIRLINE ROAD",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "ARLINGTON",
+            "manufacturer_contact_state": "TN",
+            "manufacturer_contact_zip_code": "38002",
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "38002",
+            "manufacturer_contact_area_code": "901",
+            "manufacturer_contact_exchange": "901",
+            "manufacturer_contact_phone_no": "9018",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "90186741",
+            "manufacturer_contact_plocal": "9018674140",
+            "manufacturer_g1_name": "WRIGHT MEDICAL TECHNOLOGY, INC.",
+            "manufacturer_g1_street_1": "5677 AIRLINE ROAD",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "ARLINGTON",
+            "manufacturer_g1_state_code": "TN",
+            "manufacturer_g1_zip_code": "38002",
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": "38002",
+            "date_manufacturer_received": "01/28/2008",
+            "device_date_of_manufacture": "05/01/2006",
+            "single_use_flag": "Y",
+            "remedial_action": null,
+            "previous_use_code": "I",
+            "removal_correction_number": null,
+            "event_type": "IN",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "05,07",
+            "date_added": "09/26/2007",
+            "date_changed": "03/15/2024",
+            "reporter_country_code": "US",
+            "pma_pmn_num": "K051348",
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "917340",
+            "event_key": null,
+            "report_number": "1043534-2007-00146",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "09/20/2007",
+            "adverse_event_flag": "Y",
+            "product_problem_flag": "Y",
+            "date_report": "05/29/2018",
+            "date_of_event": "06/13/2007",
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "000",
+            "health_professional": "Y",
+            "initial_report_to_fda": "N",
+            "date_facility_aware": "2007/06/13 04:00:00.000",
+            "report_date": null,
+            "report_to_fda": "N",
+            "date_report_to_fda": null,
+            "event_location": "001",
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": "SUSAN",
+            "manufacturer_contact_l_name": "ANDERSON",
+            "manufacturer_contact_street_1": "5677 AIRLINE ROAD",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "ARLINGTON",
+            "manufacturer_contact_state": "TN",
+            "manufacturer_contact_zip_code": "38002",
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "38002",
+            "manufacturer_contact_area_code": "901",
+            "manufacturer_contact_exchange": "901",
+            "manufacturer_contact_phone_no": "9018",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "90186741",
+            "manufacturer_contact_plocal": "9018674140",
+            "manufacturer_g1_name": "WRIGHT MEDICAL TECHNOLOGY, INC.",
+            "manufacturer_g1_street_1": "5677 AIRLINE ROAD",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "ARLINGTON",
+            "manufacturer_g1_state_code": "TN",
+            "manufacturer_g1_zip_code": "38002",
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": "38002",
+            "date_manufacturer_received": "01/28/2008",
+            "device_date_of_manufacture": "04/01/2006",
+            "single_use_flag": "Y",
+            "remedial_action": null,
+            "previous_use_code": "I",
+            "removal_correction_number": null,
+            "event_type": "IN",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "05,07",
+            "date_added": "09/26/2007",
+            "date_changed": "03/15/2024",
+            "reporter_country_code": "US",
+            "pma_pmn_num": "K042530",
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "953536",
+            "event_key": null,
+            "report_number": "1825034-2007-00142",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "11/21/2007",
+            "adverse_event_flag": "Y",
+            "product_problem_flag": "N",
+            "date_report": "09/22/2015",
+            "date_of_event": "10/23/2007",
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "001",
+            "health_professional": "Y",
+            "initial_report_to_fda": "U",
+            "date_facility_aware": "2007/11/07 05:00:00.000",
+            "report_date": "11/21/2007",
+            "report_to_fda": null,
+            "date_report_to_fda": null,
+            "event_location": "001",
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": "KIM",
+            "manufacturer_contact_l_name": "WALGAMUTH, SPEC.",
+            "manufacturer_contact_street_1": "P.O. BOX 587",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "WARSAW",
+            "manufacturer_contact_state": "IN",
+            "manufacturer_contact_zip_code": "46581",
+            "manufacturer_contact_zip_ext": "0587",
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "465810587",
+            "manufacturer_contact_area_code": "574",
+            "manufacturer_contact_exchange": "574",
+            "manufacturer_contact_phone_no": "5742",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "57426766",
+            "manufacturer_contact_plocal": "5742676639",
+            "manufacturer_g1_name": "BIOMET, INC.",
+            "manufacturer_g1_street_1": "P.O. BOX 587",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "WARSAW",
+            "manufacturer_g1_state_code": "IN",
+            "manufacturer_g1_zip_code": "46581",
+            "manufacturer_g1_zip_code_ext": "0587",
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": "465810587",
+            "date_manufacturer_received": "09/22/2015",
+            "device_date_of_manufacture": "10/01/2000",
+            "single_use_flag": "Y",
+            "remedial_action": null,
+            "previous_use_code": "I",
+            "removal_correction_number": null,
+            "event_type": "IN",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "07",
+            "date_added": "11/30/2007",
+            "date_changed": "03/29/2024",
+            "reporter_country_code": "US",
+            "pma_pmn_num": "K000335",
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        }
+    ]
+}

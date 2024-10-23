@@ -1,0 +1,17 @@
+﻿Group ID,Tables
+0,"ASR_2013, ASR_2008, ASR_2016, ASR_2000, ASR_2007, ASR_2001, ASR_2015, ASR_2005, ASR_2012, ASR_2017, ASR_2014, ASR_2009, ASR_2004, ASR_1999, ASR_2002, ASR_2010, ASR_2003, ASR_2018, ASR_2006, ASR_2011, ASR_2019"
+1,ASR_PPC
+2,"foitext1997, foitext2003, foitext2014, foitext2008, foitext2018, foitext2004, foitext1998, foitext2002, foitextthru1995, foitext2000, foitext2010, foitext2009, foitext2011, foitext2005, foitext2016, foitext2006, foitext2021, foitext2007, foitextChange, foitext1996, foitext1999, foitext2015, foitext2012, foitext2013, foitext2019, foitext2001, foitext, foitext2020, foitext2022, foitext2023, foitext2017"
+3,foitextAdd
+4,"DEVICE2020, DEVICEAdd, DEVICE2001, DEVICE2016, DEVICE2008, DEVICE2019, DEVICE2011, DEVICE, DEVICE2013, DEVICE2014, DEVICE2012, DEVICE2018, DEVICE2002, DEVICE2023, DEVICE2003, DEVICE2022, DEVICE2004, DEVICE2021, DEVICE2015, DEVICEChange, DEVICE2005, DEVICE2017, DEVICE2000, DEVICE2009, DEVICE2010, DEVICE2006, DEVICE2007"
+5,deviceproblemcodes
+6,DISCLAIM
+7,foiclass_selfdefined
+8,"foidev1998, foidev1999, foidevthru1997"
+9,foidevproblem
+10,"mdr88, mdr92, mdr94, mdr97, mdr86, mdr89, mdr84, mdr87, mdr95, mdr85, mdr90, mdr93, mdr91, mdr96"
+11,"mdrfoiAdd, mdrfoiChange, mdrfoi, mdrfoiThru2023"
+12,"patient, patientAdd, patientChange, patientThru2023"
+13,patientproblemcode
+14,patientproblemdata
+15,table_statistics_selfdefined

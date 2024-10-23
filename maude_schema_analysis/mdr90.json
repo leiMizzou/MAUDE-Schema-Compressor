@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr90",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M177985",
+            "date_received": "11/15/90",
+            "product_description": "SWAN GANZ THERMODILUTION CATHETER",
+            "manufacturer_name_code": "EDWACVS",
+            "manufacturer_name": "EDWARDS CRITICAL CARE DIV. BAXTER HEALTHCARE CORP.",
+            "street_address": "17221 RED HILL AVE.",
+            "city": "IRVINE",
+            "state": "CA",
+            "zipcode": "92714",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "93A-131-7F",
+            "catalog_number": "93A-131-7F",
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DYG",
+            "event_description_type": "FINAL",
+            "event_description": "CO HAS RECEIVED REPORT THAT A CATHETER SEPARATED DURING REMOVAL. THE REMAINING CATHETER PIECE WAS REMOVED UNDER FLOUROSCOPY WITHOUT INCIDENT. THE CAUSE OF BREAKAGE IS UNK; THE PT REMAINED STABLE.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. HOWEVER, THE INFORMATION IN THIS REPORT AND/OR ITS FOLLOW-UP SUGGESTS THAT THE EVENT MAY HAVE BEEN CAUSED BY THE USE OF THE DEVICE. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M178861",
+            "date_received": "01/02/90",
+            "product_description": "INTERPLAK HOME PLAQUE REMOVAL INSTRUMENT",
+            "manufacturer_name_code": "BAUSLOMB",
+            "manufacturer_name": "BAUSCH & LOMB, INC.",
+            "street_address": "5243 ROYAL WOODS PKWY",
+            "city": "TUCKER",
+            "state": "GA",
+            "zipcode": "30084",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "PB-2",
+            "catalog_number": null,
+            "fda_panel_code": "DENTAL",
+            "fda_product_code": "JEQ",
+            "event_description_type": "FINAL",
+            "event_description": "PT ALLEGES THAT THE BRUSH HAD POPPED OFF DURING USE AND CHIPPED A TOOTH.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. HOWEVER, THE INFORMATION IN THIS REPORT AND/OR ITS FOLLOW-UP SUGGESTS THAT THE EVENT MAY HAVE BEEN CAUSED BY THE USE OF THE DEVICE. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M178991",
+            "date_received": "01/02/90",
+            "product_description": "VESSEL DILATOR",
+            "manufacturer_name_code": "CODMSHUR",
+            "manufacturer_name": "CODMAN AND SHURTLEFF, INC.",
+            "street_address": "41 PACELLA PARK DR, RANDOLPH INDUSTRIAL",
+            "city": "RANDOLPH",
+            "state": "MA",
+            "zipcode": "02368",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "UNK",
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "LIT",
+            "event_description_type": "FINAL",
+            "event_description": "WHEN PULLING, REMOVING DILATOR, THE TIP STAYED IN PT. HAD TO REOPEN AGAIN TO OBTAIN TIP. NO REPORT OF PT INJURY.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. INFORMATION INDICATES THAT THE MEDICAL DEVICE DID NOT MALFUNCTION AND THAT THE INCIDENT WAS NOT ATTRIBUTABLE TO THE DEVICE. "
+        }
+    ]
+}

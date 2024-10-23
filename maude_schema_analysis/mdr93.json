@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr93",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M299507",
+            "date_received": "07/20/93",
+            "product_description": "SILASTIC TISSUE EXPANDER, HP",
+            "manufacturer_name_code": "DOWCORNWRIG",
+            "manufacturer_name": "DOW CORNING WRIGHT",
+            "street_address": "5677 AIRLINE RD",
+            "city": "ARLINGTON",
+            "state": "TN",
+            "zipcode": "38002",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "PCGT-0700",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "LCJ",
+            "event_description_type": "FINAL",
+            "event_description": "THE PHYSICIAN REPORTS THE TISSUE EXPANDER WAS REMOVED FOR LEAKS.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        },
+        {
+            "access_type_and_number": "M360630",
+            "date_received": "01/04/93",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "EZY",
+            "event_description_type": "FINAL",
+            "event_description": "THE MALE PT'S DOB IS 12/15/39. HE HAS A HISTORY OF PEYRONIE'S DISEASE. HIS ORIGINAL IPP IMPLANT WAS ON 9/23/88. THE DR REPORTED, AN \"INFECTION.\" ON 10/9/92, THE PUMP WAS REMOVED FROM THE PT AND REPLACED.",
+            "closeout_text": "THE CAUSE OF THIS PROBLEM HAS NOT BEEN DETERMINED. THIS IS A RECOGNIZED ADVERSE AFFECT ASSOCIATED WITH THE DEVICE OR ITS USE AS STATED IN LABELING AND/OR REPORTED IN THE MEDICAL LITERATURE. BOTH THE FREQUENCY AND THE SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M360632",
+            "date_received": "01/04/93",
+            "product_description": "ARTIFICIAL URINARY SPHINCTER",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "800",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "EZY",
+            "event_description_type": "FINAL",
+            "event_description": "THE MALE PT'S DOB IS 11/1/41. HIS ORIGINAL IMPLANT WAS ON 7/15/92. THE DR REPORTED, AN \"INFECTION.\" ON 12/17/92, THE DEVICE WAS REMOVED FROM THE PT. ADD'L SERIAL #5550P021.",
+            "closeout_text": "THE CAUSE OF THIS PROBLEM HAS NOT BEEN DETERMINED. THIS IS A RECOGNIZED ADVERSE AFFECT ASSOCIATED WITH THE DEVICE OR ITS USE AS STATED IN LABELING AND/OR REPORTED IN THE MEDICAL LITERATURE. BOTH THE FREQUENCY AND THE SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        }
+    ]
+}

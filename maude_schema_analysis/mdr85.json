@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr85",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M100231",
+            "date_received": "01/02/85",
+            "product_description": "SURGITEK TEARDROP GEL MAMMARY IMPLANT",
+            "manufacturer_name_code": "MEDIENGI",
+            "manufacturer_name": "MEDCIAL ENGINEERING CORP",
+            "street_address": "3037 MT PLEASANT STREET",
+            "city": "RACINE",
+            "state": "WI",
+            "zipcode": "53404",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "10580000S0",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "FTR",
+            "event_description_type": "FINAL",
+            "event_description": "DEVICE RUPTURED, REQUIRING SURGICAL INTERVENTION TO RELIEVE TEMPORARY IMPAIRMENT TO A BODY STRUCTURE.",
+            "closeout_text": "CAUSE UNKNOWN "
+        },
+        {
+            "access_type_and_number": "M100139",
+            "date_received": "01/05/85",
+            "product_description": "MICROVOLUME IV SET",
+            "manufacturer_name_code": "AUTOSYRI",
+            "manufacturer_name": "AUTOSYRINGE",
+            "street_address": "LONDONDERRY TPK",
+            "city": "HOOKSETT",
+            "state": "NH",
+            "zipcode": "03106",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": null,
+            "fda_panel_code": "GENERAL HOSPITAL",
+            "fda_product_code": "FPA",
+            "event_description_type": "FINAL",
+            "event_description": "LEAKAGE OF INSULIN AT JUNCTION OF TUBING TO HUB. HUB IS PORTION OF IV SET THAT CONNECTS TO THE SYRINGE. LEAKAGE OF INSULIN CAUSED BLOOD SUGAR TO GO OVER 800. PATIENT TREATED IN A STANDARD MANNER.",
+            "closeout_text": "CAUSE UNKNOWN "
+        },
+        {
+            "access_type_and_number": "R100217",
+            "date_received": "01/02/85",
+            "product_description": "KOORDINAT KOMBI TABLE",
+            "manufacturer_name_code": "SIEMENS",
+            "manufacturer_name": "SIEMENS MEDICAL SYSTEMS",
+            "street_address": "186 WOOD AVE S",
+            "city": "ISELIN",
+            "state": "NJ",
+            "zipcode": "08830",
+            "report_type": "MALFUNCTION",
+            "model_number": "G006E",
+            "catalog_number": null,
+            "fda_panel_code": "RADIOLOGICAL",
+            "fda_product_code": "IXR",
+            "event_description_type": "FINAL",
+            "event_description": "SERVICE SUPERVISOR REPORTED THAT AN INCIDENT HAD OCCURRED INVOLVING THE KOORDINAT KOMBI TABLE. THE STEPPING DEVICE WAS ENGAGED AND WHEN THE TABLE REACHED THE LAST POSITION, THE TABLE TOP, WITH PATIENT, TILTED AND PT FELL HEAD END FIRST TO THE FLOOR. THE PATIENT WAS NOT SERIOUSLY INJURED. INCIDENT BEING INVESTIGATED BY THE FACTORY.",
+            "closeout_text": "USER "
+        }
+    ]
+}
