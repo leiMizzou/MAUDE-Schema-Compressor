@@ -164,19 +164,19 @@ maude-schema-analysis/
   
   - **`<table_name>.json`**: JSON files for each table containing table structure and anonymized sample data.
   
-  - **`maude_schema_combined.txt`**: Integrated file containing merged table information and global context.
-  
-  - **`maude_schema_analysis.json`**: JSON file storing analysis results from the DeepSeek API.
-  
-  - **`similarity_cache.json`**: Cache file to store computed similarity scores between table pairs to avoid redundant API calls.
-  
-  - **`manual_grouping.json`**: JSON file containing manual grouping results. If not present, it is initialized using AI-generated groupings.
-  
-  - **`evaluation_results.csv`**: CSV file recording evaluation metrics comparing AI groupings with manual groupings.
-  
   - **`groupings_*.csv`**: CSV files capturing different grouping results based on clustering methods and similarity thresholds. The filename includes details like clustering method, similarity threshold, and clustering parameters (e.g., `groupings_kmeans_manual_sim_0.7_param_3.csv`).
 
 - **`context.txt`**: Global context file used to integrate merged table information into a single large file for comprehensive analysis.
+
+- **`maude_schema_combined.txt`**: Integrated file containing merged table information and global context.
+  
+- **`maude_schema_analysis.json`**: JSON file storing analysis results from the DeepSeek API.
+  
+- **`similarity_cache.json`**: Cache file to store computed similarity scores between table pairs to avoid redundant API calls.
+  
+- **`manual_grouping.json`**: JSON file containing manual grouping results. If not present, it is initialized using AI-generated groupings.
+  
+- **`evaluation_results.csv`**: CSV file recording evaluation metrics comparing AI groupings with manual groupings.
 
 - **`README.md`**: Project documentation file (this file).
 
