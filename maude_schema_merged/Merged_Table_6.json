@@ -1,0 +1,166 @@
+{
+    "table_name": "Merged_Table_6",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M704613",
+            "date_received": "03/06/96",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS, INC.",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "LEAK IN THE OUTER SILICONE SLEEVE RESULTING IN TISSUE INGROWTH INTO FABRIC, AND A VERY DIFFICULT REMOVAL. THE ENTIRE DEVICE WAS REMOVED FROM THE PT. MALE PT WITH DOB 5/19/42. OTHER RELEVANT HISTORY: DIABETES MELLITUS. IMPLANT DATE 5/31/91. EXPLANT DATE 4/4/95.",
+            "closeout_text": "THESE TYPES OF EVENTS USUALLY INVOLVE KNOWN COMPLICATIONS THAT DO NOT JUSTIFY IMMEDIATE ACTION OR REVIEW OF THE INDIVIUAL REPORT. HOWEVER, THE EVENT AND OTHER SIMILAR EVENTS ARE AVAILABLE FOR FURTHER STATISTICAL ANALYSIS AND MONITORING. "
+        },
+        {
+            "access_type_and_number": "M409885",
+            "date_received": "03/06/96",
+            "product_description": "SELF CONTAINED PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "DYNAFLEX",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PT HAS A HISTORY OF DIABETES. HIS DOB IS 6/25/32. HE WAS IMPLANTED WITH A DEVICE ON 9/2/93. INFO RECEIVED ON 9/22/93 INDICATES, AN \"INFECTION.\" THE ENTIRE DEVICE WAS REMOVED FROM THE PT ON 9/14/93.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M153268",
+            "date_received": "05/06/89",
+            "product_description": "VALLEYLAB ELECTROSURGICAL GENERATOR",
+            "manufacturer_name_code": "VALLEYLAB",
+            "manufacturer_name": "VALLEYLAB, INC.",
+            "street_address": "5920 LONGBOW DRIVE",
+            "city": "BOULDER",
+            "state": "CO",
+            "zipcode": "80301",
+            "report_type": "MALFUNCTION",
+            "model_number": "FORCE 2-20PC",
+            "catalog_number": "FORCE 2",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "GEI",
+            "event_description_type": "FINAL",
+            "event_description": "THE DIGITAL DISPLAY WAS NOTED TO INCREASE SPONTANEOUSLY FROM A SETTING OF 30 TO 150 WATTS AND TO CHANGE FROM A \"STAND-BY\" MODE TO \"READY\" MODE. THE GENERATOR WAS IN THE OPERATING ROOM BUT NOT IN USE.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        }
+    ]
+}

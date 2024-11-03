@@ -1,0 +1,73 @@
+{
+    "table_name": "Merged_Table_9",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text_json",
+            "type": "JSON",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "2892056",
+            "mdr_text_key": "3057449",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT PATIENT EXPERIENCED MENINGITIS (B)(6) AND WAS BEING TREATED EMPIRICALLY. PATIENT SYMPTOMS INCLUDED \"ALTERED MENTAL STATUS\", FEVER, PAIN AND LESS THAN 50% THERAPY RELIEF. IN REGARDS TO THE DEVICE IT WAS STATED THAT A CATHETER DYE STUDY WAS PLANNED. PATIENT STATUS AS OF THE DATE OF THIS REPORT WAS NOTED AS \"ALIVE WITH NO INJURY\". DRUGS DELIVERED VIA THE DEVICE WERE DILAUDID AND, BUPIVACAINE THE PUMP AND THE CATHETER WERE LATER RECEIVED. ADDITIONAL INFORMATION HAS BEEN REQUESTED; A FOLLOW-UP REPORT WILL BE SENT WHEN IT BECOMES AVAILABLE."
+        },
+        {
+            "mdr_report_key": "2892062",
+            "mdr_text_key": "3057451",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PATIENT WAS REVISED TO ADDRESS CONTINUAL DISLOCATION."
+        },
+        {
+            "mdr_report_key": "5866367",
+            "mdr_text_key": "51790839",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE PATIENT HIGH WATT ALARMS. THE PATIENT PASSED AWAY. CAUSE AND DATE OF DEATH ARE UNKNOWN AT THIS TIME. THE SITE WAS UNABLE TO MAKE A CAUSAL RELATIONSHIP BETWEEN THE DEVICE AND THE EVENT. A THROMBUS WAS VISUALLY DETECTED AND IT WAS REPORTED THAT THE PUMP WAS MAKING ABNORMAL GRINDING NOISES. PATIENT WAS ON AN UNKNOWN ANTICOAGULATION MEDICATION AND HIS INR WAS 62. PATIENT'S HEMATOCRIT SETTINGS ON THE CONTROLLER WERE CORRECT. PATIENT DID HAVE ELEVATED HGB AND LDH. NO ADDITIONAL INFORMATION AVAILABLE."
+        }
+    ]
+}

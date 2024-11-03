@@ -1,0 +1,31 @@
+{
+    "table_name": "Merged_Table_10",
+    "structure": [
+        {
+            "name": "ï_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "old_to_be_deactivated",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "ï_1": "1002",
+            "old_to_be_deactivated": "Abnormal"
+        },
+        {
+            "ï_1": "1125",
+            "old_to_be_deactivated": "Contraindicated patient"
+        },
+        {
+            "ï_1": "1156",
+            "old_to_be_deactivated": "Delamination"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "table_name": "Merged_Table_12",
+    "structure": [
+        {
+            "name": "619611",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "1104",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "619611": "2094110",
+            "1104": "2913"
+        },
+        {
+            "619611": "2296019",
+            "1104": "3190"
+        },
+        {
+            "619611": "2686192",
+            "1104": "1395"
+        }
+    ]
+}
