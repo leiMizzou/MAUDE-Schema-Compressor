@@ -21,6 +21,8 @@ Maude Schema Compressor is a comprehensive tool designed to analyze, cluster, an
 
 Additionally, the tool supports evaluation of clustering performance using various metrics, allowing users to assess the effectiveness of different clustering strategies and parameters.
 
+Preprint Manuscript at https://www.medrxiv.org/content/10.1101/2024.12.03.24318439v1
+
 ## Features
 
 - **Database Connectivity**: Connects to PostgreSQL databases to extract table structures and sample data.
