@@ -1,4 +1,4 @@
-# Maude Schema Analysis
+# Maude Schema Compressor
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -17,7 +17,7 @@
 
 ## Overview
 
-Maude Schema Analysis is a comprehensive tool designed to analyze, cluster, and optimize database schemas. It connects to a PostgreSQL database, extracts table structures and sample data, generates descriptive summaries, and clusters similar tables using K-Means, Hierarchical Clustering, and DBSCAN. The tool further refines these clusters based on similarity scores obtained from the DeepSeek API, merges related tables, and provides detailed token count comparisons to assist in optimizing schema representations for various applications, including AI-driven analysis.
+Maude Schema Compressor is a comprehensive tool designed to analyze, cluster, and optimize database schemas. It connects to a PostgreSQL database, extracts table structures and sample data, generates descriptive summaries, and clusters similar tables using K-Means, Hierarchical Clustering, and DBSCAN. The tool further refines these clusters based on similarity scores obtained from the DeepSeek API, merges related tables, and provides detailed token count comparisons to assist in optimizing schema representations for various applications, including AI-driven analysis.
 
 Additionally, the tool supports evaluation of clustering performance using various metrics, allowing users to assess the effectiveness of different clustering strategies and parameters.
 
@@ -229,7 +229,7 @@ maude-schema-analysis/
 
 ## Evaluation
 
-Maude Schema Analysis provides robust evaluation metrics to assess the quality and effectiveness of clustering results. It compares AI-generated groupings with manual (expert-based) groupings and calculates the following metrics:
+Maude Schema Compressor provides robust evaluation metrics to assess the quality and effectiveness of clustering results. It compares AI-generated groupings with manual (expert-based) groupings and calculates the following metrics:
 
 - **Adjusted Rand Index (ARI)**: Measures the similarity between two clusterings by considering all pairs of samples and counting pairs that are assigned in the same or different clusters in the predicted and true clusterings.
 
