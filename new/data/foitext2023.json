@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2023",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "16083424",
+            "mdr_text_key": "306492619",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "IMPLANT FAILED DUE TO FAILURE OF OSSEOINTEGRATION."
+        },
+        {
+            "mdr_report_key": "16083427",
+            "mdr_text_key": "306492620",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "IMPLANT FAILED DUE TO AN OSSEOINTEGRATION PROBLEM."
+        },
+        {
+            "mdr_report_key": "16082554",
+            "mdr_text_key": "306492621",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "MEDTRONIC LEGAL RECEIVED INFORMATION FROM THE ATTORNEY OF THE FAMILY REGARDING INSULIN PUMPS SUBJECT TO THE DECEMBER 21, 2022 VOLUNTARY URGENT FIELD SAFETY NOTIFICATION RELATED TO MISSED BROKEN RETAINER RINGS. REPORTER ALLEGES THAT THE USE OF MEDTRONIC INSULIN PUMP CAUSED SERIOUS INJURIES LIKE HYPERGLYCEMIA , HYPOGLYCEMIA , DIABETIC KETOACIDOSIS AND DEATH TO THE CUSTOMER. REPORTER WAS UNABLE TO PROVIDE THE PRODUCT IDENTIFIER THAT WAS IN USE DURING THE ADVERSE EVENT. IT WAS ALLEGED THAT THE RETAINER RING WAS MISSED AND WAS REPORTED TO THEIR DOCTOR BUT DOES NOT RECALL IF RESERVOIR WAS FULLY INSERTED INTO THE RESERVOIR CHAMBER. BLOOD GLUCOSE OR SENSOR GLUCOSE VALUES WERE UNKNOWN AT THE TIME OF THE INCIDENT. CUSTOMER ALLEGED THAT THEY WERE VISITED EMERGENCY ROOM , HOSPITALIZED AND CARB INTAKE DUE TO HYPOGLYCEMIA.  ADDITIONAL DETAILS WERE STILL PENDING AT THE TIME THE EVENT WAS REPORTED. NO PRODUCTS ARE EXPECTED TO RETURN FOR ANALYSIS. REPORTER ALLEGES THAT THE USE OF ONE OR MORE MEDTRONIC MINIMED 600 SERIES INSULIN PUMPS WITH A DAMAGED, MISSING, OR BROKEN RETAINER RING CAUSED THE CLAIMANT TO SUFFER PERSONAL INJURIES. THE ALLEGATION DID NOT SPECIFY THE PUMP IDENTIFIER (SERIAL NUMBER) AND THEREFORE ALL 600 SERIES INSULIN PUMPS IN POSSESSION OF THE CLAIMANT, INCLUDING THIS PUMP, ARE CONSIDERED POTENTIALLY WITHIN THE SCOPE OF THE REPORT PENDING CONFIRMATION OF THE AFFECTED SERIAL NUMBER. WHEN AND IF THE AFFECTED SERIAL NUMBER IS IDENTIFIED, ALL RELATED REPORTS WILL BE UPDATED ACCORDINGLY."
+        }
+    ]
+}

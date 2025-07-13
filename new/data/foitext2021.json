@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2021",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "10988463",
+            "mdr_text_key": "221582551",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "(B)(4). MEDICAL DEVICE EXPIRATION DATE: NA. A DEVICE EVALUATION IS ANTICIPATED, BUT HAS NOT YET BEGUN. UPON COMPLETION OF THE INVESTIGATION, A SUPPLEMENTAL REPORT WILL BE FILED. (B)(4)."
+        },
+        {
+            "mdr_report_key": "10988463",
+            "mdr_text_key": "221582552",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT WHILE USING BD VERITOR PLUS ANALYZER WITH BD RAPID DETECTION OF SARS-COV-2 VERITOR¿ IT SHOWS A POSITIVE RESULT ON EVERY COVID TEST PERFORMED. THERE WAS NO REPORT OF PATIENT IMPACT. EUA # (B)(4)."
+        },
+        {
+            "mdr_report_key": "11103539",
+            "mdr_text_key": "224633312",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE CUSTOMER REPORTED PROBLEM WAS CONFIRMED. THE DEVICE WAS REPAIRED, RETESTED AND RETURNED TO THE CUSTOMER. BASED ON THE FILE REVIEW, COMPLAINTS ESCALATION, INFUSION PRODUCTS GLOBAL CUSTOMER SUPPORT OPERATIONS. A REVIEW OF THE DEVICE HISTORY RECORD IN SAP FOR SN (B)(4) WAS PERFORMED FROM THE DATE OF THE MANUFACTURE TO DATE OF THE RELEASE OF PRODUCT, WHICH CONFIRMED THAT THIS DEVICE WAS NOT INVOLVED IN A PRODUCTION FAILURE, AND PRODUCT WAS RETURNED FOR SERVICING WHICH CORRELATES TO THE CUSTOMER REPORTED ISSUE. A REVIEW OF THE COMPLAINT HISTORY RECORD IN THE TRACKWISE WAS PERFORMED FOR THE SN (B)(4) WHICH CONFIRMED NO SIMILAR COMPLAINTS WITH THE SAME OR RELATED FAILURE MODE."
+        }
+    ]
+}

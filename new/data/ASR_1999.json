@@ -1,0 +1,175 @@
+{
+    "table_name": "ASR_1999",
+    "structure": [
+        {
+            "name": "exemptn_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_of_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_aware_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_prob_cd",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_year",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_qtr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "impl_avail_for_eval",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "impl_ret_to_mfr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "exemptn_no": "1997044DQY",
+            "mfr_no": "2248146",
+            "mfr_name": "DATASCOPE CORP. CARDIAC ASSIST DIVISION",
+            "report_id": "00430",
+            "date_of_event": null,
+            "mfr_aware_date": "10/22/1999",
+            "event_type": "M",
+            "dev_prob_cd": "1069",
+            "report_year": "1999",
+            "report_qtr": "4",
+            "initial_report_flag": "I",
+            "dev_id": "0684-19-0045",
+            "product_code": "DQX",
+            "brand_name": "GUIDEWIRE-.030\" STIFF \"J\" TIP-TEFLON COATED",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        },
+        {
+            "exemptn_no": "1997044DQY",
+            "mfr_no": "2248146",
+            "mfr_name": "DATASCOPE CORP. CARDIAC ASSIST DIVISION",
+            "report_id": "00659",
+            "date_of_event": null,
+            "mfr_aware_date": "11/06/1999",
+            "event_type": "M",
+            "dev_prob_cd": "1456",
+            "report_year": "1999",
+            "report_qtr": "4",
+            "initial_report_flag": "I",
+            "dev_id": "0684-19-0058",
+            "product_code": "DQX",
+            "brand_name": "GUIDEWIRE-0.020\" NITINOL, SILICONE COATED",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        },
+        {
+            "exemptn_no": "1997044DQY",
+            "mfr_no": "2248146",
+            "mfr_name": "DATASCOPE CORP. CARDIAC ASSIST DIVISION",
+            "report_id": "00674",
+            "date_of_event": null,
+            "mfr_aware_date": "12/03/1999",
+            "event_type": "IN",
+            "dev_prob_cd": "2203",
+            "report_year": "1999",
+            "report_qtr": "4",
+            "initial_report_flag": "I",
+            "dev_id": "0684-19-0058",
+            "product_code": "DQX",
+            "brand_name": "GUIDEWIRE-0.020\" NITINOL, SILICONE COATED",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+================================================================================
+MAUDE Schema Merge Summary Report
+================================================================================
+
+Experiment Configuration:
+------------------------------
+Clustering Method: dbscan_manual
+Parameters: (0.5, 5)
+Feature Extraction: tfidf
+Similarity Threshold: None
+Final Clusters: 5
+
+Merge Statistics:
+--------------------
+Total Original Tables: 97
+Total Merged Schemas: 5
+Single Table Schemas: 0
+Multi-Table Merges: 5
+Compression Ratio: 19.4:1
+
+Detailed Cluster Analysis:
+------------------------------
+
+📊 Merged_Cluster_1
+   Type: multi_table
+   Original Tables (30): DEVICE, DEVICE2000, DEVICE2001, DEVICE2002, DEVICE2003 ... and 25 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_2
+   Type: multi_table
+   Original Tables (27): foitext1996, foitext1997, foitext1998, foitext1999, foitext2000 ... and 22 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_3
+   Type: multi_table
+   Original Tables (5): patient, patientAdd, patientChange, patientThru2023, patientproblemcode
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_4
+   Type: multi_table
+   Original Tables (21): ASR_1999, ASR_2000, ASR_2001, ASR_2002, ASR_2003 ... and 16 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_5
+   Type: multi_table
+   Original Tables (14): mdr84, mdr85, mdr86, mdr87, mdr88 ... and 9 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+

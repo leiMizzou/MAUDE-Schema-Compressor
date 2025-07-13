@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2022",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "13141121",
+            "mdr_text_key": "283077257",
+            "text_type_code": "N",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "THIS IS A COMBINATION PRODUCT (B)(4). THE INVESTIGATION IS IN PROGRESS. ONCE THE INVESTIGATION HAS BEEN COMPLETED, A FOLLOW-UP MDR WILL BE SUBMITTED. IF ANY FURTHER INFORMATION IS FOUND WHICH WOULD CHANGE OR ALTER ANY CONCLUSIONS OR INFORMATION, A SUPPLEMENTAL WILL BE FILED ACCORDINGLY."
+        },
+        {
+            "mdr_report_key": "13141121",
+            "mdr_text_key": "283077258",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED, THAT DURING PLACEMENT OF CEMENT ON TIBIA, WITH THE TIBIA SUBLUXED AND SOFT TISSUES PROTECTED, BOVIE CAUTERIZATION (ELECTROSURGICAL CAUTERIZATION) WAS UTILIZED IN THE MEDIAL PARAPATELLAR AREA. AT THIS POINT, AN ASSISTANT NOTICED AT THE CENTER PART OF THE CEMENT, THAT A LOW FLAME WAS NOTED, WAS TAMPED, PUT OUT IMMEDIATELY GLOWING ON SURFACE OF CEMENT. THE CEMENT WAS REMOVED. THE WOUND WAS COPIOUSLY IRRIGATED ONCE AGAIN. WITNESSED NO TISSUES COMPROMISED OR FLAME ADJACENT TO TISSUES. CEMENTING TECHNIQUE WAS PERFORMED. THE IMPLANTS WERE PUT IN ATRAUMATICALLY. NO ADVERSE EVENTS HAVE BEEN REPORTED AS A RESULT OF THE MALFUNCTION."
+        },
+        {
+            "mdr_report_key": "13141116",
+            "mdr_text_key": "283077270",
+            "text_type_code": "N",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "THIS IS A COMBINATION PRODUCT (B)(4). THE INVESTIGATION IS IN PROGRESS. ONCE THE INVESTIGATION HAS BEEN COMPLETED, A FOLLOW-UP MDR WILL BE SUBMITTED. IF ANY FURTHER INFORMATION IS FOUND WHICH WOULD CHANGE OR ALTER ANY CONCLUSIONS OR INFORMATION, A SUPPLEMENTAL WILL BE FILED ACCORDINGLY."
+        }
+    ]
+}

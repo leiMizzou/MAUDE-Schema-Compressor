@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2011",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "1122844",
+            "mdr_text_key": "891886",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "CUSTOMER REPORTED RECEIVING ERRATIC READINGS ON HIS FREESTYLE FREEDOM BLOOD GLUCOSE METER. CUSTOMER REPORTED RECEIVING READINGS OF 282 MG/DL, 120 MG/DL 113 MG/DL, 95 MG/DL AND 87 MG/DL WITHIN 10 MINUTES. ALL TESTS WERE PERFORMED ON THE FINGER. THE RESULTS WHEN PLOTTED ON A PARKES ERROR GRID FELL INTO THE \"C\" ZONE SHOWING THE DIFFERENCE IN VALUES TO BE CLINICALLY SIGNIFICANT. THERE WAS NO REPORT OF DEATH, SERIOUS INJURY OR MISTREATMENT ASSOCIATED WITH THIS EVENT."
+        },
+        {
+            "mdr_report_key": "1445109",
+            "mdr_text_key": "1094209",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT A HEALTH CARE WORKER (HCW) IN AN ENDOSCOPY ROOM EXPERIENCED HEADACHE AND SORE THROAT. THE WORKER DID NOT SEE DOCTOR AND DID NOT NEED ANY TREATMENT. THE LOT OF THE DISOPA USED IS UNK AND NO SAMPLE IS AVAILABLE FOR EVAL. THE SYMPTOMS WERE REPORTED A FEW DAYS AFTER USE OF DISOPA. IT WAS SUBSEQUENTLY REPORTED THAT THE HCW RECOVERED. THE FACILITY WAS USING OER2 WITH UNK DISINFECTANT AND ENZYMATIC DETERGENT AND THEN CONVERTED INTO ENDOCLENS WITH DISOPA AND MILDLY ALKALINE DETERGENT. THE PROCESSING ROOM HAS A VENTILATING FAN. THE VENTILATION OF THE ROOM WAS DESCRIBED AS INADEQUATE, BUT \"NOT SO VERY POOR.\" NO FURTHER INFORMATION IS AVAILABLE."
+        },
+        {
+            "mdr_report_key": "1833273",
+            "mdr_text_key": "1377833",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A CUSTOMER WAS PERFORMING MAINTENANCE ON THE INSTRUMENT AND CAUGHT THEIR GLOVE ON THE DOOR LATCH AND SMASHED THEIR FINGER. CUSTOMER SOUGHT MEDICAL TREATMENT AT THE EMERGENCY ROOM WHERE THE FINGER WAS WRAPPED AND PROPHYLACTIC ANTIBIOTICS ADMINISTERED. THE INSTRUMENT WAS TURNED OFF AS REQUIRED FOR MAINTENANCE AND THE SAFETY FEATURE TO STOP MOVING PARTS FUNCTIONED CORRECTLY. CUSTOMER HAS RETURNED TO WORK. THERE IS NO PERMANENT INJURY."
+        }
+    ]
+}

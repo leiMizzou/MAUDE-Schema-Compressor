@@ -1,0 +1,223 @@
+2025-07-13 18:15:02,973 - standalone_runner - INFO - Using data directory: ./data
+2025-07-13 18:15:02,973 - standalone_runner - INFO - Using output directory: ./analysis_outputs
+2025-07-13 18:15:02,973 - standalone_runner - INFO - Cache update mode: disabled
+2025-07-13 18:15:02,973 - similarity - INFO - Loaded 24 cached similarity scores
+2025-07-13 18:15:02,973 - standalone_runner - INFO - Standalone MAUDE Analyzer initialized
+2025-07-13 18:15:02,973 - standalone_runner - INFO - Checking data availability in: ./data
+2025-07-13 18:15:02,973 - database - INFO - Loading 114 JSON files
+2025-07-13 18:15:03,004 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 18:15:03,005 - standalone_runner - INFO - Found data for 113 tables
+2025-07-13 18:15:03,005 - similarity - INFO - Loaded 24 cached similarity scores
+2025-07-13 18:15:03,005 - standalone_runner - INFO - Using cache file: ./data/similarity_cache.json
+2025-07-13 18:15:03,005 - standalone_runner - INFO - Using manual grouping file: ./data/manual_grouping.json
+2025-07-13 18:15:03,005 - standalone_runner - INFO - File paths adjusted - Data: ./data, Output: ./analysis_outputs
+2025-07-13 18:15:03,005 - __main__ - INFO - 开始聚类分析 (纯缓存模式)...
+2025-07-13 18:15:03,005 - standalone_runner - INFO - Starting clustering analysis
+2025-07-13 18:15:03,005 - database - INFO - Loading 114 JSON files
+2025-07-13 18:15:03,009 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 18:15:03,009 - database - INFO - Loading 114 JSON files
+2025-07-13 18:15:03,013 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 18:15:03,014 - database - INFO - Generated descriptions for 113 tables
+2025-07-13 18:15:03,014 - standalone_runner - INFO - Processing with feature method: tfidf
+2025-07-13 18:15:03,014 - features - INFO - Starting feature processing with method: tfidf
+2025-07-13 18:15:03,029 - features - INFO - TF-IDF feature extraction completed. Shape: (113, 5000)
+2025-07-13 18:15:03,030 - features - INFO - Extracted structured features for 113 tables
+2025-07-13 18:15:03,031 - features - INFO - Combined features shape: (113, 5009)
+2025-07-13 18:15:03,081 - features - INFO - PCA applied: (113, 5009) -> (113, 100), explained variance: 0.977
+2025-07-13 18:15:03,081 - features - INFO - Feature processing completed. Final shape: (113, 100)
+2025-07-13 18:15:03,081 - standalone_runner - INFO - Running clustering: kmeans_manual with param 3
+2025-07-13 18:15:03,114 - clustering - INFO - K-Means clustering completed with 3 clusters
+2025-07-13 18:15:03,114 - clustering - INFO - Clustering with kmeans_manual (param: 3) resulted in 3 clusters
+2025-07-13 18:15:03,114 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,117 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:03,119 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_3.csv'
+2025-07-13 18:15:03,119 - standalone_runner - INFO - Running clustering: kmeans_manual with param 4
+2025-07-13 18:15:03,123 - clustering - INFO - K-Means clustering completed with 4 clusters
+2025-07-13 18:15:03,123 - clustering - INFO - Clustering with kmeans_manual (param: 4) resulted in 4 clusters
+2025-07-13 18:15:03,123 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,127 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:03,127 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_4.csv'
+2025-07-13 18:15:03,127 - standalone_runner - INFO - Running clustering: kmeans_manual with param 5
+2025-07-13 18:15:03,129 - clustering - INFO - K-Means clustering completed with 5 clusters
+2025-07-13 18:15:03,130 - clustering - INFO - Clustering with kmeans_manual (param: 5) resulted in 5 clusters
+2025-07-13 18:15:03,130 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,133 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:03,134 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_5.csv'
+2025-07-13 18:15:03,134 - standalone_runner - INFO - Running clustering: kmeans_manual with param 6
+2025-07-13 18:15:03,142 - clustering - INFO - K-Means clustering completed with 6 clusters
+2025-07-13 18:15:03,143 - clustering - INFO - Clustering with kmeans_manual (param: 6) resulted in 6 clusters
+2025-07-13 18:15:03,143 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,155 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:03,156 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_6.csv'
+2025-07-13 18:15:03,157 - standalone_runner - INFO - Running clustering: kmeans_manual with param 7
+2025-07-13 18:15:03,159 - clustering - INFO - K-Means clustering completed with 7 clusters
+2025-07-13 18:15:03,159 - clustering - INFO - Clustering with kmeans_manual (param: 7) resulted in 7 clusters
+2025-07-13 18:15:03,159 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,162 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:03,162 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_7.csv'
+2025-07-13 18:15:03,162 - standalone_runner - INFO - Running clustering: kmeans_auto with param None
+2025-07-13 18:15:03,287 - clustering - INFO - Optimal K-Means clusters: 3, Score: 0.2291
+2025-07-13 18:15:03,288 - clustering - INFO - K-Means clustering completed with 3 clusters
+2025-07-13 18:15:03,288 - clustering - INFO - Clustering with kmeans_auto (param: None) resulted in 3 clusters
+2025-07-13 18:15:03,288 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,293 - evaluation - INFO - Added experiment result: clustering_only - kmeans_auto
+2025-07-13 18:15:03,295 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_auto_param_None.csv'
+2025-07-13 18:15:03,295 - standalone_runner - INFO - Running clustering: hierarchical with param 0.8
+2025-07-13 18:15:03,309 - clustering - INFO - Hierarchical clustering completed with 74 clusters (threshold: 0.8)
+2025-07-13 18:15:03,309 - clustering - INFO - Clustering with hierarchical (param: 0.8) resulted in 74 clusters
+2025-07-13 18:15:03,309 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,312 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:03,314 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_0.8.csv'
+2025-07-13 18:15:03,314 - standalone_runner - INFO - Running clustering: hierarchical with param 1.0
+2025-07-13 18:15:03,314 - clustering - INFO - Hierarchical clustering completed with 6 clusters (threshold: 1.0)
+2025-07-13 18:15:03,314 - clustering - INFO - Clustering with hierarchical (param: 1.0) resulted in 6 clusters
+2025-07-13 18:15:03,315 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,316 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:03,317 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_1.0.csv'
+2025-07-13 18:15:03,317 - standalone_runner - INFO - Running clustering: hierarchical with param 1.2
+2025-07-13 18:15:03,318 - clustering - INFO - Hierarchical clustering completed with 1 clusters (threshold: 1.2)
+2025-07-13 18:15:03,318 - clustering - INFO - Clustering with hierarchical (param: 1.2) resulted in 1 clusters
+2025-07-13 18:15:03,318 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,322 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:03,323 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_1.2.csv'
+2025-07-13 18:15:03,323 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.5, 5)
+2025-07-13 18:15:03,326 - clustering - INFO - DBSCAN clustering completed with 1 clusters (eps: 0.5, min_samples: 5, noise points: 97)
+2025-07-13 18:15:03,326 - clustering - INFO - Clustering with dbscan_manual (param: (0.5, 5)) resulted in 1 clusters
+2025-07-13 18:15:03,326 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,326 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:03,327 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.5, 5).csv'
+2025-07-13 18:15:03,327 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.6, 5)
+2025-07-13 18:15:03,328 - clustering - INFO - DBSCAN clustering completed with 2 clusters (eps: 0.6, min_samples: 5, noise points: 89)
+2025-07-13 18:15:03,328 - clustering - INFO - Clustering with dbscan_manual (param: (0.6, 5)) resulted in 2 clusters
+2025-07-13 18:15:03,328 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,329 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:03,329 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.6, 5).csv'
+2025-07-13 18:15:03,329 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.7, 5)
+2025-07-13 18:15:03,330 - clustering - INFO - DBSCAN clustering completed with 2 clusters (eps: 0.7, min_samples: 5, noise points: 83)
+2025-07-13 18:15:03,330 - clustering - INFO - Clustering with dbscan_manual (param: (0.7, 5)) resulted in 2 clusters
+2025-07-13 18:15:03,330 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,331 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:03,331 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.7, 5).csv'
+2025-07-13 18:15:03,331 - standalone_runner - INFO - Running clustering: dbscan_auto with param None
+2025-07-13 18:15:03,332 - clustering - INFO - Optimal DBSCAN eps: 0.42607763483565697
+2025-07-13 18:15:03,334 - clustering - INFO - DBSCAN clustering completed with 1 clusters (eps: 0.42607763483565697, min_samples: 5, noise points: 104)
+2025-07-13 18:15:03,334 - clustering - INFO - Clustering with dbscan_auto (param: None) resulted in 1 clusters
+2025-07-13 18:15:03,334 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:03,335 - evaluation - INFO - Added experiment result: clustering_only - dbscan_auto
+2025-07-13 18:15:03,336 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_auto_param_None.csv'
+2025-07-13 18:15:03,336 - standalone_runner - INFO - Processing with feature method: sentence_transformer
+2025-07-13 18:15:03,337 - features - INFO - Starting feature processing with method: sentence_transformer
+2025-07-13 18:15:03,370 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-07-13 18:15:03,370 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 18:15:09,926 - features - INFO - Loaded SentenceTransformer model: all-MiniLM-L6-v2
+2025-07-13 18:15:10,554 - features - INFO - SentenceTransformer feature extraction completed. Shape: (113, 384)
+2025-07-13 18:15:10,555 - features - INFO - Extracted structured features for 113 tables
+2025-07-13 18:15:10,556 - features - INFO - Combined features shape: (113, 393)
+2025-07-13 18:15:10,560 - features - INFO - PCA applied: (113, 393) -> (113, 100), explained variance: 1.000
+2025-07-13 18:15:10,561 - features - INFO - Feature processing completed. Final shape: (113, 100)
+2025-07-13 18:15:10,561 - standalone_runner - INFO - Running clustering: kmeans_manual with param 3
+2025-07-13 18:15:10,588 - clustering - INFO - K-Means clustering completed with 3 clusters
+2025-07-13 18:15:10,588 - clustering - INFO - Clustering with kmeans_manual (param: 3) resulted in 3 clusters
+2025-07-13 18:15:10,589 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,598 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:10,598 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_3.csv'
+2025-07-13 18:15:10,598 - standalone_runner - INFO - Running clustering: kmeans_manual with param 4
+2025-07-13 18:15:10,612 - clustering - INFO - K-Means clustering completed with 4 clusters
+2025-07-13 18:15:10,612 - clustering - INFO - Clustering with kmeans_manual (param: 4) resulted in 4 clusters
+2025-07-13 18:15:10,612 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,614 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:10,614 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_4.csv'
+2025-07-13 18:15:10,614 - standalone_runner - INFO - Running clustering: kmeans_manual with param 5
+2025-07-13 18:15:10,615 - clustering - INFO - K-Means clustering completed with 5 clusters
+2025-07-13 18:15:10,615 - clustering - INFO - Clustering with kmeans_manual (param: 5) resulted in 5 clusters
+2025-07-13 18:15:10,615 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,617 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:10,619 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_5.csv'
+2025-07-13 18:15:10,619 - standalone_runner - INFO - Running clustering: kmeans_manual with param 6
+2025-07-13 18:15:10,633 - clustering - INFO - K-Means clustering completed with 6 clusters
+2025-07-13 18:15:10,633 - clustering - INFO - Clustering with kmeans_manual (param: 6) resulted in 6 clusters
+2025-07-13 18:15:10,633 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,635 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:10,635 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_6.csv'
+2025-07-13 18:15:10,635 - standalone_runner - INFO - Running clustering: kmeans_manual with param 7
+2025-07-13 18:15:10,636 - clustering - INFO - K-Means clustering completed with 7 clusters
+2025-07-13 18:15:10,636 - clustering - INFO - Clustering with kmeans_manual (param: 7) resulted in 7 clusters
+2025-07-13 18:15:10,636 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,638 - evaluation - INFO - Added experiment result: clustering_only - kmeans_manual
+2025-07-13 18:15:10,639 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_param_7.csv'
+2025-07-13 18:15:10,641 - standalone_runner - INFO - Running clustering: kmeans_auto with param None
+2025-07-13 18:15:10,834 - clustering - INFO - Optimal K-Means clusters: 6, Score: 0.4036
+2025-07-13 18:15:10,834 - clustering - INFO - K-Means clustering completed with 6 clusters
+2025-07-13 18:15:10,834 - clustering - INFO - Clustering with kmeans_auto (param: None) resulted in 6 clusters
+2025-07-13 18:15:10,835 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,836 - evaluation - INFO - Added experiment result: clustering_only - kmeans_auto
+2025-07-13 18:15:10,837 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_auto_param_None.csv'
+2025-07-13 18:15:10,837 - standalone_runner - INFO - Running clustering: hierarchical with param 0.8
+2025-07-13 18:15:10,838 - clustering - INFO - Hierarchical clustering completed with 10 clusters (threshold: 0.8)
+2025-07-13 18:15:10,838 - clustering - INFO - Clustering with hierarchical (param: 0.8) resulted in 10 clusters
+2025-07-13 18:15:10,838 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,839 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:10,840 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_0.8.csv'
+2025-07-13 18:15:10,840 - standalone_runner - INFO - Running clustering: hierarchical with param 1.0
+2025-07-13 18:15:10,840 - clustering - INFO - Hierarchical clustering completed with 4 clusters (threshold: 1.0)
+2025-07-13 18:15:10,840 - clustering - INFO - Clustering with hierarchical (param: 1.0) resulted in 4 clusters
+2025-07-13 18:15:10,840 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,842 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:10,842 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_1.0.csv'
+2025-07-13 18:15:10,842 - standalone_runner - INFO - Running clustering: hierarchical with param 1.2
+2025-07-13 18:15:10,843 - clustering - INFO - Hierarchical clustering completed with 2 clusters (threshold: 1.2)
+2025-07-13 18:15:10,843 - clustering - INFO - Clustering with hierarchical (param: 1.2) resulted in 2 clusters
+2025-07-13 18:15:10,843 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,844 - evaluation - INFO - Added experiment result: clustering_only - hierarchical
+2025-07-13 18:15:10,845 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_hierarchical_param_1.2.csv'
+2025-07-13 18:15:10,845 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.5, 5)
+2025-07-13 18:15:10,845 - clustering - INFO - DBSCAN clustering completed with 5 clusters (eps: 0.5, min_samples: 5, noise points: 16)
+2025-07-13 18:15:10,845 - clustering - INFO - Clustering with dbscan_manual (param: (0.5, 5)) resulted in 5 clusters
+2025-07-13 18:15:10,846 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,847 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:10,847 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.5, 5).csv'
+2025-07-13 18:15:10,847 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.6, 5)
+2025-07-13 18:15:10,848 - clustering - INFO - DBSCAN clustering completed with 5 clusters (eps: 0.6, min_samples: 5, noise points: 12)
+2025-07-13 18:15:10,848 - clustering - INFO - Clustering with dbscan_manual (param: (0.6, 5)) resulted in 5 clusters
+2025-07-13 18:15:10,848 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,850 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:10,850 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.6, 5).csv'
+2025-07-13 18:15:10,850 - standalone_runner - INFO - Running clustering: dbscan_manual with param (0.7, 5)
+2025-07-13 18:15:10,851 - clustering - INFO - DBSCAN clustering completed with 4 clusters (eps: 0.7, min_samples: 5, noise points: 10)
+2025-07-13 18:15:10,851 - clustering - INFO - Clustering with dbscan_manual (param: (0.7, 5)) resulted in 4 clusters
+2025-07-13 18:15:10,851 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,852 - evaluation - INFO - Added experiment result: clustering_only - dbscan_manual
+2025-07-13 18:15:10,853 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_manual_param_(0.7, 5).csv'
+2025-07-13 18:15:10,853 - standalone_runner - INFO - Running clustering: dbscan_auto with param None
+2025-07-13 18:15:10,853 - clustering - INFO - Optimal DBSCAN eps: 0.7433139396284911
+2025-07-13 18:15:10,854 - clustering - INFO - DBSCAN clustering completed with 4 clusters (eps: 0.7433139396284911, min_samples: 5, noise points: 8)
+2025-07-13 18:15:10,854 - clustering - INFO - Clustering with dbscan_auto (param: None) resulted in 4 clusters
+2025-07-13 18:15:10,854 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 18:15:10,855 - evaluation - INFO - Added experiment result: clustering_only - dbscan_auto
+2025-07-13 18:15:10,856 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_dbscan_auto_param_None.csv'
+2025-07-13 18:15:10,856 - __main__ - INFO - 生成合并模式...
+2025-07-13 18:15:10,856 - database - INFO - Loading 114 JSON files
+2025-07-13 18:15:10,861 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 18:15:10,861 - standalone_runner - INFO - Generating merged table schemas from best results
+2025-07-13 18:15:10,862 - table_merger - INFO - Selected 7 best experiments for schema merging
+2025-07-13 18:15:10,862 - standalone_runner - INFO - Reconstructed 5 clusters from groupings_dbscan_manual_param_(0.5, 5).csv
+2025-07-13 18:15:10,863 - table_merger - INFO - Created 5 merged schemas from 5 clusters
+2025-07-13 18:15:10,864 - table_merger - INFO - Saved merged schemas to: ./merged_schemas/merged_schemas_dbscan_manual_tfidf_param(0.5, 5).json
+2025-07-13 18:15:10,864 - table_merger - INFO - Created merge summary report: ./data/merge_summary_dbscan_manual_param(0.5, 5).txt
+2025-07-13 18:15:10,864 - standalone_runner - INFO - Reconstructed 5 clusters from groupings_dbscan_manual_param_(0.6, 5).csv
+2025-07-13 18:15:10,865 - table_merger - INFO - Created 5 merged schemas from 5 clusters
+2025-07-13 18:15:10,866 - table_merger - INFO - Saved merged schemas to: ./merged_schemas/merged_schemas_dbscan_manual_tfidf_param(0.6, 5).json
+2025-07-13 18:15:10,867 - table_merger - INFO - Created merge summary report: ./data/merge_summary_dbscan_manual_param(0.6, 5).txt
+2025-07-13 18:15:10,867 - standalone_runner - INFO - Reconstructed 4 clusters from groupings_dbscan_manual_param_(0.7, 5).csv
+2025-07-13 18:15:10,868 - table_merger - INFO - Created 4 merged schemas from 4 clusters
+2025-07-13 18:15:10,869 - table_merger - INFO - Saved merged schemas to: ./merged_schemas/merged_schemas_dbscan_manual_tfidf_param(0.7, 5).json
+2025-07-13 18:15:10,869 - table_merger - INFO - Created merge summary report: ./data/merge_summary_dbscan_manual_param(0.7, 5).txt
+2025-07-13 18:15:10,869 - standalone_runner - INFO - Schema merging completed successfully
+2025-07-13 18:15:10,869 - standalone_runner - INFO - Generating analysis reports
+2025-07-13 18:15:10,870 - evaluation - INFO - Saved 26 experiment results to './analysis_outputs/evaluation_results_standalone.csv'
+2025-07-13 18:15:10,871 - evaluation - INFO - Saved experiment summary to './analysis_outputs/experiment_summary.json'
+2025-07-13 18:15:10,871 - evaluation - INFO - Evaluation finalized successfully
+2025-07-13 18:15:10,871 - standalone_runner - INFO - Similarity cache statistics: {'cache_size': 24, 'cache_file': './data/similarity_cache.json'}
+2025-07-13 18:15:10,871 - standalone_runner - INFO - Reports generated successfully
+2025-07-13 18:15:10,871 - __main__ - INFO - ✅ 纯缓存模式分析完成!
+2025-07-13 18:15:10,871 - __main__ - INFO - 📊 缓存统计: {'cache_size': 24, 'cache_file': './data/similarity_cache.json'}

@@ -1,0 +1,175 @@
+{
+    "table_name": "ASR_2016",
+    "structure": [
+        {
+            "name": "exemptn_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_of_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mfr_aware_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_prob_cd",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_year",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_qtr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "impl_avail_for_eval",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "impl_ret_to_mfr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "exemptn_no": "2002003",
+            "mfr_no": "2025525",
+            "mfr_name": "MALLINCKRODT INC",
+            "report_id": "RX2016010027",
+            "date_of_event": null,
+            "mfr_aware_date": "02/04/2016",
+            "event_type": "M",
+            "dev_prob_cd": "1142",
+            "report_year": "2016",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "740",
+            "product_code": "CBK",
+            "brand_name": "740 VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        },
+        {
+            "exemptn_no": "2002003",
+            "mfr_no": "2025525",
+            "mfr_name": "MALLINCKRODT INC",
+            "report_id": "RX2016010029",
+            "date_of_event": null,
+            "mfr_aware_date": "02/04/2016",
+            "event_type": "M",
+            "dev_prob_cd": "1142",
+            "report_year": "2016",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "740",
+            "product_code": "CBK",
+            "brand_name": "740 VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        },
+        {
+            "exemptn_no": "2002003",
+            "mfr_no": "2025525",
+            "mfr_name": "MALLINCKRODT INC",
+            "report_id": "RX2016010051",
+            "date_of_event": null,
+            "mfr_aware_date": "02/04/2016",
+            "event_type": "M",
+            "dev_prob_cd": "1142",
+            "report_year": "2016",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "740",
+            "product_code": "CBK",
+            "brand_name": "740 VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
+        }
+    ]
+}

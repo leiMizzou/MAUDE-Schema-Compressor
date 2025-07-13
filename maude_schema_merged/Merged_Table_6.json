@@ -2,165 +2,72 @@
     "table_name": "Merged_Table_6",
     "structure": [
         {
-            "name": "access_type_and_number",
+            "name": "mdr_report_key",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "date_received",
+            "name": "mdr_text_key",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "product_description",
+            "name": "text_type_code",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_name_code",
+            "name": "patient_sequence_number",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_name",
+            "name": "date_report",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "street_address",
+            "name": "foi_text",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "city",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "state",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "zipcode",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "report_type",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "model_number",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "catalog_number",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "fda_panel_code",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "fda_product_code",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "event_description_type",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "event_description",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "closeout_text",
-            "type": "TEXT",
+            "name": "foi_text_json",
+            "type": "JSON",
             "nullable": true,
             "default": null
         }
     ],
     "sample_data": [
         {
-            "access_type_and_number": "M704613",
-            "date_received": "03/06/96",
-            "product_description": "INFLATABLE PENILE PROSTHESIS",
-            "manufacturer_name_code": "AMERMEDISYST",
-            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS, INC.",
-            "street_address": "11001 BREN ROAD EAST",
-            "city": "MINNETONKA",
-            "state": "MN",
-            "zipcode": "55343",
-            "report_type": "SERIOUS INJURY",
-            "model_number": "700",
-            "catalog_number": null,
-            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
-            "fda_product_code": "FHW",
-            "event_description_type": "FINAL",
-            "event_description": "LEAK IN THE OUTER SILICONE SLEEVE RESULTING IN TISSUE INGROWTH INTO FABRIC, AND A VERY DIFFICULT REMOVAL. THE ENTIRE DEVICE WAS REMOVED FROM THE PT. MALE PT WITH DOB 5/19/42. OTHER RELEVANT HISTORY: DIABETES MELLITUS. IMPLANT DATE 5/31/91. EXPLANT DATE 4/4/95.",
-            "closeout_text": "THESE TYPES OF EVENTS USUALLY INVOLVE KNOWN COMPLICATIONS THAT DO NOT JUSTIFY IMMEDIATE ACTION OR REVIEW OF THE INDIVIUAL REPORT. HOWEVER, THE EVENT AND OTHER SIMILAR EVENTS ARE AVAILABLE FOR FURTHER STATISTICAL ANALYSIS AND MONITORING. "
+            "mdr_report_key": "3546763",
+            "mdr_text_key": "3975489",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE CATHETER WAS FOUND TO BE CLOGGED UP AT THE END VIA MRI. THE CATHETER HAD REPORTEDLY BEEN CLOGGED FOR A WHILE AND THE PATIENT HAD GONE THROUGH PAIN AND WITHDRAWAL. IT WAS INDICATED THAT THE HEALTHCARE PROVIDER (HCP) HAD TOLD THE PATIENT THAT HE WOULD NOT NEED TO HAVE SURGERY. THEY WANTED TO DRAIN ALL OF THE MORPHINE OUT OF THE PUMP AND CATHETER TO PUT A SALINE SOLUTION IN. THE PUMP WOULD BE LEFT TO PUSH THE SALINE SOLUTION THROUGH FOR ABOUT FOUR MONTHS. IT WAS STATED THAT THE PATIENT HAD BEEN ON 18MG/DAY AND WAS WONDERING IF IT WOULD BE ADEQUATE TO TAKE 90MG ORALLY. HE WAS FIRST GIVEN ORAL DILAUDID, BUT IT MADE HIM SICK TO HIS STOMACH. IT WAS NOTED TO BE POWERFUL AND EVERYBODY¿S PLUMBING IS DIFFERENT, BUT IT DIDN¿T WORK FOR HIM. THE PATIENT WAS THEN GIVEN MORPHINE SULFATE, WHICH WAS THE SAME DRUG THAT WAS IN THE PUMP. HE HAD BEEN STARTED ON 15MG TABLETS, BUT WAS LATER GIVEN 30MG TABLETS. THE REPORTER STATED THAT SOMETHING HAD TO BE GETTING THROUGH, BECAUSE THE PATIENT WAS NOT TAKING THAT MANY OF THE MORPHINE SULFATE (MS) PILLS. IT WAS NOTED THAT THE PATIENT WAS WORRIED ABOUT OVERDOSING. IT WAS INDICATED THAT IT HAD BEEN GOING ON FOR PRETTY CLOSE TO A MONTH, IF NOT A MONTH AND A HALF; HOWEVER, IT WAS UNCLEAR WHAT THE REPORTER WAS REFERRING TO. THE REPORTER THOUGHT THE PATIENT MIGHT BE PUT ON 90MG/DAY AND THE PATIENT DID NOT WANT TO GO THROUGH THAT EVER AGAIN. IT WAS STATED THAT THE PATIENT FELT HE SHOULD BE RECOVERED AT THE TIME OF REPORT. THE PATIENT WAS DISABLED AND ¿NOT A PRODUCTIVE MEMBER OF SOCIETY¿. HE DIDN¿T KNOW HOW THEY WERE ¿WORKING THEIR THINGS.¿ THREE DAYS LATER, IT WAS REPORTED THAT THERE WAS A GRANULOMA AT THE TIP OF THE CATHETER. THE PATIENT WOULD BE COVERED WITH ORAL MEDICATIONS FOR AROUND FOUR MONTHS AND WOULD THEN HAVE A REPEAT MRI. THE PUMP HAD BEEN FILLED WITH SALINE ON (B)(6) 2013."
         },
         {
-            "access_type_and_number": "M409885",
-            "date_received": "03/06/96",
-            "product_description": "SELF CONTAINED PENILE PROSTHESIS",
-            "manufacturer_name_code": "AMERMEDISYST",
-            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
-            "street_address": "11001 BREN ROAD EAST",
-            "city": "MINNETONKA",
-            "state": "MN",
-            "zipcode": "55343",
-            "report_type": "SERIOUS INJURY",
-            "model_number": "DYNAFLEX",
-            "catalog_number": null,
-            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
-            "fda_product_code": "FHW",
-            "event_description_type": "FINAL",
-            "event_description": "THIS MALE PT HAS A HISTORY OF DIABETES. HIS DOB IS 6/25/32. HE WAS IMPLANTED WITH A DEVICE ON 9/2/93. INFO RECEIVED ON 9/22/93 INDICATES, AN \"INFECTION.\" THE ENTIRE DEVICE WAS REMOVED FROM THE PT ON 9/14/93.",
-            "closeout_text": " "
+            "mdr_report_key": "1286666",
+            "mdr_text_key": "980679",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE CALLER REPORTED THAT THE MOM IS USING A SIZE 14FR SUCTION CATHETER WHICH SHE HAS A DOCTOR'S ORDER FOR. THE CALLER REPORTED THAT THE SUCTION CATHETER IS TIGHT. THE CALLER REPORTED THAT THE TRACHEOSTOMY TUBE WAS REMOVED THE FOLLOWING DAY AND REPLACED WITH A NEW 5.0PED TRACHEOSTOMY TUBE THAT PASSES THE 14FR SUCTION CATHETER."
         },
         {
-            "access_type_and_number": "M153268",
-            "date_received": "05/06/89",
-            "product_description": "VALLEYLAB ELECTROSURGICAL GENERATOR",
-            "manufacturer_name_code": "VALLEYLAB",
-            "manufacturer_name": "VALLEYLAB, INC.",
-            "street_address": "5920 LONGBOW DRIVE",
-            "city": "BOULDER",
-            "state": "CO",
-            "zipcode": "80301",
-            "report_type": "MALFUNCTION",
-            "model_number": "FORCE 2-20PC",
-            "catalog_number": "FORCE 2",
-            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
-            "fda_product_code": "GEI",
-            "event_description_type": "FINAL",
-            "event_description": "THE DIGITAL DISPLAY WAS NOTED TO INCREASE SPONTANEOUSLY FROM A SETTING OF 30 TO 150 WATTS AND TO CHANGE FROM A \"STAND-BY\" MODE TO \"READY\" MODE. THE GENERATOR WAS IN THE OPERATING ROOM BUT NOT IN USE.",
-            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+            "mdr_report_key": "7090002",
+            "mdr_text_key": "100001150",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
         }
     ]
 }

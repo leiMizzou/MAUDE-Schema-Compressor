@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2020",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "9537171",
+            "mdr_text_key": "173269159",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE RESULTS OF THE INVESTIGATION ARE INCONCLUSIVE SINCE THE DEVICE WAS NOT RETURNED FOR ANALYSIS. BASED ON THE INFORMATION RECEIVED, THE CAUSE OF THE REPORTED INCIDENT COULD NOT BE CONCLUSIVELY DETERMINED. FURTHER INFORMATION WAS REQUESTED BUT NOT RECEIVED."
+        },
+        {
+            "mdr_report_key": "9537171",
+            "mdr_text_key": "173269160",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE PATIENT EXPIRED. THERE IS NO KNOWN ALLEGATION FROM A HEALTH PROFESSIONAL THAT SUGGESTS THE DEATH WAS RELATED TO THE DEVICE. IT WAS REPORTED THAT THE CAUSE OF DEATH IS UNKNOWN. IT WAS FURTHER NOTED THAT THE PATIENT WAS SHOCKED FROM THE DEVICE. IT IS UNKNOWN IF THE SHOCK WAS APPROPRIATE OR NOT."
+        },
+        {
+            "mdr_report_key": "9537125",
+            "mdr_text_key": "173269515",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "INVESTIGATION RESULTS WILL BE PROVIDED IN THE FINAL REPORT."
+        }
+    ]
+}

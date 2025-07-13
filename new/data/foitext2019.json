@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2019",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "7491296",
+            "mdr_text_key": "107502815",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PUMP PASSED THE IDLE CURRENT MEASUREMENT TEST, RUN CURRENT MEASUREMENT TEST, SELF TEST, OFF NO POWER TEST, UNEXPECTED ALARM ERROR TEST, DISPLACEMENT TEST AND REWIND TEST. HOWEVER, MOTOR ERROR ALARM DURING THE BASIC OCCLUSION TEST AND PUMP UNABLE TO PRIME DURING THE PRIME TEST DUE TO LOOSE/PROTRUDED DRIVE SUPPORT DISK. UNABLE TO PERFORM THE OCCLUSION TEST, EXCESSIVE NO DELIVERY TEST AND DISPLACEMENT ACCURACY TEST DUE TO MOTOR ERROR ALARM AND PUMP UNABLE TO PRIME. UNABLE TO PERFORM THE MOTOR TEST DUE TO PUMP PRESERVATION. PUMP RECEIVED WITH NO BATTERY INSTALLED. PUMP RECEIVED WITH CRACKED RESERVOIR TUBE LIP, STAINED END CAP STICKER, STAINED BACK ADDRESS LABEL, SCRATCHED RESERVOIR TUBE WINDOW AND MINOR SCRATCHED LCD WINDOW. DATA ANALYSIS: THE DATE OF DEATH WAS NOT SPECIFIED. THERE IS NO DATA LISTED DUE TO PUMP RECEIVED WITHOUT BATTERY INSTALLED."
+        },
+        {
+            "mdr_report_key": "7491296",
+            "mdr_text_key": "107502816",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE CUSTOMER PASSED AWAY IN AN UNKNOWN LOCATION. THE CAUSE OF DEATH WAS UNKNOWN, BUT THERE WAS NO INDICATION THAT A MEDTRONIC PRODUCT CAUSED OR CONTRIBUTED TO THE CUSTOMER'S PASSING. THE NOTIFIER DID NOT STATE WHETHER THE CUSTOMER HAD ANY ILLNESSES THAT MAY HAVE LED TO THE CUSTOMER'S PASSING. THE CUSTOMER¿S BLOOD GLUCOSE WAS UNKNOWN AT THE TIME OF DEATH. IT IS UNKNOWN IF THE CUSTOMER WAS WEARING THE INSULIN PUMP AT THE TIME OF DEATH. IT IS UNKNOWN IF THE CUSTOMER WAS USING SENSORS. NO FURTHER INFORMATION WAS PROVIDED. THE PUMP WAS RETURNED FOR ANALYSIS. THE PUMP ALARMED MOTOR ERROR ALARM DURING THE BASIC OCCLUSION TEST, AND THE PUMP WAS UNABLE TO PRIME DURING THE PRIME/A33 TEST DUE TO LOOSE/PROTRUDED DRIVE SUPPORT DISK."
+        },
+        {
+            "mdr_report_key": "7811695",
+            "mdr_text_key": "118401124",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE CORD WAS NOT RETURNED TO OLYMPUS FOR EVALUATION. OLYMPUS FOLLOWED UP WITH THE USER FACILITY REGARDING THE REPORTED EVENT AND WAS INFORMED THAT THE CORD HAS BEEN IN SERVICE SINCE THE END OF (B)(6) 2014. THE EXACT CAUSE OF THE REPORTED EVENT CANNOT BE DETERMINED AT THIS TIME. IN A EFFORT MITIGATE THIS TYPE OF CORD DAMAGE THE IFU WAS UPDATED FEBRUARY 20, 2018 AND WARNS USERS\" THIS PRODUCT HAS A RESTRICTED SERVICE LIFE. DO NOT USE THE CABLE FOR A PERIOD OF MORE THAN ONE YEAR. USING THE CABLE BEYOND ONE YEAR MAY BE HAZARDOUS. DO NOT PULL ON THE CORD WHEN UNPLUGGING IT. ONLY PULL ON THE PLUG. PULLING ON THE CORD COULD CAUSE DAMAGE THAT MAY BE HAZARDOUS.\""
+        }
+    ]
+}

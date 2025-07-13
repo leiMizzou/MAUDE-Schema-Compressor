@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2023",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "16081305",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2023/01/01",
+            "brand_name": "DUODOPA_DUOPA",
+            "generic_name": "TUBES, GASTROINTESTINAL (AND ACCESSORIES)",
+            "manufacturer_d_name": "ABBVIE MEDICAL DEVICE CENTRE",
+            "manufacturer_d_address_1": "1675 SOUTH LAKESIDE DRIVE",
+            "manufacturer_d_address_2": "WAUKEGAN",
+            "manufacturer_d_city": "WAUKEGAN",
+            "manufacturer_d_state_code": "IL",
+            "manufacturer_d_zip_code": "60085",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "60085",
+            "device_operator": "0LP",
+            "expiration_date_of_device": "2020/02/29",
+            "model_number": null,
+            "catalog_number": "062945",
+            "lot_number": "32384386",
+            "other_id_number": null,
+            "device_availability": "*",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "KNT",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "16081306",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2023/01/01",
+            "brand_name": "DUODOPA_DUOPA",
+            "generic_name": "TUBES, GASTROINTESTINAL (AND ACCESSORIES)",
+            "manufacturer_d_name": "ABBVIE MEDICAL DEVICE CENTRE",
+            "manufacturer_d_address_1": "1675 SOUTH LAKESIDE DRIVE",
+            "manufacturer_d_address_2": "WAUKEGAN",
+            "manufacturer_d_city": "WAUKEGAN",
+            "manufacturer_d_state_code": "IL",
+            "manufacturer_d_zip_code": "60085",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "60085",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "062941",
+            "lot_number": "32051301",
+            "other_id_number": null,
+            "device_availability": "*",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "KNT",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "16081307",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2023/01/01",
+            "brand_name": "DUODOPA_DUOPA",
+            "generic_name": "TUBES, GASTROINTESTINAL (AND ACCESSORIES)",
+            "manufacturer_d_name": "ABBVIE MEDICAL DEVICE CENTRE",
+            "manufacturer_d_address_1": "1675 SOUTH LAKESIDE DRIVE",
+            "manufacturer_d_address_2": "WAUKEGAN",
+            "manufacturer_d_city": "WAUKEGAN",
+            "manufacturer_d_state_code": "IL",
+            "manufacturer_d_zip_code": "60085",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "60085",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "062910",
+            "lot_number": "UNKNOWN",
+            "other_id_number": null,
+            "device_availability": "*",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "KNT",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

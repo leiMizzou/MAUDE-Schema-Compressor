@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr94",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "V455927",
+            "date_received": "01/03/94",
+            "product_description": "DIASCAN",
+            "manufacturer_name_code": "HOMEDIAG",
+            "manufacturer_name": "HOME DIAGNOSTICS, INC.",
+            "street_address": "51 JAMES WAY",
+            "city": "EATONTOWN",
+            "state": "NJ",
+            "zipcode": "07724",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "1250",
+            "catalog_number": "1250",
+            "fda_panel_code": "CLINICAL CHEMISTRY",
+            "fda_product_code": "CFR",
+            "event_description_type": "PRELIMINARY",
+            "event_description": "ON 12/28/93, A BRITTLE DIABETIC WITH A HISTORY OF AN EATING DISORDER HAD A FASTING BLOOD SUGAR FROM THE LAB OF 644 MG/DL IN THE MORNING. PT WAS GIVEN NORMAL MORNING MICRONASE. IN THE EVENING THE PT'S BLOOD SUGAR ON THE METER WAS 64 MG/DL AND EVENING INSULIN WAS HELD. THE NEXT MORNING THE PT'S BLOOD SUGAR WAS 71 MG/DL. LATER THE PT WAS TAKEN TO THE HOSP WHERE THE LAB REPORTED A BLOOD SUGAR OF 1132 MG/DL. THE PT WAS ADMITTED IN A COMA WITH A DIAGNOSIS OF HYPERGLYCEMIA AND BETA STREP PNEUMONIA.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M455947",
+            "date_received": "01/03/94",
+            "product_description": "SELF CONTAINED PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "DYNAFLEX",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PT HAS A HISTORY OF DIABETES. HIS DOB IS 9/11/34. HE WAS IMPLANTED WITH A DEVICE ON 10/16/92. THE REAR TIP EXTENDERS WERE REVISED ON 4/16/93. INFO RECEIVED FROM THE DR ON 12/30/93, INDICATES, AN \"INFECTION.\" THE DEVICE WAS REMOVED FROM THE PT ON 4/20/93.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M455949",
+            "date_received": "01/03/94",
+            "product_description": "ARTIFICIAL URINARY SPHINCTER",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "800",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "EZY",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PT HAS A NON-NEUROGENIC DISORDER. HIS DOB IS 10/7/11. HE WAS IMPLANTED WITH A DEVICE ON 5/8/91. INFO RECEIVED FROM THE DR ON 12/29/93, INDICATES, AN \"INFECTION.\" THE ENTIRE DEVICE WAS REMOVED FROM THE PT ON 12/29/93. ADD'L SERIAL NUMBER 9841L008.",
+            "closeout_text": " "
+        }
+    ]
+}

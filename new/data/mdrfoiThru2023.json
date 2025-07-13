@@ -1,0 +1,751 @@
+{
+    "table_name": "mdrfoiThru2023",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_source_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_link_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_devices_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_patients_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "adverse_event_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_problem_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_of_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reprocessed_and_reused_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_occupation_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "health_professional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_facility_aware",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_location",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_t_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_f_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_l_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_country",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_postal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_area_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_exchange",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_phone_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_extension",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcountry",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcity",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_plocal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_manufacturer_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_date_of_manufacture",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "single_use_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "remedial_action",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "previous_use_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "removal_correction_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "type_of_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "source_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_added",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_changed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "pma_pmn_num",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "exemption_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "summary_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "noe_summarized",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "10",
+            "event_key": null,
+            "report_number": "10",
+            "report_source_code": "U",
+            "manufacturer_link_flag": "N",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "03/10/1992",
+            "adverse_event_flag": "Y",
+            "product_problem_flag": "N",
+            "date_report": "02/21/1992",
+            "date_of_event": "02/20/1992",
+            "reprocessed_and_reused_flag": null,
+            "reporter_occupation_code": null,
+            "health_professional": null,
+            "initial_report_to_fda": null,
+            "date_facility_aware": "1992/02/20 00:00:00.000",
+            "report_date": "02/21/1992",
+            "report_to_fda": "Y",
+            "date_report_to_fda": "02/21/1992",
+            "event_location": "001",
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": null,
+            "manufacturer_contact_l_name": null,
+            "manufacturer_contact_street_1": null,
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": null,
+            "manufacturer_contact_state": null,
+            "manufacturer_contact_zip_code": null,
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": null,
+            "manufacturer_contact_postal": null,
+            "manufacturer_contact_area_code": null,
+            "manufacturer_contact_exchange": null,
+            "manufacturer_contact_phone_no": null,
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": null,
+            "manufacturer_contact_plocal": null,
+            "manufacturer_g1_name": null,
+            "manufacturer_g1_street_1": null,
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": null,
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": null,
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": null,
+            "device_date_of_manufacture": null,
+            "single_use_flag": null,
+            "remedial_action": null,
+            "previous_use_code": null,
+            "removal_correction_number": null,
+            "event_type": "IN",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I",
+            "source_type": null,
+            "date_added": "03/19/1992",
+            "date_changed": "06/23/2020",
+            "reporter_country_code": null,
+            "pma_pmn_num": null,
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "11",
+            "event_key": null,
+            "report_number": "11",
+            "report_source_code": "U",
+            "manufacturer_link_flag": "N",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "03/10/1992",
+            "adverse_event_flag": "N",
+            "product_problem_flag": "Y",
+            "date_report": "12/12/1991",
+            "date_of_event": "11/28/1991",
+            "reprocessed_and_reused_flag": null,
+            "reporter_occupation_code": null,
+            "health_professional": null,
+            "initial_report_to_fda": null,
+            "date_facility_aware": "1991/11/28 00:00:00.000",
+            "report_date": "12/12/1991",
+            "report_to_fda": "Y",
+            "date_report_to_fda": "12/12/1991",
+            "event_location": "001",
+            "date_report_to_manufacturer": "12/06/1991",
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": null,
+            "manufacturer_contact_l_name": null,
+            "manufacturer_contact_street_1": null,
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": null,
+            "manufacturer_contact_state": null,
+            "manufacturer_contact_zip_code": null,
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": null,
+            "manufacturer_contact_postal": null,
+            "manufacturer_contact_area_code": null,
+            "manufacturer_contact_exchange": null,
+            "manufacturer_contact_phone_no": null,
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": null,
+            "manufacturer_contact_plocal": null,
+            "manufacturer_g1_name": null,
+            "manufacturer_g1_street_1": null,
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": null,
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": null,
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": null,
+            "device_date_of_manufacture": null,
+            "single_use_flag": null,
+            "remedial_action": null,
+            "previous_use_code": null,
+            "removal_correction_number": null,
+            "event_type": "M",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I",
+            "source_type": null,
+            "date_added": "03/19/1992",
+            "date_changed": "03/19/1992",
+            "reporter_country_code": null,
+            "pma_pmn_num": null,
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "12",
+            "event_key": null,
+            "report_number": "12",
+            "report_source_code": "U",
+            "manufacturer_link_flag": "N",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "03/10/1992",
+            "adverse_event_flag": "Y",
+            "product_problem_flag": "N",
+            "date_report": "02/24/1992",
+            "date_of_event": "12/31/1991",
+            "reprocessed_and_reused_flag": null,
+            "reporter_occupation_code": null,
+            "health_professional": null,
+            "initial_report_to_fda": null,
+            "date_facility_aware": "1991/12/31 00:00:00.000",
+            "report_date": "02/24/1992",
+            "report_to_fda": "Y",
+            "date_report_to_fda": "02/24/1992",
+            "event_location": "002",
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": null,
+            "manufacturer_contact_f_name": null,
+            "manufacturer_contact_l_name": null,
+            "manufacturer_contact_street_1": null,
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": null,
+            "manufacturer_contact_state": null,
+            "manufacturer_contact_zip_code": null,
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": null,
+            "manufacturer_contact_postal": null,
+            "manufacturer_contact_area_code": null,
+            "manufacturer_contact_exchange": null,
+            "manufacturer_contact_phone_no": null,
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": null,
+            "manufacturer_contact_plocal": null,
+            "manufacturer_g1_name": null,
+            "manufacturer_g1_street_1": null,
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": null,
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": null,
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": null,
+            "device_date_of_manufacture": null,
+            "single_use_flag": null,
+            "remedial_action": null,
+            "previous_use_code": null,
+            "removal_correction_number": null,
+            "event_type": "IN",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I",
+            "source_type": null,
+            "date_added": "03/19/1992",
+            "date_changed": "03/19/1992",
+            "reporter_country_code": null,
+            "pma_pmn_num": null,
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        }
+    ]
+}

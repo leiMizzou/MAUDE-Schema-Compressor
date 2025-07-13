@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2017",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "7090002",
+            "mdr_text_key": "100001150",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+        },
+        {
+            "mdr_report_key": "6822800",
+            "mdr_text_key": "100001178",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A COMPLETE ANALYSIS AND TESTING OF THE INSULIN PUMP SHOWED THAT IT WAS FUNCTIONING PROPERLY AND PASSED ALL FUNCTIONAL TESTING. AFTER TESTING IT WAS CONCLUDED THAT THE DEVICE OPERATED WITHIN SPECIFICATIONS. PUMP PASSED STOP CURRENT TEST, RUN CURRENT TEST, SELF TEST, OFF NO POWER TEST, TEST AND DISPLACEMENT TEST. UNIT WAS RECEIVED WITH NORMAL OPERATING CURRENTS AND NO UNEXPECTED OFF NO POWER ALARM, LOW BATTERY ALARM OR FAILED BATTERY TEST ALARM NOTED. UNIT WAS RECEIVED WITH CORRODED BATTERY TUBE, CRACKED BATTERY TUBE THREADS, BROKEN BELT CLIP SLOT AT BATTERY TUBE THREADS AREA, CRACKED RESERVOIR TUBE LIP, CRACKED CASE AT DISPLAY WINDOW CORNER, CRACKED LCD WINDOW AND MINOR SCRATCHED LCD WINDOW."
+        },
+        {
+            "mdr_report_key": "6934740",
+            "mdr_text_key": "100001323",
+            "text_type_code": "N",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PRODUCT EVENT SUMMARY: THE DEVICE WAS RETURNED AND ANALYZED. HYBRID PRINTED CIRCUIT BOARD ANALYSIS REVEALED A MANUFACTURING ANOMALY THAT WAS PRESENT AT THE TIME OF MANUFACTURE OF THE BOARD. THE ANOMALY WAS SUBJECTED TO CONTINUOUS BATTERY PLUS VOLTAGE OF APPROXIMATELY 3 VOLTS DURING ITS ENTIRE LIFE CYCLE. THE ANOMALY EVENTUALLY CREATED A RESISTIVE SHORT BETWEEN BATTERY PLUS AND BATTERY MINUS THAT RAPIDLY DEPLETED THE BATTERY. THIS CONCLUSION IS FULLY SUPPORTED BY THE BATTERY VOLTAGE TREND DIAGRAM THAT WAS REMOVED FROM THE DEVICE MEMORY PRIOR TO BATTERY FULLY DEPLETING. THE EXACT CHEMICAL COMPOSITION OF THE ANOMALY WAS NOT DETERMINED. IF INFORMATION IS PROVIDED IN THE FUTURE, A SUPPLEMENTAL REPORT WILL BE ISSUED."
+        }
+    ]
+}

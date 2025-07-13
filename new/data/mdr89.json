@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr89",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M150498",
+            "date_received": "05/16/89",
+            "product_description": "MAXON POLYGLYCONATE SURGICAL SUTURE",
+            "manufacturer_name_code": "DAVIGECK",
+            "manufacturer_name": "DAVIS & GECK INC",
+            "street_address": "47.2 KILOMETER, RT 2",
+            "city": "MANATI",
+            "state": "PR",
+            "zipcode": "00701",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "6267-61",
+            "catalog_number": null,
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "GAM",
+            "event_description_type": "FINAL",
+            "event_description": "PT DEVELOPED TOXIC SHOCK SYNDROME IMMEDIATELY AFTER THE USE OF THE SUTURE. THREE MONTHS POST-OP, INFECTIOUS SYMPTOMS (FEVER) OCCURRED. THE WOUND WAS OPENED AND A SMALL PIECE OF SUTURE MATERIAL WAS REMOVED.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M153268",
+            "date_received": "05/06/89",
+            "product_description": "VALLEYLAB ELECTROSURGICAL GENERATOR",
+            "manufacturer_name_code": "VALLEYLAB",
+            "manufacturer_name": "VALLEYLAB, INC.",
+            "street_address": "5920 LONGBOW DRIVE",
+            "city": "BOULDER",
+            "state": "CO",
+            "zipcode": "80301",
+            "report_type": "MALFUNCTION",
+            "model_number": "FORCE 2-20PC",
+            "catalog_number": "FORCE 2",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "GEI",
+            "event_description_type": "FINAL",
+            "event_description": "THE DIGITAL DISPLAY WAS NOTED TO INCREASE SPONTANEOUSLY FROM A SETTING OF 30 TO 150 WATTS AND TO CHANGE FROM A \"STAND-BY\" MODE TO \"READY\" MODE. THE GENERATOR WAS IN THE OPERATING ROOM BUT NOT IN USE.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M159705",
+            "date_received": "10/31/89",
+            "product_description": "UNKNOWN LEAD",
+            "manufacturer_name_code": "MEDTRONIC",
+            "manufacturer_name": "MEDTRONIC, INC.",
+            "street_address": "7000 CENTRAL AVE N.E.",
+            "city": "MINNEAPOLIS",
+            "state": "MN",
+            "zipcode": "55432",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "6907",
+            "catalog_number": null,
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DTB",
+            "event_description_type": "FINAL",
+            "event_description": "THE PHYSICIAN REPORTED NONCAPTURE. THE LEAD WAS EXPLANTED AND RETURNED FOR EVALUATION. THIS REPORT IS BASED ON INFORMATION RECEIVED FROM THE PHYSICIAN. ANALYSIS REVEALED A FRACTURED COIL.",
+            "closeout_text": "THE CAUSE OF THIS PROBLEM HAS NOT BEEN DETERMINED. THIS IS A RECOGNIZED ADVERSE AFFECT ASSOCIATED WITH THE DEVICE OR ITS USE AS STATED IN LABELING AND/OR REPORTED IN THE MEDICAL LITERATURE. BOTH THE FREQUENCY AND THE SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2016",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "5339615",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2016/01/01",
+            "brand_name": "RADICAL-7",
+            "generic_name": "OXIMETER",
+            "manufacturer_d_name": "MASIMO CORPORATION",
+            "manufacturer_d_address_1": "40 PARKER",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "IRVINE",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92618",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "92618",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "23785",
+            "catalog_number": "9500",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DQA",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "5339616",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2016/01/01",
+            "brand_name": "RADICAL-7",
+            "generic_name": "OXIMETER",
+            "manufacturer_d_name": "MASIMO CORPORATION",
+            "manufacturer_d_address_1": "40 PARKER",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "IRVINE",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92618",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "92618",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "23785",
+            "catalog_number": "9500",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2016/02/25",
+            "device_report_product_code": "DQA",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "5339617",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2016/01/01",
+            "brand_name": "INFUSE BONE GRAFT",
+            "generic_name": "FILLER, RECOMBINANT HUMAN BONE MORPHOGENETIC PROTEIN, COLLAGEN SCAFFOLD WITH MET",
+            "manufacturer_d_name": "MEDTRONIC SOFAMOR DANEK USA, INC",
+            "manufacturer_d_address_1": "4340 SWINEA RD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "MEMPHIS",
+            "manufacturer_d_state_code": "TN",
+            "manufacturer_d_zip_code": "38118",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "38118",
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2016/09/30",
+            "model_number": null,
+            "catalog_number": "7510050",
+            "lot_number": "ML80484AAE",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "NEK",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "*",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

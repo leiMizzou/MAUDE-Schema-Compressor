@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2000",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "123103",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2000/09/23",
+            "brand_name": "SCHNEIDER/NAMIC CUSTOM KIT",
+            "generic_name": "CUSTOM ANGIOGRAPHIC KIT",
+            "manufacturer_d_name": "SCHNEIDER/NAMIC",
+            "manufacturer_d_address_1": "PRUYN'S ISLAND",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "GLENS FALLS",
+            "manufacturer_d_state_code": "NY",
+            "manufacturer_d_zip_code": "12801",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "12801",
+            "device_operator": "0HP",
+            "expiration_date_of_device": "1999/12/01",
+            "model_number": null,
+            "catalog_number": "60221011",
+            "lot_number": "403009",
+            "other_id_number": "CUSTOM KIT DEV. FAMILY",
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "1997/08/25",
+            "device_report_product_code": "IZQ",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "206710",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2000/01/06",
+            "brand_name": "HOMECHOICE AUTOMATED PD SYSTEM 115 VOLT",
+            "generic_name": "HOMECHOICE",
+            "manufacturer_d_name": "BAXTER HEALTHCARE CORP.",
+            "manufacturer_d_address_1": "7511 114TH AVE NORTH",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "LARGO",
+            "manufacturer_d_state_code": "FL",
+            "manufacturer_d_zip_code": "34643",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "34643",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "5C4471",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "FKX",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "257047",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2000/01/02",
+            "brand_name": "H-TRON PLUS V100 INSULIN INFUSION PUMP",
+            "generic_name": "INSULIN INFUSION PUMP",
+            "manufacturer_d_name": "DISETRONIC MEDICAL SYSTEMS, INC.",
+            "manufacturer_d_address_1": "5151 PROGRAM AVE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ST. PAUL",
+            "manufacturer_d_state_code": "MN",
+            "manufacturer_d_zip_code": "55112",
+            "manufacturer_d_zip_code_ext": "101",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "55112 1014",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": "H-TRON PLUS V-100",
+            "catalog_number": "805.0029",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "LZG",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

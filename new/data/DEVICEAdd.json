@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICEAdd",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "1018495",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2008/01/03",
+            "brand_name": "FREESTYLE FLASH",
+            "generic_name": "BLOOD GLUCOSE MONITORING SYSTEM",
+            "manufacturer_d_name": "ABBOTT DIABETES CARE INC.",
+            "manufacturer_d_address_1": "1360 SOUTH LOOP RD.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ALAMEDA",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "94502",
+            "manufacturer_d_zip_code_ext": "7000",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "945027000",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": "NI",
+            "catalog_number": "17001",
+            "lot_number": "0704033",
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2008/01/16",
+            "device_report_product_code": "NBW",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2093255",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2011/05/03",
+            "brand_name": "LEAD MODEL 302",
+            "generic_name": null,
+            "manufacturer_d_name": "CYBERONICS, INC.",
+            "manufacturer_d_address_1": "100 CYBERONICS BLVD.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "HOUSTON",
+            "manufacturer_d_state_code": "TX",
+            "manufacturer_d_zip_code": "77058",
+            "manufacturer_d_zip_code_ext": "2017",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "770582017",
+            "device_operator": "0LP",
+            "expiration_date_of_device": "2010/04/01",
+            "model_number": "302-20",
+            "catalog_number": null,
+            "lot_number": "200471",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "LYJ",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2119070",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2011/06/09",
+            "brand_name": "PHYSIOMESH UNKNOWN PRODUCT",
+            "generic_name": "MESH, SURGICAL",
+            "manufacturer_d_name": "ETHICON INC.",
+            "manufacturer_d_address_1": "1000 ROUTE 202",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "RARITAN",
+            "manufacturer_d_state_code": "NJ",
+            "manufacturer_d_zip_code": "08869",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "08869",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "PHYSIOMUNK",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "FTL",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

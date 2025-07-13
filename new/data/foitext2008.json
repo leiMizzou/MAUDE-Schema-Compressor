@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2008",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "873215",
+            "mdr_text_key": "641954",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "DEVICE MALFUNCTION: PREMATURE PARTIALLY DEPLOYED STENT. TIME OF MALFUNCTION: DURING THE PROCEDURE. SYMPTOMS/AE: NONE. IT WAS REPORTED THAT DURING A REVASCULARIZATION STENTING PROCEDURE IN THE LEFT SUPERFICIAL FEMORAL ARTERY, AS THE XCEED STENT WAS BEING ADVANCED ON THE GUIDE WIRE, RESISTANCE WAS FELT. WHEN THE DEVICE WAS REMOVED, IT WAS NOTICED THAT THE FIRST ROW OF STENT STRUTS WERE DEPLOYED. REPORTEDLY, THE DEVICE DID NOT ENTER THE PATIENT'S ANATOMY. THERE WERE NO REPORTED PATIENT ADVERSE EFFECTS. THOUGH REQUESTED, NO ADDITIONAL INFO WAS AVAILABLE."
+        },
+        {
+            "mdr_report_key": "857525",
+            "mdr_text_key": "653993",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PROCEDURE: BULLECTOMY. ACCORDING TO THE REPORTER: THE FIRING SEEMED SUCCESSFUL DURING THE OPERATION AND NO PROBLEM WAS FOUND DURING THE LEAK TEST. AFTER CLOSING, HOWEVER, THE PT HAD SOMETHING WRONG AND HAD TO RE-OPEN THEIR CHEST. THEN, IT WAS FOUND THAT THE STAPLES DID NOT FORM AT THE PROXIMAL END AND THEIR LEGS STAYED STRAIGHT. ANOTHER DEVICE WAS USED TO CLOSE THE INCOMPLETE STAPLE LINE. PT STATUS IS OK."
+        },
+        {
+            "mdr_report_key": "863558",
+            "mdr_text_key": "660918",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "FOUND DURING TESTING. ACCORDING TO THE REPORTER, THE DEVICE WOULD NOT DELIVER ENERGY WITH A THERAPY CABLE. THERE WAS NO PT USE ASSOCIATED WITH REPORTED EVENT."
+        }
+    ]
+}

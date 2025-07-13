@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2015",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "619611",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "0",
+            "date_received": "2015/06/30",
+            "brand_name": "CYPHER SIROLIMUS-ELUTING CORONARY STENT",
+            "generic_name": "DRUG-ELUTING STENT",
+            "manufacturer_d_name": "CORDIS LLC",
+            "manufacturer_d_address_1": "ROAD 362 KM 0.5",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SAN GERMAN",
+            "manufacturer_d_state_code": "PR",
+            "manufacturer_d_zip_code": "00685",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "00685",
+            "device_operator": "*",
+            "expiration_date_of_device": "2005/07/01",
+            "model_number": null,
+            "catalog_number": "CWS28350",
+            "lot_number": "X0405839",
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "2005/06/09",
+            "device_report_product_code": "---",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2296019",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2015/07/13",
+            "brand_name": "NEXGEN LCCK FEMORAL IMPLANT",
+            "generic_name": "KNEE PROSTHESIS",
+            "manufacturer_d_name": "ZIMMER, INC.",
+            "manufacturer_d_address_1": "P.O. BOX 708",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "WARSAW",
+            "manufacturer_d_state_code": "IN",
+            "manufacturer_d_zip_code": "46581",
+            "manufacturer_d_zip_code_ext": "0708",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "465810708",
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2017/09/30",
+            "model_number": null,
+            "catalog_number": "00599401692",
+            "lot_number": "60780124",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "JWH",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2686192",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2015/01/09",
+            "brand_name": "G2 FILTER SYSTEM  - FEMORAL",
+            "generic_name": "VENA CAVA FILTER",
+            "manufacturer_d_name": "BARD PERIPHERAL VASCULAR, INC.",
+            "manufacturer_d_address_1": "1625 W 3RD ST.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "TEMPE",
+            "manufacturer_d_state_code": "AZ",
+            "manufacturer_d_zip_code": "85281",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "85281",
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2012/01/31",
+            "model_number": null,
+            "catalog_number": "RF310F",
+            "lot_number": "GFSL1260",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DTK",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2009",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "1246379",
+            "mdr_text_key": "975652",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PT HAD ACL SURGERY IN 2008. PT USED COLD THERAPY UNIT CONTINUOUSLY FOR 7 DAYS/24 HOURS A DAY AND DEVELOPED ALLEGED THERMAL INJURY. SKIN GRAFT PERFORMED THE FOLLOWING MONTH."
+        },
+        {
+            "mdr_report_key": "1286684",
+            "mdr_text_key": "980678",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "AFTER PATIENT TREATMENT WITH JUVEDERM ULTRA PLUS IN THE CHEEK AND THE PERIORAL, PATIENT PRESENTED WITH ABSCESS AND SWELLING IN THE CHEEK. THE PATIENT WAS PRESCRIBED CIPROFLOXACIN 500MG 1 BID AND BIAXIN 500MG 1 BID TO HASTEN RESOLUTION OF SYMPTOMS AND TO PREVENT WORSENING OF THE SYMPTOMS THAT MAY LEAD TO PERMANENT DAMAGE. PATIENT WAS ALSO GIVEN A WARM PACK TO INCREASE BLOOD FLOW TO THE CHEEK. A RECENT CULTURE REPORT RESULT SHOWS THAT PATIENT HAS ASB (ASYMPTOMATIC BACTERIURIA). THE PHYSICIAN WILL REFER THE PATIENT TO AN INFECTIOUS DISEASE DOCTOR. THE PATIENT IS CURRENTLY TAKING LEVOXYL. RECENT FOLLOW UP WITH PHYSICIAN NOTED THAT THE CHEEK IS SLIGHTLY LESS RED AND SWOLLEN."
+        },
+        {
+            "mdr_report_key": "1286666",
+            "mdr_text_key": "980679",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE CALLER REPORTED THAT THE MOM IS USING A SIZE 14FR SUCTION CATHETER WHICH SHE HAS A DOCTOR'S ORDER FOR. THE CALLER REPORTED THAT THE SUCTION CATHETER IS TIGHT. THE CALLER REPORTED THAT THE TRACHEOSTOMY TUBE WAS REMOVED THE FOLLOWING DAY AND REPLACED WITH A NEW 5.0PED TRACHEOSTOMY TUBE THAT PASSES THE 14FR SUCTION CATHETER."
+        }
+    ]
+}

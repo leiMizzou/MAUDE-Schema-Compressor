@@ -1,0 +1,99 @@
+2025-07-13 17:41:07,726 - similarity - INFO - Loaded 0 cached similarity scores
+2025-07-13 17:41:07,726 - __main__ - INFO - Real API Tester initialized
+2025-07-13 17:41:07,726 - __main__ - INFO - Starting Real API Test for MAUDE Schema Compressor
+2025-07-13 17:41:07,726 - database - INFO - Loading 114 JSON files
+2025-07-13 17:41:07,754 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 17:41:07,754 - __main__ - INFO - Loaded data for 113 tables
+2025-07-13 17:41:07,755 - __main__ - INFO - Selected 15 tables for API testing:
+2025-07-13 17:41:07,755 - __main__ - INFO -   - DEVICE2019
+2025-07-13 17:41:07,755 - __main__ - INFO -   - DEVICE2023
+2025-07-13 17:41:07,755 - __main__ - INFO -   - DEVICE2015
+2025-07-13 17:41:07,755 - __main__ - INFO -   - DEVICE2003
+2025-07-13 17:41:07,755 - __main__ - INFO -   - DEVICE2002
+2025-07-13 17:41:07,755 - __main__ - INFO -   - foitext2016
+2025-07-13 17:41:07,755 - __main__ - INFO -   - foitext2000
+2025-07-13 17:41:07,755 - __main__ - INFO -   - foitext2020
+2025-07-13 17:41:07,755 - __main__ - INFO -   - foitext2021
+2025-07-13 17:41:07,755 - __main__ - INFO -   - foitext2001
+2025-07-13 17:41:07,755 - __main__ - INFO -   - ASR_2011
+2025-07-13 17:41:07,755 - __main__ - INFO -   - ASR_2007
+2025-07-13 17:41:07,755 - __main__ - INFO -   - ASR_2006
+2025-07-13 17:41:07,755 - __main__ - INFO -   - mdrfoiThru2023
+2025-07-13 17:41:07,755 - __main__ - INFO -   - mdrfoiAdd
+2025-07-13 17:41:07,755 - __main__ - INFO - Testing real API with 15 tables
+2025-07-13 17:41:07,755 - __main__ - ERROR - Real API test failed: 'TableDataManager' object has no attribute 'get_table_descriptions'
+2025-07-13 17:41:07,755 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/mizzou/Documents/GitHub/MAUDE-Schema-Compressor/new/test_real_api.py", line 204, in run_full_api_test
+    results = self.run_api_similarity_test(test_tables, table_data)
+  File "/Users/mizzou/Documents/GitHub/MAUDE-Schema-Compressor/new/test_real_api.py", line 92, in run_api_similarity_test
+    descriptions = self.table_manager.get_table_descriptions(test_table_data)
+AttributeError: 'TableDataManager' object has no attribute 'get_table_descriptions'
+
+2025-07-13 17:41:28,506 - similarity - INFO - Loaded 0 cached similarity scores
+2025-07-13 17:41:28,506 - __main__ - INFO - Real API Tester initialized
+2025-07-13 17:41:28,506 - __main__ - INFO - Starting Real API Test for MAUDE Schema Compressor
+2025-07-13 17:41:28,507 - database - INFO - Loading 114 JSON files
+2025-07-13 17:41:28,535 - database - INFO - Successfully loaded data for 113 tables
+2025-07-13 17:41:28,535 - __main__ - INFO - Loaded data for 113 tables
+2025-07-13 17:41:28,536 - __main__ - INFO - Selected 15 tables for API testing:
+2025-07-13 17:41:28,536 - __main__ - INFO -   - DEVICE2019
+2025-07-13 17:41:28,536 - __main__ - INFO -   - DEVICE2023
+2025-07-13 17:41:28,536 - __main__ - INFO -   - DEVICE2015
+2025-07-13 17:41:28,536 - __main__ - INFO -   - DEVICE2003
+2025-07-13 17:41:28,536 - __main__ - INFO -   - DEVICE2002
+2025-07-13 17:41:28,536 - __main__ - INFO -   - foitext2016
+2025-07-13 17:41:28,536 - __main__ - INFO -   - foitext2000
+2025-07-13 17:41:28,536 - __main__ - INFO -   - foitext2020
+2025-07-13 17:41:28,536 - __main__ - INFO -   - foitext2021
+2025-07-13 17:41:28,536 - __main__ - INFO -   - foitext2001
+2025-07-13 17:41:28,536 - __main__ - INFO -   - ASR_2011
+2025-07-13 17:41:28,536 - __main__ - INFO -   - ASR_2007
+2025-07-13 17:41:28,536 - __main__ - INFO -   - ASR_2006
+2025-07-13 17:41:28,536 - __main__ - INFO -   - mdrfoiThru2023
+2025-07-13 17:41:28,536 - __main__ - INFO -   - mdrfoiAdd
+2025-07-13 17:41:28,536 - __main__ - INFO - Testing real API with 15 tables
+2025-07-13 17:41:28,536 - features - INFO - Starting feature processing with method: tfidf
+2025-07-13 17:41:28,540 - features - INFO - TF-IDF feature extraction completed. Shape: (15, 1804)
+2025-07-13 17:41:28,541 - features - INFO - Extracted structured features for 15 tables
+2025-07-13 17:41:28,542 - features - INFO - Combined features shape: (15, 1813)
+2025-07-13 17:41:28,542 - features - ERROR - Error applying PCA: n_components=100 must be between 0 and min(n_samples, n_features)=15 with svd_solver='full'
+2025-07-13 17:41:28,542 - features - INFO - Feature processing completed. Final shape: (15, 1813)
+2025-07-13 17:41:28,589 - clustering - INFO - K-Means clustering completed with 4 clusters
+2025-07-13 17:41:28,589 - clustering - INFO - Clustering with kmeans_manual (param: 4) resulted in 4 clusters
+2025-07-13 17:41:28,589 - __main__ - INFO - Initial clustering created 4 clusters
+2025-07-13 17:41:28,589 - __main__ - INFO -   Cluster 1: 5 tables - ['DEVICE2019', 'DEVICE2023', 'DEVICE2015', 'DEVICE2003', 'DEVICE2002']
+2025-07-13 17:41:28,589 - __main__ - INFO -   Cluster 2: 2 tables - ['mdrfoiThru2023', 'mdrfoiAdd']
+2025-07-13 17:41:28,589 - __main__ - INFO -   Cluster 3: 5 tables - ['foitext2016', 'foitext2000', 'foitext2020', 'foitext2021', 'foitext2001']
+2025-07-13 17:41:28,589 - __main__ - INFO -   Cluster 4: 3 tables - ['ASR_2011', 'ASR_2007', 'ASR_2006']
+2025-07-13 17:41:28,589 - __main__ - INFO - Starting real API similarity calculation...
+2025-07-13 17:41:28,589 - similarity - INFO - Generated 24 table pairs from 4 clusters
+2025-07-13 17:41:28,601 - similarity - INFO - Pre-filtering reduced pairs from 24 to 24
+2025-07-13 17:41:28,601 - similarity - INFO - Processing 24 uncached pairs (0 from cache)
+2025-07-13 17:44:10,989 - similarity - INFO - Saved 24 similarity scores to cache
+2025-07-13 17:44:10,990 - __main__ - INFO - API calculation completed: 24 pairs computed, 24 scores obtained
+2025-07-13 17:44:10,990 - __main__ - INFO - Sample similarity scores:
+2025-07-13 17:44:10,991 - __main__ - INFO -   DEVICE2019 <-> DEVICE2023: 0.950
+2025-07-13 17:44:10,991 - __main__ - INFO -   DEVICE2015 <-> DEVICE2019: 0.950
+2025-07-13 17:44:10,991 - __main__ - INFO -   DEVICE2003 <-> DEVICE2019: 0.950
+2025-07-13 17:44:10,991 - __main__ - INFO -   DEVICE2002 <-> DEVICE2019: 0.950
+2025-07-13 17:44:10,991 - __main__ - INFO -   DEVICE2015 <-> DEVICE2023: 0.950
+2025-07-13 17:44:10,993 - clustering - INFO - Merged 4 initial clusters into 4 clusters using threshold 0.8
+2025-07-13 17:44:10,993 - __main__ - INFO - After similarity merging: 4 clusters
+2025-07-13 17:44:10,993 - __main__ - INFO -   Merged Cluster 1: 5 tables - ['DEVICE2019', 'DEVICE2002', 'DEVICE2015', 'DEVICE2023', 'DEVICE2003']
+2025-07-13 17:44:10,993 - __main__ - INFO -   Merged Cluster 2: 2 tables - ['mdrfoiAdd', 'mdrfoiThru2023']
+2025-07-13 17:44:10,993 - __main__ - INFO -   Merged Cluster 3: 5 tables - ['foitext2001', 'foitext2021', 'foitext2000', 'foitext2016', 'foitext2020']
+2025-07-13 17:44:10,993 - __main__ - INFO -   Merged Cluster 4: 3 tables - ['ASR_2007', 'ASR_2011', 'ASR_2006']
+2025-07-13 17:44:10,994 - evaluation - INFO - Loaded manual grouping for 113 tables from ./data/manual_grouping.json
+2025-07-13 17:44:11,008 - evaluation - INFO - Added experiment result: real_api_test - kmeans_manual
+2025-07-13 17:44:11,025 - evaluation - INFO - Saved grouping results to './analysis_outputs/groupings_kmeans_manual_sim_0.8_param_4.csv'
+2025-07-13 17:44:11,025 - __main__ - INFO - API Test Evaluation Results:
+2025-07-13 17:44:11,025 - __main__ - INFO -   Adjusted Rand Index: 1.000
+2025-07-13 17:44:11,025 - __main__ - INFO -   Normalized Mutual Info: 1.000
+2025-07-13 17:44:11,025 - __main__ - INFO -   F1 Score: 1.000
+2025-07-13 17:44:11,025 - __main__ - INFO -   Precision: 1.000
+2025-07-13 17:44:11,025 - __main__ - INFO -   Recall: 1.000
+2025-07-13 17:44:11,026 - table_merger - INFO - Created 4 merged schemas from 4 clusters
+2025-07-13 17:44:11,026 - table_merger - INFO - Saved merged schemas to: ./merged_schemas/merged_schemas_kmeans_manual_tfidf_sim0.8_param4.json
+2025-07-13 17:44:11,027 - table_merger - INFO - Created merge summary report: ./analysis_outputs/merge_summary_kmeans_manual_sim0.8_param4.txt
+2025-07-13 17:44:11,027 - __main__ - INFO - Final cache statistics: {'cache_size': 24, 'cache_file': './data/similarity_cache.json'}
+2025-07-13 17:44:11,027 - __main__ - INFO - Real API test completed successfully!

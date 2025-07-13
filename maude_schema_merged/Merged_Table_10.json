@@ -16,16 +16,16 @@
     ],
     "sample_data": [
         {
-            "ï_1": "1002",
-            "old_to_be_deactivated": "Abnormal"
-        },
-        {
             "ï_1": "1125",
             "old_to_be_deactivated": "Contraindicated patient"
         },
         {
             "ï_1": "1156",
             "old_to_be_deactivated": "Delamination"
+        },
+        {
+            "ï_1": "1204",
+            "old_to_be_deactivated": "Vessel Or Plaque, Device Embedded In"
         }
     ]
 }

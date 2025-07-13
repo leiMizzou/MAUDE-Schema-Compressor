@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr91",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M214271",
+            "date_received": "10/03/91",
+            "product_description": "AEQUITRON MEDICAL VOLUME VENTILATOR",
+            "manufacturer_name_code": "AEQUMEDI",
+            "manufacturer_name": "AEQUITRON MEDICAL, INC.",
+            "street_address": "14800 28TH AVE N",
+            "city": "MINNEAPOLIS",
+            "state": "MN",
+            "zipcode": "55447",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "LP6",
+            "catalog_number": null,
+            "fda_panel_code": "ANESTHESIOLOGY",
+            "fda_product_code": "CBK",
+            "event_description_type": "FINAL",
+            "event_description": "UNIT RETURNED WITH REPORT \"VOLUME VARIES\". VOLUME FLUCTUATION CAUSING ALARMS TO RESET WAS CONFIRMED DURING SVC OF PRODUCT.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS BEEN DETERMINED TO BE THE RESULT OF THE DEVICE. "
+        },
+        {
+            "access_type_and_number": "M217553",
+            "date_received": "01/02/91",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN RD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THE DR REPORTED, \" INFECTED AND TUBING CAME LOOSE FROM THE LEFT CYLINDER \". DEVICE WAS REMOVED AND REPLACED.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        },
+        {
+            "access_type_and_number": "M217554",
+            "date_received": "01/02/91",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN RD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THE DR'S OFFICE REPORTED A \"LEAK IN LEFT CYLINDER AT THE BASE.\" THE CYLINDERS WERE REMOVED AND REPLACED.",
+            "closeout_text": "THIS REPORT WAS REVIEWED FOR SIGNIFICANT PROBLEMS BUT WAS NOT CLOSED. IT IS BEING CLOSED AT THIS TIME AS PART OF A BATCH CLOSEOUT PROCESS IN ORDER TO PREPARE THE DATABASE TO SERVE AS HISTORICAL SUPPORT TO A REDESIGNED DATABASE. "
+        }
+    ]
+}

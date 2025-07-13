@@ -1,0 +1,175 @@
+{
+    "table_name": "foiclass_selfdefined",
+    "structure": [
+        {
+            "name": "review_panel",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "medicalspecialty",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "productcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "devicename",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "deviceclass",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "unclassified_reason",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "gmpexemptflag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "thirdpartyflag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reviewcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "regulationnumber",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "submission_type_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "definition",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "physicalstate",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "technicalmethod",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "targetarea",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "life_sustain_support_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "summarymalfunctionreporting",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "review_panel": "AN",
+            "medicalspecialty": "AN",
+            "productcode": "BRW",
+            "devicename": "Protector, Dental",
+            "deviceclass": "1",
+            "unclassified_reason": null,
+            "gmpexemptflag": "N",
+            "thirdpartyflag": "N",
+            "reviewcode": null,
+            "regulationnumber": "868.5820",
+            "submission_type_id": "4",
+            "definition": null,
+            "physicalstate": null,
+            "technicalmethod": null,
+            "targetarea": null,
+            "implant_flag": "N",
+            "life_sustain_support_flag": "N",
+            "summarymalfunctionreporting": "Eligible"
+        },
+        {
+            "review_panel": "AN",
+            "medicalspecialty": "AN",
+            "productcode": "BRX",
+            "devicename": "Stool, Anesthesia",
+            "deviceclass": "1",
+            "unclassified_reason": null,
+            "gmpexemptflag": "N",
+            "thirdpartyflag": "N",
+            "reviewcode": null,
+            "regulationnumber": "868.6700",
+            "submission_type_id": "4",
+            "definition": null,
+            "physicalstate": null,
+            "technicalmethod": null,
+            "targetarea": null,
+            "implant_flag": "N",
+            "life_sustain_support_flag": "N",
+            "summarymalfunctionreporting": "Eligible"
+        },
+        {
+            "review_panel": "AN",
+            "medicalspecialty": "AN",
+            "productcode": "BRY",
+            "devicename": "Cabinet, Table And Tray, Anesthesia",
+            "deviceclass": "1",
+            "unclassified_reason": null,
+            "gmpexemptflag": "N",
+            "thirdpartyflag": "N",
+            "reviewcode": null,
+            "regulationnumber": "868.6100",
+            "submission_type_id": "4",
+            "definition": null,
+            "physicalstate": null,
+            "technicalmethod": null,
+            "targetarea": null,
+            "implant_flag": "N",
+            "life_sustain_support_flag": "N",
+            "summarymalfunctionreporting": "Eligible"
+        }
+    ]
+}

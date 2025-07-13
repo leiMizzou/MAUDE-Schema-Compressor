@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2010",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "1568645",
+            "mdr_text_key": "1272565",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE ACCOUNT REPORTED A BROKEN SENSOR OF THE WASTE OUTLET TUBE ASSEMBLY (INSTALLED ON THE CELL-DYN 1700 ANALYZER). NO INJURIES OR EXPOSURE WERE REPORTED. THE CUSTOMER HAS BEEN EMPTYING THE WASTE JUG MANUALLY BEFORE AND AFTER EACH SHIFT. THE CUSTOMER REFUSED TO REPLACE THE WASTE LINE ASSEMBLY DUE TO A PLANNED REPLACEMENT OF THE CELL-DYN ANALYZER. NO IMPACT TO PATIENT MANAGEMENT WAS REPORTED."
+        },
+        {
+            "mdr_report_key": "1569419",
+            "mdr_text_key": "1272571",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "CMC SPACER EXPLANTED DUE TO FOCAL SWELLING AND REDNESS."
+        },
+        {
+            "mdr_report_key": "1570163",
+            "mdr_text_key": "1272585",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT DURING AN UNKNOWN PROCEDURE, THE TITANIUM TIP OF THE DEVICE BROKE DURING THE PROCEDURE. ANOTHER DEVICE WAS USED TO COMPLETE THE PROCEDURE.  THERE WERE NO ADVERSE CONSEQUENCES FOR THE PATIENT."
+        }
+    ]
+}

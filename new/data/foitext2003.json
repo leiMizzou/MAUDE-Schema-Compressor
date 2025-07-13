@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2003",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "434909",
+            "mdr_text_key": "278621",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT HAS BEEN REPORTED THAT THE OCCLUSION BALLOON WOULD NOT HOLD PRESSURE INSIDE THE BODY. THE DEVICE WAS SUCCESSFULLY INFLATED DURING PREPARATION PRIOR TO THE PTCA. WHEN THE BALLOON WAS PLACED INSIDE THE BODY AND INFLATED TO 5MM. THE BALLOON DEFLATED AND OCCLUSION WAS LOST."
+        },
+        {
+            "mdr_report_key": "434913",
+            "mdr_text_key": "18475586",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "DURING A CLAVICLE REPAIR TWO TWINFIX AB 5.0 ANCHORS BROKE DURING INSERTION INTO THE BONE. THE SECOND OF THE TWO ANCHORS BROKE AT THE DISTAL TIP. THEREFORE THE SECOND ANCHOR WAS REMOVED FROM THE INSERTION SITE, THE REMAINING HOLE WAS DILATED, AND THE BODY OF THE ANCHOR WAS RE-INSERTED. IT HAS BEEN REPORTED THAT THE SUTURES EXTENDING FROM THE SECOND TWINFIX AB ANCHOR ALLOWED FOR ADEQUATE FIXATION. A DELAY OF ABOUT FIFTEEN MINUTES WAS REPORTED."
+        },
+        {
+            "mdr_report_key": "434915",
+            "mdr_text_key": "278622",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "UPON INITIATION OF LVAD, THE DEVICE WAS OPERATIONAL BUT NOISY. THE DEVICE OPERATED AS INDICATED FOR TWO AND ONE-HALF HOURS WHEN THE PUMP BEGAN TO LEAK. LVAD WAS DISCONTINUED DUE TO PUMP FAILURE. THE PT EXPIRED WHILE IN THE OPERATING ROOM."
+        }
+    ]
+}

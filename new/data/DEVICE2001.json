@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2001",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "257737",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2001/01/26",
+            "brand_name": "TRACHEOSTOMY TUBE",
+            "generic_name": "ACCESSORY TO THE TRACHEOSTOMY TUBE",
+            "manufacturer_d_name": "SIMS PORTEX, INC.",
+            "manufacturer_d_address_1": "10 BOWMAN DRIVE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "KEENE",
+            "manufacturer_d_state_code": "NH",
+            "manufacturer_d_zip_code": "03431",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "03431",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "UNK",
+            "lot_number": "UNK",
+            "other_id_number": "520000",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "JOH",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "297950",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2001/05/15",
+            "brand_name": "USA ELITE CYSTOURETHROSCOPE SHEATH W/OBTURATOR",
+            "generic_name": "SHEATH",
+            "manufacturer_d_name": "CIRCON ACMI",
+            "manufacturer_d_address_1": "93 NORTH PLEASANT ST.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "NORWALK",
+            "manufacturer_d_state_code": "OH",
+            "manufacturer_d_zip_code": "44857",
+            "manufacturer_d_zip_code_ext": "040",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "44857 0409",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "E121",
+            "catalog_number": "E121",
+            "lot_number": "CX (3/94)",
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "2000/09/13",
+            "device_report_product_code": "FBO",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "300728",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2001/03/01",
+            "brand_name": "REPLACEMENT SCREWDRIVER BLADE",
+            "generic_name": "INSTRUMENT",
+            "manufacturer_d_name": "STRYKER INSTRUMENTS / LEIBINGER DIVISION",
+            "manufacturer_d_address_1": "4100 E. MILHAM AVE.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "KALAMAZOO",
+            "manufacturer_d_state_code": "MI",
+            "manufacturer_d_zip_code": "49001",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "49001",
+            "device_operator": "UNK",
+            "expiration_date_of_device": null,
+            "model_number": "*",
+            "catalog_number": "0108057",
+            "lot_number": "UNK",
+            "other_id_number": "*",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "LXH",
+            "device_age_text": "UNKNOWN",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

@@ -2,79 +2,37 @@
     "table_name": "Merged_Table_1",
     "structure": [
         {
-            "name": "exemptn_no",
+            "name": "mdr_report_key",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "mfr_no",
+            "name": "device_event_key",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "mfr_name",
+            "name": "implant_flag",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "report_id",
+            "name": "date_removed_flag",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "date_of_event",
+            "name": "device_sequence_no",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "mfr_aware_date",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "event_type",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "dev_prob_cd",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "report_year",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "report_qtr",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "initial_report_flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "dev_id",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "product_code",
+            "name": "date_received",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -86,25 +44,247 @@
             "default": null
         },
         {
-            "name": "model_no",
+            "name": "generic_name",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "catalog_no",
+            "name": "manufacturer_d_name",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "impl_avail_for_eval",
+            "name": "manufacturer_d_address_1",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "impl_ret_to_mfr",
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_model_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_catalog_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_other_id_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_device_family",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_contained",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_shelf_life_in_months",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_pma_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_preamendment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_transitional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_510_k__exempt_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_first_marketed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "baseline_date_ceased_marketing",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -112,64 +292,117 @@
     ],
     "sample_data": [
         {
-            "exemptn_no": "2001013",
-            "mfr_no": "2242630",
-            "mfr_name": "IMPACT INSTRUMENTATION, INC.",
-            "report_id": "224263013017",
-            "date_of_event": null,
-            "mfr_aware_date": "11/01/2012",
-            "event_type": "M",
-            "dev_prob_cd": "1089",
-            "report_year": "2013",
-            "report_qtr": "1",
-            "initial_report_flag": "I",
-            "dev_id": "754",
-            "product_code": "CBK",
-            "brand_name": "IMPACT",
-            "model_no": "754",
-            "catalog_no": null,
-            "impl_avail_for_eval": null,
-            "impl_ret_to_mfr": null
+            "mdr_report_key": "435173",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2003/01/02",
+            "brand_name": "EXCALIBUR PLUS PC",
+            "generic_name": "ELECTROSURGICAL UNIT",
+            "manufacturer_d_name": "CONMED CORP",
+            "manufacturer_d_address_1": "310 BROAD STREET",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "UTICA",
+            "manufacturer_d_state_code": "NY",
+            "manufacturer_d_zip_code": "13501",
+            "manufacturer_d_zip_code_ext": "120",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "13501 1203",
+            "device_operator": "*",
+            "expiration_date_of_device": null,
+            "model_number": "[137659]",
+            "catalog_number": "*",
+            "lot_number": "*",
+            "other_id_number": "*",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "GEI",
+            "device_age_text": "4 YR",
+            "device_evaluated_by_manufactur": null,
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
         },
         {
-            "exemptn_no": "1999011",
-            "mfr_no": "2183157",
-            "mfr_name": "MALLINCKRODT INC. TYCO HEALTHCARE",
-            "report_id": "200200004",
-            "date_of_event": null,
-            "mfr_aware_date": "04/04/2002",
-            "event_type": "M",
-            "dev_prob_cd": "1142",
-            "report_year": "2002",
-            "report_qtr": "1",
-            "initial_report_flag": "I",
-            "dev_id": "LP10",
-            "product_code": "CBK",
-            "brand_name": "VOLUME VENTILATOR",
-            "model_no": null,
-            "catalog_no": null,
-            "impl_avail_for_eval": null,
-            "impl_ret_to_mfr": null
+            "mdr_report_key": "204102",
+            "device_event_key": "198241",
+            "implant_flag": "N",
+            "date_removed_flag": "A",
+            "device_sequence_no": "1",
+            "date_received": "12/23/1998",
+            "brand_name": "7200AE MICROPROCESSOR VENTILATOR",
+            "generic_name": "VOLUME VENTILATOR",
+            "manufacturer_d_name": "NELLCOR PURITAN BENNETT",
+            "manufacturer_d_address_1": "2200 FARADAY AVE.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "CARLSBAD",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "92008",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "expiration_date_of_device": null,
+            "model_number": "7200AE",
+            "catalog_number": "7200AE",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_operator": "0HP",
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "CBK",
+            "device_age_text": "10 YR",
+            "device_evaluated_by_manufactur": "Y",
+            "baseline_brand_name": "7200 SERIES VENTILATOR",
+            "baseline_generic_name": "VOLUME VENTILATOR",
+            "baseline_model_no": "7200AE",
+            "baseline_catalog_no": null,
+            "baseline_other_id_no": null,
+            "baseline_device_family": "7200 SERIES VENTILATOR",
+            "baseline_shelf_life_contained": null,
+            "baseline_shelf_life_in_months": null,
+            "baseline_pma_flag": "N",
+            "baseline_pma_no": null,
+            "baseline_510_k__flag": "Y",
+            "baseline_510_k__no": "K823858",
+            "baseline_preamendment": "N",
+            "baseline_transitional": "N",
+            "baseline_510_k__exempt_flag": "N",
+            "baseline_date_first_marketed": "01/01/1993",
+            "baseline_date_ceased_marketing": null
         },
         {
-            "exemptn_no": "1999011",
-            "mfr_no": "2183157",
-            "mfr_name": "MALLINCKRODT INC. TYCO HEALTHCARE",
-            "report_id": "2005-00003",
-            "date_of_event": null,
-            "mfr_aware_date": "05/23/2005",
-            "event_type": "M",
-            "dev_prob_cd": "1142",
-            "report_year": "2005",
-            "report_qtr": "1",
-            "initial_report_flag": "I",
-            "dev_id": "LP10",
-            "product_code": "CBK",
-            "brand_name": "VOLUME VENTILATOR",
-            "model_no": null,
-            "catalog_no": null,
-            "impl_avail_for_eval": null,
-            "impl_ret_to_mfr": null
+            "mdr_report_key": "917337",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2007/09/20",
+            "brand_name": "CONSERVE TOTAL A-CLASS",
+            "generic_name": "Prosthesis, hip, semi-constrained (metal cemented acetabular component)",
+            "manufacturer_d_name": "WRIGHT MEDICAL TECHNOLOGY, INC.",
+            "manufacturer_d_address_1": "5677 AIRLINE ROAD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ARLINGTON",
+            "manufacturer_d_state_code": "TN",
+            "manufacturer_d_zip_code": "38002",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "38002",
+            "device_operator": "000",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "38AM-4604",
+            "lot_number": "328090",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "JDL",
+            "device_age_text": "1 YR",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
         }
     ]
 }
