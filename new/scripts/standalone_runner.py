@@ -8,8 +8,8 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
-# Add the current directory to Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Add the parent directory to Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from config import config
 from database import TableDataManager, DatabaseManager

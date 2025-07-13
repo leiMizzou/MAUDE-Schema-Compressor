@@ -1,0 +1,111 @@
+================================================================================
+MAUDE Schema Merge Summary Report
+================================================================================
+
+Experiment Configuration:
+------------------------------
+Clustering Method: kmeans_manual
+Parameters: 3
+Feature Extraction: tfidf
+Similarity Threshold: 0.8
+Final Clusters: 15
+
+Merge Statistics:
+--------------------
+Total Original Tables: 113
+Total Merged Schemas: 15
+Single Table Schemas: 8
+Multi-Table Merges: 7
+Compression Ratio: 7.53:1
+
+Detailed Cluster Analysis:
+------------------------------
+
+📊 Merged_Cluster_1
+   Type: multi_table
+   Original Tables (27): DEVICE, DEVICE2000, DEVICE2001, DEVICE2002, DEVICE2003 ... and 22 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_2
+   Type: multi_table
+   Original Tables (4): mdrfoi, mdrfoiAdd, mdrfoiChange, mdrfoiThru2023
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_3
+   Type: multi_table
+   Original Tables (32): foitext, foitext1996, foitext1997, foitext1998, foitext1999 ... and 27 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_4
+   Type: multi_table
+   Original Tables (4): patient, patientAdd, patientChange, patientThru2023
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Merged_Cluster_5
+   Type: multi_table
+   Original Tables (21): ASR_1999, ASR_2000, ASR_2001, ASR_2002, ASR_2003 ... and 16 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Cluster_6_DISCLAIM
+   Type: single_table
+   Original Tables (1): DISCLAIM
+
+📊 Merged_Cluster_7
+   Type: multi_table
+   Original Tables (14): mdr84, mdr85, mdr86, mdr87, mdr88 ... and 9 more
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Cluster_8_foiclass_selfdefined
+   Type: single_table
+   Original Tables (1): foiclass_selfdefined
+
+📊 Cluster_9_patientproblemdata
+   Type: single_table
+   Original Tables (1): patientproblemdata
+
+📊 Cluster_10_table_statistics_selfdefined
+   Type: single_table
+   Original Tables (1): table_statistics_selfdefined
+
+📊 Merged_Cluster_11
+   Type: multi_table
+   Original Tables (3): foidev1998, foidev1999, foidevthru1997
+   Total Fields: 1
+   Common Fields: 0
+   Frequent Fields: 1
+   Rare Fields: 0
+
+📊 Cluster_12_deviceproblemcodes
+   Type: single_table
+   Original Tables (1): deviceproblemcodes
+
+📊 Cluster_13_patientproblemcode
+   Type: single_table
+   Original Tables (1): patientproblemcode
+
+📊 Cluster_14_ASR_PPC
+   Type: single_table
+   Original Tables (1): ASR_PPC
+
+📊 Cluster_15_foidevproblem
+   Type: single_table
+   Original Tables (1): foidevproblem
+
