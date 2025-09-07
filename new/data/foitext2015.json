@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2015",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "2296019",
+            "mdr_text_key": "2210276",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE PT IS ALLEGING HARM CAUSED BY THE DEVICE, HOWEVER, THE NATURE OF THE HARM IS UNK AT THIS TIME."
+        },
+        {
+            "mdr_report_key": "2686192",
+            "mdr_text_key": "2859246",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED BY THE PT'S ATTORNEY THAT AFTER PLACEMENT OF A VENA CAVA FILTER, THE \"FILTER BECAME EXTREMELY MALPOSITIONED AND SEVERAL OF THE LEGS EXTENDED OUT OF THE VENA CAVA.\" IT WAS ALLEGED THAT THE PT SUFFERED \"INJURIES TO HER HEAD, LIMBS AND BODY AND SUFFERED A SEVERE SHOCK TO HER NERVOUS SYSTEM.\" NO FURTHER INFO IS AVAILABLE AT THIS TIME."
+        },
+        {
+            "mdr_report_key": "4068041",
+            "mdr_text_key": "4815655",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "CORMET REVISION AFTER 7 YEARS 7 MONTHS."
+        }
+    ]
+}

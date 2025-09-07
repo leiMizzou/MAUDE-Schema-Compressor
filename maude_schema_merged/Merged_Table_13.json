@@ -2,31 +2,13 @@
     "table_name": "Merged_Table_13",
     "structure": [
         {
-            "name": "mdr_report_key",
+            "name": "619611",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "patient_sequence_no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "problem_code",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "date_added",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "date_changed",
+            "name": "1104",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -34,25 +16,16 @@
     ],
     "sample_data": [
         {
-            "mdr_report_key": " 619611.0",
-            "patient_sequence_no": " 0.0",
-            "problem_code": "2199",
-            "date_added": "2016/02/05 13:15:36.000",
-            "date_changed": "2016/02/05 13:15:36.000"
+            "619611": "2094110",
+            "1104": "2913"
         },
         {
-            "mdr_report_key": " 2094110.0",
-            "patient_sequence_no": " 1.0",
-            "problem_code": "2104",
-            "date_added": "2017/01/12 15:57:46.000",
-            "date_changed": "2017/01/12 15:57:46.000"
+            "619611": "2296019",
+            "1104": "3190"
         },
         {
-            "mdr_report_key": " 2094110.0",
-            "patient_sequence_no": " 1.0",
-            "problem_code": "2348",
-            "date_added": "2017/01/12 15:57:46.000",
-            "date_changed": "2017/01/12 15:57:46.000"
+            "619611": "2686192",
+            "1104": "1395"
         }
     ]
 }

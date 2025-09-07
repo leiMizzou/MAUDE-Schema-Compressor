@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext1996",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "29102",
+            "mdr_text_key": "20200",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A 75-YR-OLD MALE WITH HISTORY OF GUILLAIN BARRE SYNDROME IN THE INTENSIVE CARE UNIT. PT HAD BEEN IN THE HOSP SINCE 9/95. PT FOUND AT APPROX 10:48 AM ON 11/14/95 TO BE DISCONNECTED FROM HIS VENTILATOR FOR AN UNKNOWN PERIOD OF TIME. WHEN FOUND HE HAD CYANOSIS AROUND THE LIPS AND A RATE OF 54. PUPILS WERE APPROX 4 MM AND NOT FIXED AND DILATED. PT WAS RESUSCITATED AND EVENTUALLY DIAGNOSED WITH BRAIN DEATH. ON 11/22/95 HE WAS DISCONNECTED FROM HIS VENTILATOR BY FAMILY DECISION AND EXPIRED AT APPROX 9:00 AM. THE FOLLOWING IS A SUMMARY OF EVENTS OF 11/14/95 RECONSTRUCTED AFTER STAFF INTERVIEWS: PT WAS IN BED POSITIONED IN THE \"HIGH FOWLER'S\" POSITION. APPARENTLY, THE BED ALARMS APPROX EVERY TEN MINUTES WHEN IN THIS POSITION. STAFF INTERVIEWED STATE THAT THIS BED ALARM IS EXTREMELY LOUD AND ANNOYING. AT SOME POINT DURING A BUSY SITUATION IN THE ICU, THE PT INVOLVED IN THIS INCIDENT BECAME DISCONNECTED FROM THE VENTILATOR. ESTIMATES HAVE RANGED FROM 1 TO 7 MINUTES BASED ON THE LENGTH OF TIME THE BED WAS ALARMING AND FROM CHART TIMES. THE RN WENT TO THE ROOM INVOLVED AND SHUT OFF THE BED ALARM. UPON DOING THIS, SHE THEN IMMEDIATELY HEARD THE VENTILATOR ALARM GOING OFF. ACCORDING TO HER, THE BED ALARM OBSCURED THE VENTILATOR ALARM. SHE IMMEDIATELY NOTED THE PT'S CONDITION AND AFTER MANUAL VENTILATIONS AND ATROPINE FAILED TO REVIVE HIM, A CODE WAS CALLED. A RHYTHM WAS OBTAINED AT APPROX 11:01 AM. ONE MAY NEVER KNOW HOW THE DISCONNECT OCCURRED AS THE PT WAS IMMOBILE DUE TO HIS MEDICAL CONDITION. HOWEVER, ACCORDING TO STAFF THERE HAD BEEN TWO PRIOR DISCONNECTS WITH THE SAME EQUIPMENT AND APPARENTLY THERE WAS ANOTHER DISCONNECT AFTER THIS EVENT. THE ADAPTOR, WHILE IT CONNECTS WELL WHEN PUT TOGETHER WITH TWO HANDS, SEEMS TO POP OFF WHEN USED ON A ENDOTRACHEAL TUBE WHERE CARE MUST BE TAKEN NOT TO APPLY TOO MUCH PRESSURE. THE QUESTION OF WHETHER OR NOT A BAND DEVICE OF SOME SORT SHOULD HAVE BEEN USED TO KEEP THE ADAPTOR AND TUBE TOGETHER HAS BEEN BROUGHT UP. THE BED ALARM, WHILE SERVING ITS PURPOSE, WAS FELT TO BE EXCESSIVELY LOUD AND MASKED THE VENTILATOR ALARM. IT WAS SUBSEQUENTLY FOUND THAT THE NOISE LEVEL IS ADJUSTABLE AND IT WAS ADJUSTED DOWN."
+        },
+        {
+            "mdr_report_key": "29104",
+            "mdr_text_key": "19148357",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "PHYSICIAN SHOCKED BY ELECTROSURGICAL PENCIL."
+        },
+        {
+            "mdr_report_key": "29143",
+            "mdr_text_key": "17177348",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "COMPLAINANT HAD A TOTAL OF 8 PEDICLE SCREWS IMPLANTED TO STABILIZE SPINAL COLUMN AFTER TRAUMATIC INJURY TO HER BACK FOLLOWING A SEVERE CAR ACCIDENT IN 2/94. NOW 2 OF THE SCREWS NEED TO BE REMOVED BECAUSE THEY HAVE BROKEN."
+        }
+    ]
+}

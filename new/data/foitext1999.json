@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext1999",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "204116",
+            "mdr_text_key": "155322",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "EMERGENCY MEDICAL TECNICIANS RESPONDED TO A PERSON DESCRIBED AS IN CARDIAC ARREST. THE DEVICE WAS CONNECTED TO THE PATIENT AND THE \"ANALYZE\" BUTTON PRESSED. THE DEVICE ADVISED A SHOCK AND BEGAN CHARGING BUT, ACCORDING TO THE REPORTER, THE DEVICE LOST POWER AND SHUT OFF. A BACKUP AUTOMATIC EXTERNAL DEFIBRILLATOR WAS CALLED FOR AND USED BUT THE PATIENT WAS NOT RESUSCITATED. THE REPORTER INDICATED THE REPORTED MALFUNCTION DID NOT CAUSE OR CONTRIBUTE TO THE DEATH OF THE PATIENT. THE REPORTER BASED THEIR OPINION ON THE ATTENDING CLINICIAN'S ASSESSMENT OF THE PATIENT'S VIABILITY."
+        },
+        {
+            "mdr_report_key": "204132",
+            "mdr_text_key": "118871",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "RECEIVED A REPORT OF A DEFECTIVE LENS. NO PATIENT IMPACT."
+        },
+        {
+            "mdr_report_key": "204136",
+            "mdr_text_key": "118872",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "REC'D NOTICE OF COMPLAINT CONCERNING ABOVE PRODUCT FROM CHIEF TECHNICIAN. REPORTS A LEAK AT THE INJECTION PORT ON THE VENOUS DRIP CHAMBER. LEAK OCCURRED APPROXIMATELY MIDWAY THROUGH THE TREATMENT. THIS IS 1 OF 2 COMPLAINTS FROM THIS FACILITY. ACTUAL SAMPLES HAVE BEEN DISCARDED, REMAINDER OF THIS LOT NUMBER HAS BEEN RETURNED FOR EVALUATION. REPORTS NO PT INJURY. DOES NOT HAVE ANY FURTHER CLINICAL INFO. DIRECTOR OF NURSING NOT AVAILABLE TODAY, MESSAGE LEFT FOR DIRECTOR OF NURSING TO RETURN PHONE CALL. 11/30-LEAK REPORTED TO BE FROM THE DRIP CHAMBER, BUT DIRECTOR OF NURSING NOT SURE OF EXACT LOCATION. REPORTS 2 EVENTS. FIRST EVENT-NO BLOOD LOSS IN EXCESS OF 20CC. SECOND EVENT-REPORTED BLOOD LOSS OF 50CC. NO MEDICAL INTERVENTION REQUIRED. ALL REPORTED EVENTS ARE ISOLATED TO THE STATED LOT NUMBER. COMPANION SAMPLES AVAILABLE. DIRECTOR OF NURSING TO RETURN CALL ON 12/01 AFTER OBTAINING FURTHER REQUESTED CLINICAL INFO. RESPONSE LETTER AND MAILER HAVE BEEN SENT TO THE FACILITY."
+        }
+    ]
+}

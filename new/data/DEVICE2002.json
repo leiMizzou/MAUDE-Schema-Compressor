@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2002",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "365848",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2002/01/17",
+            "brand_name": "MITEK",
+            "generic_name": "ANGLED SIDE EFFECT ELECTRODE",
+            "manufacturer_d_name": "MITEK PRODUCTS, ETHICON",
+            "manufacturer_d_address_1": "60 GLACIER DR",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "WESTWOOD",
+            "manufacturer_d_state_code": "MA",
+            "manufacturer_d_zip_code": "02090",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "02090",
+            "device_operator": "*",
+            "expiration_date_of_device": null,
+            "model_number": "*",
+            "catalog_number": "*",
+            "lot_number": "0105829",
+            "other_id_number": "REF 225302",
+            "device_availability": "*",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "GEI",
+            "device_age_text": "*",
+            "device_evaluated_by_manufactur": null,
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "368848",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2002/01/02",
+            "brand_name": "NOVARE ENGAGE INSERTS",
+            "generic_name": "(FOGARTY) VASCULAR CLAMP INSERT",
+            "manufacturer_d_name": "NOVARE SURGICAL SYSTEMS",
+            "manufacturer_d_address_1": "10231 BUBB RD",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "CUPERTINO",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": "95014",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "95014",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "*",
+            "catalog_number": "N-10103",
+            "lot_number": "*",
+            "other_id_number": "LENGTH 86 MM",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DXC",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": null,
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "369147",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2002/01/02",
+            "brand_name": "MICROPUNCTURE INTRODUCER SET",
+            "generic_name": "SPECIAL SET",
+            "manufacturer_d_name": "COOK INCORPORATED",
+            "manufacturer_d_address_1": "750 DANIELS WAY",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "BLOOMINGTON",
+            "manufacturer_d_state_code": "IN",
+            "manufacturer_d_zip_code": "47404",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "47404",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "UNK",
+            "lot_number": "UNK",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DYB",
+            "device_age_text": "UNKNOWN",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": null,
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

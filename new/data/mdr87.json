@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr87",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M111489",
+            "date_received": "08/16/87",
+            "product_description": "7899 TEMPERATURE PROBE",
+            "manufacturer_name_code": "PURIBENN",
+            "manufacturer_name": "PURITAN-BENNETT CORP",
+            "street_address": "9401 INDIAN CREEK PKWY, PO BOX 25905",
+            "city": "OVERLAND PARK",
+            "state": "KS",
+            "zipcode": "66225",
+            "report_type": "MALFUNCTION",
+            "model_number": null,
+            "catalog_number": null,
+            "fda_panel_code": "ANESTHESIOLOGY",
+            "fda_product_code": "CBK",
+            "event_description_type": "FINAL",
+            "event_description": "THE CUSTOMER RETURNED A FAULTY TEMPERATURE PROBE TO CO FOR EVALUATION. THE INVESTIGATING TECHNICIAN VERIFIED THE REPORT AND REPLACED THE PROBE FOR THE CUSTOMER. THE FAULTY PROBE HAS BEEN RETURNED TO REGULATORY AFFAIRS FOR EVALUATION.",
+            "closeout_text": "THIS REPORT HAS NOT BEED INDIVIDUALLY EVALUATED AND HAS BEEN CLOSED USING A GROUP CLOSEOUT PROCESS. REPORTS OF EVENTS INVOLVING SIMILAR DEVICES WHICH HAVE BEEN EVALUATED HAVE NOT RESULTED IN ANY AGENCY ACTION AND HAVE BEEN CLOSED TO MONITORING STATUS. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOWUP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M134715",
+            "date_received": "01/05/87",
+            "product_description": "UNKNOWN",
+            "manufacturer_name_code": "MEDTRONIC",
+            "manufacturer_name": "MEDTRONIC",
+            "street_address": "7000 CENTRAL AVE NE",
+            "city": "MINNEAPOLIS",
+            "state": "MN",
+            "zipcode": "55432",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "6991U",
+            "catalog_number": null,
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DTB",
+            "event_description_type": "FINAL",
+            "event_description": "THIS REPORT IS BASED SOLELY ON THE RETURN OF AN EXPLANTED DEVICE. MEDTRONIC HAS NO INFORMATION CONCERNING THE CIRCUMSTANCES OF ITS REMOVAL. ANALYSIS OF THE LEAD REVEALED A SEPARATION IN THE INSULATION MATERIAL.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS BEEN DETERMINED TO BE THE RESULT OF THE DEVICE. "
+        },
+        {
+            "access_type_and_number": "M134713",
+            "date_received": "01/05/87",
+            "product_description": "SPECTRAX VL, SPECTRAFLEX",
+            "manufacturer_name_code": "MEDTRONIC",
+            "manufacturer_name": "MEDTRONIC",
+            "street_address": "7000 CENTRAL AVE NE",
+            "city": "MINNEAPOLIS",
+            "state": "MN",
+            "zipcode": "55432",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "5966, 6972",
+            "catalog_number": null,
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DXY",
+            "event_description_type": "FINAL",
+            "event_description": "THE PHYSICIAN REPORTED NO OUTPUT AND NO MEASURABLE DATA FROM THE LEAD OR PULSE GENERATOR. THE DEVICES WERE EXPLANTED AND RETURNED TO MEDTRONIC. ANALYSIS OF THE PACING SYSTEM IS IN PROCESS. ANALYSIS RESULTS WILL BE FORWARDED WHEN AVAILABLE. MODEL 6972 HAS BEEN INCLUDED IN AN ADVISORY.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS BEEN DETERMINED TO BE THE RESULT OF THE DEVICE. "
+        }
+    ]
+}

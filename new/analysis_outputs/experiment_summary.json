@@ -1,0 +1,36 @@
+{
+    "total_experiments": 104,
+    "clustering_methods": [
+        "hierarchical",
+        "kmeans_auto",
+        "dbscan_auto",
+        "kmeans_manual",
+        "dbscan_manual"
+    ],
+    "feature_extraction_methods": [
+        "tfidf",
+        "sentence_transformer"
+    ],
+    "experiment_types": [
+        "clustering_only",
+        "clustering + API"
+    ],
+    "adjusted_rand_index_stats": {
+        "mean": 0.7515429826922699,
+        "std": 0.35213166133230317,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "normalized_mutual_info_stats": {
+        "mean": 0.8405319245271792,
+        "std": 0.24377515549723372,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "f1_score_stats": {
+        "mean": 0.7899042925143912,
+        "std": 0.30436168282330367,
+        "min": 0.05625,
+        "max": 1.0
+    }
+}

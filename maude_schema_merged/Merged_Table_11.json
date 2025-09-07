@@ -2,7 +2,13 @@
     "table_name": "Merged_Table_11",
     "structure": [
         {
-            "name": "lifeprod_life_products_inc_the_filing_of_this_report_is_not_an_",
+            "name": "ï_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "old_to_be_deactivated",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -10,13 +16,16 @@
     ],
     "sample_data": [
         {
-            "lifeprod_life_products_inc_the_filing_of_this_report_is_not_an_": "TRAVLABO        TRAVENOL LAB INC                                  THE FILING OF THIS REPORT IS NOT AN ADMISSION THAT THE DESCRIBED INCIDENT IS A REPORTABLE EVENT. THE INFORMATION IS BEING PROVIDED TO ADVISE THE FDA OF OUR RECEIPT OF A POSSIBLE COMPLAINT AND THE ASSOCIATED CIRCUMSTANCES BUT DOES NOT ADMIT LIABILITY OR THAT THE INFORMATION ACTUALLY FALLS UNDER THE MANDATORY REPORTING REQUIREMENTS.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          *"
+            "ï_1": "1001",
+            "old_to_be_deactivated": "Failure To Run On AC/DC"
         },
         {
-            "lifeprod_life_products_inc_the_filing_of_this_report_is_not_an_": "AMES            AMES DIV                                          THIS REPORT IS FILED PURSUANT TO 21 CFR, PART 803, AND DOES NOT CONSTITUTE AN ADMISSION THAT THE DEVICE IN QUESTION MALFUNCTIONED OR CONTRIBUTED TO A DEATH OR SERIOUS INJURY. IN 21 CFR, PART 803.24(F), IT IS STATED THAT ANY RELEASE BY THE FDA OF A REPORT SUBMITTED UNDER THIS SECTION DOES NOT NECESSARILY REFLECT A CONCLUSION BY THE FDA \"THAT THE REPORT OR INFORMATION CONSTITUTES AN ADMISSION THAT THE DEVICE CAUSED OR CONTRIBUTED TO A DEATH OR SERIOUS INJURY OR MALFUNCTIONED.\"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       *"
+            "ï_1": "1002",
+            "old_to_be_deactivated": "Abnormal"
         },
         {
-            "lifeprod_life_products_inc_the_filing_of_this_report_is_not_an_": "MEDRAD          MEDRAD INC                                        THIS REPORT IS BASED ON INFORMATION SUPPLIED TO US WITHOUT OUR INDEPENDENT VERIFICATION AS TO ITS ACCURACY, COMPLETENESS OR CAUSAL RELATIONSHIP TO- THE PRODUCT.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *"
+            "ï_1": "1003",
+            "old_to_be_deactivated": "Absorption"
         }
     ]
 }

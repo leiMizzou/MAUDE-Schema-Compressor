@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2018",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "5866367",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2018/10/10",
+            "brand_name": "HEARTWARE® VENTRICULAR ASSIST SYSTEM",
+            "generic_name": "CIRCULATORY ASSIST SYSTEM, PRODUCT CODE, PRODUCT CODE",
+            "manufacturer_d_name": "HEARTWARE, INC",
+            "manufacturer_d_address_1": "14400 NW 60TH AVENUE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "MIAMI LAKES",
+            "manufacturer_d_state_code": "FL",
+            "manufacturer_d_zip_code": "33014",
+            "manufacturer_d_zip_code_ext": "3105",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "330143105",
+            "device_operator": "001",
+            "expiration_date_of_device": "2017/11/30",
+            "model_number": null,
+            "catalog_number": "1104",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DSQ",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "6860574",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2018/09/27",
+            "brand_name": "GORE PROPATEN VASCULAR GRAFT",
+            "generic_name": "PROSTHESIS, VASCULAR GRAFT",
+            "manufacturer_d_name": "W.L. GORE & ASSOCIATES",
+            "manufacturer_d_address_1": null,
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "FLAGSTAFF",
+            "manufacturer_d_state_code": "AZ",
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": null,
+            "manufacturer_d_postal_code": null,
+            "device_operator": "0HP",
+            "expiration_date_of_device": "2014/06/29",
+            "model_number": null,
+            "catalog_number": "H470045A",
+            "lot_number": "3281153PP010",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "DSY",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "7156369",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2018/01/01",
+            "brand_name": "TECNIS ITEC PRELOADED 1-PIECE IOL",
+            "generic_name": "MONOFOCAL IOLS",
+            "manufacturer_d_name": "ABBOTT MEDICAL OPTICS",
+            "manufacturer_d_address_1": null,
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SANTA ANA",
+            "manufacturer_d_state_code": "CA",
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "device_operator": "001",
+            "expiration_date_of_device": "2020/02/11",
+            "model_number": "PCB00",
+            "catalog_number": "PCB0000195",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2017/11/22",
+            "device_report_product_code": "HQL",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": "05050474558250",
+            "udi_public": "(01)05050474558250(17)200211"
+        }
+    ]
+}

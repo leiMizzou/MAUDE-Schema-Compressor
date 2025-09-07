@@ -2,109 +2,61 @@
     "table_name": "Merged_Table_3",
     "structure": [
         {
-            "name": "exemption_number",
+            "name": "mdr_report_key",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_registration_number",
+            "name": "patient_sequence_number",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_name",
+            "name": "date_received",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "report_id",
+            "name": "sequence_number_treatment",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "date_of_event",
+            "name": "sequence_number_outcome",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_aware_date",
+            "name": "patient_age",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "event_type",
+            "name": "patient_sex",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "device_problem_codes",
+            "name": "patient_weight",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "report_year",
+            "name": "patient_ethnicity",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "report_quarter",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "initial_report_flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "device_id",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "product_code",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "brand_name",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "model_number",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "catalog_number",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "implant_available_for_evaluation",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "implant_returned_to_manufacturer",
+            "name": "patient_race",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -112,64 +64,40 @@
     ],
     "sample_data": [
         {
-            "exemption_number": "2007014",
-            "manufacturer_registration_number": "9617229",
-            "manufacturer_name": "ALLERGAN",
-            "report_id": "200517.S2",
-            "date_of_event": "2/16/2007",
-            "manufacturer_aware_date": "2/21/2007",
-            "event_type": "IN",
-            "device_problem_codes": "2616;1546",
-            "report_year": "2019",
-            "report_quarter": "1",
-            "initial_report_flag": "S",
-            "device_id": "45",
-            "product_code": "FTR",
-            "brand_name": "Natrelle Silicone-Filled Breast Implants",
-            "model_number": "45",
-            "catalog_number": "45-550",
-            "implant_available_for_evaluation": "2",
-            "implant_returned_to_manufacturer": "2"
+            "mdr_report_key": "1018495",
+            "patient_sequence_number": "1",
+            "date_received": "01/03/2008",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": null,
+            "patient_age": null,
+            "patient_sex": "Female",
+            "patient_weight": null,
+            "patient_ethnicity": null,
+            "patient_race": null
         },
         {
-            "exemption_number": "2007014",
-            "manufacturer_registration_number": "9617229",
-            "manufacturer_name": "ALLERGAN",
-            "report_id": "244727.S1",
-            "date_of_event": "9/10/2008",
-            "manufacturer_aware_date": "7/25/2012",
-            "event_type": "IN",
-            "device_problem_codes": "2682",
-            "report_year": "2019",
-            "report_quarter": "1",
-            "initial_report_flag": "S",
-            "device_id": "115",
-            "product_code": "FTR",
-            "brand_name": "Natrelle Silicone-Filled Breast Implants",
-            "model_number": "115",
-            "catalog_number": "115-378",
-            "implant_available_for_evaluation": "2",
-            "implant_returned_to_manufacturer": "2"
+            "mdr_report_key": "2119070",
+            "patient_sequence_number": "1",
+            "date_received": "06/09/2011",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": "R",
+            "patient_age": null,
+            "patient_sex": "Female",
+            "patient_weight": null,
+            "patient_ethnicity": null,
+            "patient_race": null
         },
         {
-            "exemption_number": "2007014",
-            "manufacturer_registration_number": "9617229",
-            "manufacturer_name": "ALLERGAN",
-            "report_id": "260070.S1",
-            "date_of_event": "11/6/2012",
-            "manufacturer_aware_date": "3/26/2019",
-            "event_type": "IN",
-            "device_problem_codes": "2682",
-            "report_year": "2019",
-            "report_quarter": "1",
-            "initial_report_flag": "S",
-            "device_id": "15",
-            "product_code": "FTR",
-            "brand_name": "Natrelle Silicone-Filled Breast Implants",
-            "model_number": "15",
-            "catalog_number": "15-371",
-            "implant_available_for_evaluation": "2",
-            "implant_returned_to_manufacturer": "2"
+            "mdr_report_key": "2093255",
+            "patient_sequence_number": "1",
+            "date_received": "05/03/2011",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": "R",
+            "patient_age": "35 YR",
+            "patient_sex": "Female",
+            "patient_weight": null,
+            "patient_ethnicity": null,
+            "patient_race": null
         }
     ]
 }

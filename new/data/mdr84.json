@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr84",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M100151",
+            "date_received": "12/19/84",
+            "product_description": "MODULINE",
+            "manufacturer_name_code": "DENTSPLY",
+            "manufacturer_name": "F & F KOENIGKRAMER",
+            "street_address": "96 CALDWELL DRIVE",
+            "city": "CINCINNATI",
+            "state": "OH",
+            "zipcode": "45216",
+            "report_type": "MALFUNCTION",
+            "model_number": "M700",
+            "catalog_number": null,
+            "fda_panel_code": "GENERAL HOSPITAL",
+            "fda_product_code": "FPO",
+            "event_description_type": "FINAL",
+            "event_description": "DENTSPLY RECEIVED COMPLAINT ALLEGING BACK INJURY DUE TO MOVING A STRETCHER WHEN THE BRAKES LOCKED CAUSING INJURY TO BACK. LAWSUIT BEING CONTESTED. INVESTIGATION BEING CONDUCTED BY DENTSPLY'S INSURANCE CO. DENTSPLY DISCLAIMS ANY RESPONSIBILITY FOR THIS INCIDENT SINCE THIS KIND OF INCIDENT NORMALLY IS PREVENTED OR CORRECTED BY HOSPITAL MAINTENANCE TIGHTENING CASTER BOLTS TO AVOID EXCESSIVE WOBBLE OR PLAY. CO HAS SOLD 1,333 M700 STRETCHERS OVER THE PAST FIVE YEARS AND THIS IS THE ONLY REPORT RECEIVED OF SUDDEN BRAKE LOCKING.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M100030",
+            "date_received": "12/19/84",
+            "product_description": "SEVRITON",
+            "manufacturer_name_code": "DENTSPLY",
+            "manufacturer_name": "DENTSPLY INTERNATIONAL INC",
+            "street_address": "P.O. BOX 872",
+            "city": "YORK",
+            "state": "PA",
+            "zipcode": "17405",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": null,
+            "fda_panel_code": "DENTAL",
+            "fda_product_code": "EMA",
+            "event_description_type": "PRELIMINARY",
+            "event_description": "TRAINEE AT SCHOOL FOR DENTAL ASSISTANTS SPLASHED LIQUID MONOMER IN HER EYE, CONTACTED THE FIRM FOR EMERGENCY ADVICE. WAS TOLD TO FLUSH WITH WATER FOR 45 MINUTES AND CONSULT AN OPHTHAMOLOGIST. DR DIAGNOSED A SLIGHT BURN. GAVE HER OPHTHALMIC CREAM AND INSTRUCTED HER TO AVOID LIGHT. COMPLETE RECOVERY EXPECTED OVERNIGHT. MFG DISCLAIMS ANY RESPONSIBILITY FOR THIS. CAUSED BY USER ERROR. PRODUCT ON THE MARKET 30 YEARS. FIRST SUCH COMPLAINT.",
+            "closeout_text": "CAUSE KNOWN - OTHER "
+        },
+        {
+            "access_type_and_number": "M100090",
+            "date_received": "12/19/84",
+            "product_description": "BECHTOL FEMORAL COMPONENT",
+            "manufacturer_name_code": "RICHMEDI",
+            "manufacturer_name": "RICHARDS MEDICAL CO.",
+            "street_address": "1450 BROOKS RD",
+            "city": "MEMPHIS",
+            "state": "TN",
+            "zipcode": "38116",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "12-0738",
+            "fda_panel_code": "ORTHOPEDIC",
+            "fda_product_code": "KWL",
+            "event_description_type": "PRELIMINARY",
+            "event_description": "IMPLANT BROKE THROUGH AT THE STEM SECTION. HAD BEEN IMPLANTED FOR 5 1/2 YEARS BEFORE IT BROKE. REPLACEMENT (REVISION) SURGERY DONE IN 1983. NO LONGER BEING MANUFACTURED SINCE FEBRUARY 1981.",
+            "closeout_text": "CAUSE UNKNOWN "
+        }
+    ]
+}

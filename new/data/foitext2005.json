@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2005",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "425802",
+            "mdr_text_key": "267411",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "CONSUMER REPORTS PT HAS ELEVATED BLOOD GLUCOSE LEVELS FOR 2 DAYS AFTER GIVING INSULIN INJECTIONS. CONSULTED THEIR MD. TRIED OTHER CARTRIDGES, INSULIN DRIPS NOT A STREAM. THERAPY WAS IMPACTED, NO DIRECT MEDICAL INTERVENTION."
+        },
+        {
+            "mdr_report_key": "442176",
+            "mdr_text_key": "286819",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A PT REPORTED BLOOD GLUCOSE RESULTS OF 13.0 WITH A LIFESCAN METER AND 8.0 MMOL/L ON LABORATORY DEVICE, PERFORMED WITHIN 10 MINUTES OF EACH OTHER. BETWEEN THE TESTS THERE WAS NO INTERVENTION THAT WOULD BE EXPECTED TO CHANGE THE BLOOD GLUCOSE. BASED ON STATISTICAL METHODOLOGY, THE CALCULATED DIFFERENCE OF THESE GLUCOSE RESULTS EXCEEDS LIFESCAN'S CRITERIA FOR ACCURACY, THEREBY INDICATING A POTENTIAL MALFUNCTION OF THE METER IN TERMS OF ACCURACY."
+        },
+        {
+            "mdr_report_key": "442188",
+            "mdr_text_key": "286821",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "A PT REPORTED BLOOD GLUCOSE RESULTS OF 10 MG/DL AND 70 MG/DL WITH A LIFESCAN METER, PERFORMED WITHIN 10 MINUTES OF EACH OTHER. BASED ON STATISTICAL METHODOLOGY, THE CALCULATED DIFFERENCE OF THESE GLUCOSE RESULTS EXCEEDS THE EXPECTED VALUE OF <= 20% AND/OR <=20 MG/DL, THEREBY INDICATING A POTENTIAL MALFUNCTION OF THE METER IN TERMS OF PRECISION."
+        }
+    ]
+}

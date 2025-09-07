@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2007",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "676618",
+            "mdr_text_key": "443794",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "EVENT DESCRIPTION: GUIDANT RECEIVED INFORMATION THAT THIS VENTRICULAR LEAD WAS SURGICALLY ABANDONED DUE TO MICRODISLODGEMENT AND HIGH PACING THRESHOLD MEASUREMENTS. THIS PACEMAKER WAS EXPLANTED AND REPLACED DUE TO SUSPECTED PREMATURE DEPLETION DUE TO THE HIGH PROGRAMMED OUTPUTS."
+        },
+        {
+            "mdr_report_key": "701273",
+            "mdr_text_key": "446315",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "AN INTERNAL ELECTRICAL COMPONENT SPARKED AND/OR BURNED THE FABRIC FOUNDATION OF THE UNIT. VISUAL INSPECTION OF THE UNIT REVEALED A BROKEN THEMOSTAT, DAMAGED BY MISUSE ON THE PART OF THE CONSUMER, WHICH HAD BRIEFLY ALLOWED ELECTRICITY TO COME INTO CONTACT WITH THE FABRIC FOUNDATION, RESULTING IN A 1/4\" BURN."
+        },
+        {
+            "mdr_report_key": "676618",
+            "mdr_text_key": "460807",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "EVENT DESCRIPTION: GUIDANT RECEIVED INFORMATION THAT THIS VENTRICULAR LEAD WAS SURGICALLY ABANDONED DUE TO MICRODISLODGEMENT AND HIGH PACING THRESHOLD MEASUREMENTS. THIS PACEMAKER WAS EXPLANTED AND REPLACED DUE TO SUSPECTED PREMATURE DEPLETION DUE TO THE HIGH PROGRAMMED OUTPUTS."
+        }
+    ]
+}

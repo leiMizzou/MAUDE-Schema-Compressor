@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": false,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": false,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "18423218",
+            "mdr_text_key": "331765296",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT THE IPG WOULD NOT HOLD A CHARGE AND IT REQUIRED THE PATIENT MORE EFFORT TO CHARGE THE DEVICE. THE PATIENT UNDERWENT AN IPG REPLACEMENT PROCEDURE AND WAS DOING WELL POSTOPERATIVELY. THE EXPLANTED DEVICE WAS KEPT BY THE MEDICAL FACILITY."
+        },
+        {
+            "mdr_report_key": "18434081",
+            "mdr_text_key": "331765325",
+            "text_type_code": "N",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "(B)(4)."
+        },
+        {
+            "mdr_report_key": "18434081",
+            "mdr_text_key": "331765326",
+            "text_type_code": "D",
+            "patient_sequence_number": "0",
+            "date_report": null,
+            "foi_text": "IT WAS REPORTED THAT SIGNAL LOSS OVER ONE HOUR OCCURRED. A REVIEW OF THE SHARE LOGS WAS PERFORMED AND A LOSS OF CONNECTION WAS NOT FOUND WITHIN THE INVESTIGATION WINDOW. THE ALLEGATION WAS NOT CONFIRMED. THE PROBABLE CAUSE COULD NOT BE DETERMINED. NO INJURY OR MEDICAL INTERVENTION WAS REPORTED."
+        }
+    ]
+}

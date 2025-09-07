@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2013",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "2891923",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2013/01/01",
+            "brand_name": "OT ULTRALINK METER",
+            "generic_name": "GLUCOSE MONITORING SYS/KIT",
+            "manufacturer_d_name": "LIFESCAN EUROPE, A DIVISION OF CILAG GMBH INTL",
+            "manufacturer_d_address_1": "GUBELSTRASSE 34",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ZUG",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "6300",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SZ",
+            "manufacturer_d_postal_code": "6300",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": "3180296",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "NBW",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2891924",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2013/01/01",
+            "brand_name": "OT ULTRALINK METER",
+            "generic_name": "GLUCOSE MONITORING SYS/KIT",
+            "manufacturer_d_name": "LIFESCAN EUROPE, A DIVISION OF CILAG GMBH INTL",
+            "manufacturer_d_address_1": "GUBELSTRASSE 34",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ZUG",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "6300",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SZ",
+            "manufacturer_d_postal_code": "6300",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": "3295572",
+            "other_id_number": "1-M5WXU9",
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "NBW",
+            "device_age_text": "10 MO",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "2891925",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2013/01/01",
+            "brand_name": "OT PING METER",
+            "generic_name": "GLUCOSE MONITORING SYS/KIT",
+            "manufacturer_d_name": "LIFESCAN EUROPE, A DIVISION OF CILAG GMBH INTL",
+            "manufacturer_d_address_1": "GUBELSTRASSE 34",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ZUG",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "6300",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SZ",
+            "manufacturer_d_postal_code": "6300",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": "3369796",
+            "other_id_number": "1-NQGOP7",
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2013/04/02",
+            "device_report_product_code": "NBW",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

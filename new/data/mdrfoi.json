@@ -1,0 +1,751 @@
+{
+    "table_name": "mdrfoi",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_source_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_link_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_devices_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "number_patients_in_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "adverse_event_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_problem_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_of_event",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reprocessed_and_reused_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_occupation_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "health_professional",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_facility_aware",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_fda",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_location",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_t_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_f_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_l_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_zip_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_country",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_postal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_area_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_exchange",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_phone_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_extension",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcountry",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_pcity",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_contact_plocal",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_street_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_g1_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_manufacturer_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_date_of_manufacture",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "single_use_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "remedial_action",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "previous_use_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "removal_correction_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "distributor_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "type_of_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "source_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_added",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_changed",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "reporter_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "pma_pmn_num",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "exemption_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "summary_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "noe_summarized",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "18423065",
+            "event_key": null,
+            "report_number": "9610595-2024-00001",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "01/01/2024",
+            "adverse_event_flag": "N",
+            "product_problem_flag": "Y",
+            "date_report": "02/02/2024",
+            "date_of_event": null,
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "100",
+            "health_professional": "Y",
+            "initial_report_to_fda": "N",
+            "date_facility_aware": null,
+            "report_date": null,
+            "report_to_fda": "N",
+            "date_report_to_fda": null,
+            "event_location": null,
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": "MR.",
+            "manufacturer_contact_f_name": "TODD",
+            "manufacturer_contact_l_name": "BRILL",
+            "manufacturer_contact_street_1": "800 WEST PARK DRIVE",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "WESTBOROUGH",
+            "manufacturer_contact_state": "MA",
+            "manufacturer_contact_zip_code": "01581",
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "01581",
+            "manufacturer_contact_area_code": "508",
+            "manufacturer_contact_exchange": "508",
+            "manufacturer_contact_phone_no": "5082",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "50820776",
+            "manufacturer_contact_plocal": "5082077661",
+            "manufacturer_g1_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_g1_street_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": "01/31/2024",
+            "device_date_of_manufacture": "02/17/2009",
+            "single_use_flag": "N",
+            "remedial_action": null,
+            "previous_use_code": "R",
+            "removal_correction_number": null,
+            "event_type": "M",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "05,06",
+            "date_added": "01/01/2024",
+            "date_changed": "02/14/2024",
+            "reporter_country_code": "US",
+            "pma_pmn_num": "K100584",
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "18423066",
+            "event_key": null,
+            "report_number": "9610595-2024-00002",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "01/01/2024",
+            "adverse_event_flag": "N",
+            "product_problem_flag": "Y",
+            "date_report": "02/26/2024",
+            "date_of_event": "12/15/2023",
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "003",
+            "health_professional": null,
+            "initial_report_to_fda": "N",
+            "date_facility_aware": null,
+            "report_date": null,
+            "report_to_fda": "N",
+            "date_report_to_fda": null,
+            "event_location": null,
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": "MR.",
+            "manufacturer_contact_f_name": "TODD",
+            "manufacturer_contact_l_name": "BRILL",
+            "manufacturer_contact_street_1": "800 WEST PARK DRIVE",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "WESTBOROUGH",
+            "manufacturer_contact_state": "MA",
+            "manufacturer_contact_zip_code": "01581",
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "01581",
+            "manufacturer_contact_area_code": "508",
+            "manufacturer_contact_exchange": "508",
+            "manufacturer_contact_phone_no": "5082",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "50820776",
+            "manufacturer_contact_plocal": "5082077661",
+            "manufacturer_g1_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_g1_street_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": "02/05/2024",
+            "device_date_of_manufacture": "04/23/2019",
+            "single_use_flag": "N",
+            "remedial_action": null,
+            "previous_use_code": "R",
+            "removal_correction_number": null,
+            "event_type": "M",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "06,07",
+            "date_added": "01/01/2024",
+            "date_changed": "02/26/2024",
+            "reporter_country_code": "US",
+            "pma_pmn_num": "K201758",
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        },
+        {
+            "mdr_report_key": "18423067",
+            "event_key": null,
+            "report_number": "9610595-2024-00003",
+            "report_source_code": "M",
+            "manufacturer_link_flag": "Y",
+            "number_devices_in_event": null,
+            "number_patients_in_event": null,
+            "date_received": "01/01/2024",
+            "adverse_event_flag": "N",
+            "product_problem_flag": "Y",
+            "date_report": "01/23/2024",
+            "date_of_event": "12/08/2023",
+            "reprocessed_and_reused_flag": "N",
+            "reporter_occupation_code": "100",
+            "health_professional": "Y",
+            "initial_report_to_fda": "N",
+            "date_facility_aware": null,
+            "report_date": null,
+            "report_to_fda": "N",
+            "date_report_to_fda": null,
+            "event_location": null,
+            "date_report_to_manufacturer": null,
+            "manufacturer_contact_t_name": "MR.",
+            "manufacturer_contact_f_name": "TODD",
+            "manufacturer_contact_l_name": "BRILL",
+            "manufacturer_contact_street_1": "800 WEST PARK DRIVE",
+            "manufacturer_contact_street_2": null,
+            "manufacturer_contact_city": "WESTBOROUGH",
+            "manufacturer_contact_state": "MA",
+            "manufacturer_contact_zip_code": "01581",
+            "manufacturer_contact_zip_ext": null,
+            "manufacturer_contact_country": "US",
+            "manufacturer_contact_postal": "01581",
+            "manufacturer_contact_area_code": "508",
+            "manufacturer_contact_exchange": "508",
+            "manufacturer_contact_phone_no": "5082",
+            "manufacturer_contact_extension": null,
+            "manufacturer_contact_pcountry": null,
+            "manufacturer_contact_pcity": "50820776",
+            "manufacturer_contact_plocal": "5082077661",
+            "manufacturer_g1_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_g1_street_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_g1_street_2": null,
+            "manufacturer_g1_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_g1_state_code": null,
+            "manufacturer_g1_zip_code": null,
+            "manufacturer_g1_zip_code_ext": null,
+            "manufacturer_g1_country_code": "US",
+            "manufacturer_g1_postal_code": null,
+            "date_manufacturer_received": "01/12/2024",
+            "device_date_of_manufacture": "08/26/2016",
+            "single_use_flag": "N",
+            "remedial_action": null,
+            "previous_use_code": "R",
+            "removal_correction_number": null,
+            "event_type": "M",
+            "distributor_name": null,
+            "distributor_address_1": null,
+            "distributor_address_2": null,
+            "distributor_city": null,
+            "distributor_state_code": null,
+            "distributor_zip_code": null,
+            "distributor_zip_code_ext": null,
+            "report_to_manufacturer": null,
+            "manufacturer_name": null,
+            "manufacturer_address_1": null,
+            "manufacturer_address_2": null,
+            "manufacturer_city": null,
+            "manufacturer_state_code": null,
+            "manufacturer_zip_code": null,
+            "manufacturer_zip_code_ext": null,
+            "manufacturer_country_code": null,
+            "manufacturer_postal_code": null,
+            "type_of_report": "I,F",
+            "source_type": "00,01,05,06,07",
+            "date_added": "01/01/2024",
+            "date_changed": "01/23/2024",
+            "reporter_country_code": "CH",
+            "pma_pmn_num": null,
+            "exemption_number": null,
+            "summary_report": "N",
+            "noe_summarized": "1"
+        }
+    ]
+}

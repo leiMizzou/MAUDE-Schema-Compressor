@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "18423065",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2024/01/01",
+            "brand_name": "EVIS EXERA II COLONOVIDEOSCOPE",
+            "generic_name": "COLONOVIDEOSCOPE",
+            "manufacturer_d_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_d_address_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "965-8",
+            "manufacturer_d_zip_code_ext": "520",
+            "manufacturer_d_country_code": "JA",
+            "manufacturer_d_postal_code": "965-8520",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "CF-H180AL",
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2023/12/14",
+            "device_report_product_code": "FDF",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": "04953170202339",
+            "udi_public": "04953170202339"
+        },
+        {
+            "mdr_report_key": "18423066",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2024/01/01",
+            "brand_name": "EVIS EXERA III BRONCHOVIDEOSCOPE",
+            "generic_name": "BRONCHOVIDEOSCOPE",
+            "manufacturer_d_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_d_address_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "965-8",
+            "manufacturer_d_zip_code_ext": "520",
+            "manufacturer_d_country_code": "JA",
+            "manufacturer_d_postal_code": "965-8520",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "BF-XP190",
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "EOQ",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": "04953170342134",
+            "udi_public": "04953170342134"
+        },
+        {
+            "mdr_report_key": "18423067",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2024/01/01",
+            "brand_name": "EVIS LUCERA ELITE BRONCHOVIDEOSCOPE",
+            "generic_name": "BRONCHOVIDEOSCOPE",
+            "manufacturer_d_name": "AIZU OLYMPUS CO., LTD.",
+            "manufacturer_d_address_1": "3-1-1 NIIDERAKITA",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "AIZUWAKAMATSU-SHI, FUKUSHIMA",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "965-8",
+            "manufacturer_d_zip_code_ext": "520",
+            "manufacturer_d_country_code": "JA",
+            "manufacturer_d_postal_code": "965-8520",
+            "device_operator": "0HP",
+            "expiration_date_of_device": null,
+            "model_number": "BF-Q290",
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2023/12/13",
+            "device_report_product_code": "EOQ",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "Y",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

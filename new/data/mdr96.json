@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr96",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M409885",
+            "date_received": "03/06/96",
+            "product_description": "SELF CONTAINED PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "DYNAFLEX",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PT HAS A HISTORY OF DIABETES. HIS DOB IS 6/25/32. HE WAS IMPLANTED WITH A DEVICE ON 9/2/93. INFO RECEIVED ON 9/22/93 INDICATES, AN \"INFECTION.\" THE ENTIRE DEVICE WAS REMOVED FROM THE PT ON 9/14/93.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M525866",
+            "date_received": "03/06/96",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PT'S DOB IS 5/18/28. HE WAS IMPLANTED WITH A DEVICE ON 11/24/80. ONE CYLINDER WAS REVISED ON 5/6/83. INFO RECEIVED ON 7/9/85, INDICATES THE CYLINDERS WERE REVISED, DATE NOT INDICATED. INFO RECEIVED ON 7/6/94, INDICATES \"ERODED PROSTHESIS.\" THE DEVICE WAS REMOVED FROM THE PT ON 4/30/92. CO WILL PROVIDE PERTINENT INFO, IF RECEIVED.",
+            "closeout_text": "THESE TYPES OF EVENTS USUALLY INVOLVE KNOWN COMPLICATIONS THAT DO NOT JUSTIFY IMMEDIATE ACTION OR REVIEW OF THE INDIVIUAL REPORT. HOWEVER, THE EVENT AND OTHER SIMILAR EVENTS ARE AVAILABLE FOR FURTHER STATISTICAL ANALYSIS AND MONITORING. "
+        },
+        {
+            "access_type_and_number": "M704613",
+            "date_received": "03/06/96",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS, INC.",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "LEAK IN THE OUTER SILICONE SLEEVE RESULTING IN TISSUE INGROWTH INTO FABRIC, AND A VERY DIFFICULT REMOVAL. THE ENTIRE DEVICE WAS REMOVED FROM THE PT. MALE PT WITH DOB 5/19/42. OTHER RELEVANT HISTORY: DIABETES MELLITUS. IMPLANT DATE 5/31/91. EXPLANT DATE 4/4/95.",
+            "closeout_text": "THESE TYPES OF EVENTS USUALLY INVOLVE KNOWN COMPLICATIONS THAT DO NOT JUSTIFY IMMEDIATE ACTION OR REVIEW OF THE INDIVIUAL REPORT. HOWEVER, THE EVENT AND OTHER SIMILAR EVENTS ARE AVAILABLE FOR FURTHER STATISTICAL ANALYSIS AND MONITORING. "
+        }
+    ]
+}

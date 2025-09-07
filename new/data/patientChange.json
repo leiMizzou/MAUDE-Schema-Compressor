@@ -1,0 +1,103 @@
+{
+    "table_name": "patientChange",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "sequence_number_treatment",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "sequence_number_outcome",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_age",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sex",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_weight",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_ethnicity",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_race",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "917337",
+            "patient_sequence_number": "1",
+            "date_received": "09/20/2007",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": "H; R",
+            "patient_age": null,
+            "patient_sex": "Female",
+            "patient_weight": null,
+            "patient_ethnicity": null,
+            "patient_race": null
+        },
+        {
+            "mdr_report_key": "917340",
+            "patient_sequence_number": "1",
+            "date_received": "09/20/2007",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": "H; R",
+            "patient_age": null,
+            "patient_sex": "Female",
+            "patient_weight": null,
+            "patient_ethnicity": null,
+            "patient_race": null
+        },
+        {
+            "mdr_report_key": "953537",
+            "patient_sequence_number": "1",
+            "date_received": "11/21/2007",
+            "sequence_number_treatment": null,
+            "sequence_number_outcome": "H; R",
+            "patient_age": "64 YR",
+            "patient_sex": "Male",
+            "patient_weight": "95 KG",
+            "patient_ethnicity": null,
+            "patient_race": null
+        }
+    ]
+}

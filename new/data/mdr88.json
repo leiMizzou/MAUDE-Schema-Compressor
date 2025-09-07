@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr88",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M148777",
+            "date_received": "01/04/88",
+            "product_description": "SILASTIC MAMMARY IMPLANT GEL FILLED 270CC",
+            "manufacturer_name_code": "DOWCORN",
+            "manufacturer_name": "DOW CORNING CORPORATION",
+            "street_address": "1635 N GLEANER RD",
+            "city": "HEMLOCK",
+            "state": "MI",
+            "zipcode": "48626",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "975",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "FTR",
+            "event_description_type": "FINAL",
+            "event_description": "ON OR ABOUT 12/12/83 THE PT HAD UNDERGONE REMOVAL OF IMPLANT. SHE CLAIMS ADDITIONAL SURGERY RESULTED IN PAIN AND SUFFERING. UNKNOWN IF ANOTHER IMPLANT WAS IMPLANTED.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. IN ADDITION, AVAILABLE FREQUENCY AND SEVERITY DATA DO NOT INDICATE THAT ANY FURTHER INVESTIGATION IS NECESSARY AT THIS TIME. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M148817",
+            "date_received": "01/04/88",
+            "product_description": "FOSTER GRANT SUNGLASSES",
+            "manufacturer_name_code": "FOSTGRAN",
+            "manufacturer_name": "FOSTER GRANT CORPORATION",
+            "street_address": "289 N MAIN ST",
+            "city": "LEOMINSTER",
+            "state": "MA",
+            "zipcode": "01453",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "14086",
+            "catalog_number": null,
+            "fda_panel_code": "OPHTHALMIC",
+            "fda_product_code": "HQY",
+            "event_description_type": "FINAL",
+            "event_description": "WHILE TRYING ON A PAIR OF SUNGLASSES, TAG HIT CLAIMANT IN LEFT EYE. TO THE REPORTER'S KNOWLEDGE NO MEDICAL ATTENTION WAS SOUGHT.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. HOWEVER, THE INFORMATION IN THIS REPORT AND/OR ITS FOLLOW-UP SUGGESTS THAT THE EVENT MAY HAVE BEEN CAUSED BY THE USE OF THE DEVICE. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M148815",
+            "date_received": "01/04/88",
+            "product_description": "SEQUICOR II",
+            "manufacturer_name_code": "CORDIS",
+            "manufacturer_name": "TPL-CORDIS INC",
+            "street_address": "PO BOX 025202",
+            "city": "MIAMI",
+            "state": "FL",
+            "zipcode": "33102",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "233F",
+            "catalog_number": "309-309",
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "DXY",
+            "event_description_type": "FINAL",
+            "event_description": "PACER WAS EXPLANTED AFTER 50 MONTHS DUE TO REPORT OF LOSS OF CAPTURE. PACER WAS REPLACED UNEVENTFULLY WITH A NEW TPL-CORDIS UNIT WITH NO REPORTED INJURY OR COMPLICATION. PT CONDITION IS REPORTED AS SATISFACTORY. THE EXPLANTED PACER HAS BEEN RECEIVED AND IS PRESENTLY UNDERGOING ANALYSIS. ANALYSIS OF THE RETURNED PACER IS NOT YET COMPLETE. PLEASE EXTEND THE FOLLOW-UP DATE TO 2/9/88. ANALYSIS OF THE EXPLANTED PACER REVEALED THAT THE UNIT DID NOT ACHIEVE MINIMUM SERVICE LIFE DUE TO PREMATURE BATTERY DEPLETION.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS BEEN DETERMINED TO BE THE RESULT OF THE DEVICE. "
+        }
+    ]
+}

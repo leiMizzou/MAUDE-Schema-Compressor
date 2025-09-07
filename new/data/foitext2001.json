@@ -1,0 +1,67 @@
+{
+    "table_name": "foitext2001",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "mdr_text_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "text_type_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "patient_sequence_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_report",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "foi_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "310126",
+            "mdr_text_key": "138309",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "HOME PATIENT (HP) REPORTED A SYSTEM ERROR ALARM 2240 DURING AUTOMATED PERITONEAL DIALYSIS TREATMENT. HP HAD ACCIDENTALLY DISCONNECTED THE PT LINE CAUSING THE ALARM. HP DISCONTINUED TREATMENT AT TIME OF THE 2240 ALARM. HP REPORTS THAT NO PT INJURY OR MEDICAL INTERVENTION WAS REQUIRED."
+        },
+        {
+            "mdr_report_key": "310127",
+            "mdr_text_key": "202787",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "THE FACILITY REPORTS TWO CAREGIVERS WERE DRESSING THE RESIDENT AFTER LOWERING THE CHAIR. ONE TURNED AWAY WHILE THE OTHER HELD THE PT IN THE LIFT. THE PT SLIPPED FORWARD, FALLING OUT OF THE CHAIR, SUFFERING A CUT ABOVE THEIR RIGHT EYE."
+        },
+        {
+            "mdr_report_key": "310137",
+            "mdr_text_key": "138311",
+            "text_type_code": "D",
+            "patient_sequence_number": "1",
+            "date_report": null,
+            "foi_text": "HOME PATIENT (HP) REPORTED A SYSTEM ERROR ALARM 2240 DURING AUTOMATED PERITONEAL DIALYSIS TREATMENT. HP HAD ACCIDENTALLY DISCONNECTED THE PT LINE CAUSING THE ALARM. HP DISCONTINUED TREATMENT AT TIME OF THE 2240 ALARM. HP REPORTS THAT NO PT INJURY OR MEDICAL INTERVENTIONION WAS REQUIRED."
+        }
+    ]
+}

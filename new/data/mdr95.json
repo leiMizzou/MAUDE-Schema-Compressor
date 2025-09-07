@@ -1,0 +1,166 @@
+{
+    "table_name": "mdr95",
+    "structure": [
+        {
+            "name": "access_type_and_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "street_address",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "state",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "zipcode",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_panel_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "fda_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_description",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "closeout_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "access_type_and_number": "M231964",
+            "date_received": "09/28/95",
+            "product_description": "INFLATABLE MAMMARY PROSTHESIS",
+            "manufacturer_name_code": "VMUEL",
+            "manufacturer_name": "V. MUELLER DIV. BAXTER HEALTHCARE CORP.",
+            "street_address": "6600 WEST TOUHY AVENUE",
+            "city": "CHICAGO",
+            "state": "IL",
+            "zipcode": "60648",
+            "report_type": "SERIOUS INJURY",
+            "model_number": null,
+            "catalog_number": "PL350-1020",
+            "fda_panel_code": "GENERAL AND PLASTIC SURGERY",
+            "fda_product_code": "FWM",
+            "event_description_type": "FINAL",
+            "event_description": "REASON FOR REMOVAL IS UNKNOWN. PRODUCT WAS EXAMINED AND A TEAR WAS FOUND. THE CAUSE COULD NOT BE DETERMINED.",
+            "closeout_text": "THE CAUSE OF THIS EVENT HAS NOT BEEN DETERMINED. HOWEVER, THE CAUSE ASSOCIATED WITH THIS TYPE OF EVENT IS USUALLY ATTRIBUTED TO PHYSIOLOGICAL OR PROCEDURAL FACTORS. BOTH THE FREQUENCY AND SEVERITY OF THIS EVENT WILL BE PERIODICALLY MONITORED TO DETERMINE IF ANY FOLLOW-UP AND/OR OTHER ACTION IS INDICATED. "
+        },
+        {
+            "access_type_and_number": "M378877",
+            "date_received": "10/31/95",
+            "product_description": "OLBERT CATHETER",
+            "manufacturer_name_code": "MEADMEDI",
+            "manufacturer_name": "MEADOX SURGIMED, INC.",
+            "street_address": "112 BAUER DR.",
+            "city": "OAKLAND",
+            "state": "NJ",
+            "zipcode": "07436",
+            "report_type": "MALFUNCTION",
+            "model_number": null,
+            "catalog_number": "701605",
+            "fda_panel_code": "CARDIOVASCULAR",
+            "fda_product_code": "LIT",
+            "event_description_type": "FINAL",
+            "event_description": "COULD NOT PASS THE INTRODUCER THROUGH THE SHEATH. MOST LIKELY DID NOT HAVE GUIDE WIRE IN PLACE. USER ERROR.",
+            "closeout_text": " "
+        },
+        {
+            "access_type_and_number": "M450804",
+            "date_received": "11/14/95",
+            "product_description": "INFLATABLE PENILE PROSTHESIS",
+            "manufacturer_name_code": "AMERMEDISYST",
+            "manufacturer_name": "AMERICAN MEDICAL SYSTEMS",
+            "street_address": "11001 BREN ROAD EAST",
+            "city": "MINNETONKA",
+            "state": "MN",
+            "zipcode": "55343",
+            "report_type": "SERIOUS INJURY",
+            "model_number": "700",
+            "catalog_number": null,
+            "fda_panel_code": "GASTROENTEROLOGY-UROLOGY",
+            "fda_product_code": "FHW",
+            "event_description_type": "FINAL",
+            "event_description": "THIS MALE PATIENT'S DOB IS 2/07/33.HE WAS IMPLANTED WITH AN IPP DEVICE ON 11/04/91.ON 11/08/93, THE HOSPITAL REPORTED, \"BIG HOLE IN CYLINDER.\" THE CYLINDERS WERE REMOVED FROM THE PATIENT AND REPLACED ON 11/08/93.L/N: 0091M (CYLINDER), 0091M (CYLINDER)S/N: 0091M001 (CYLINDER), 0091M001 (CYLINDER).",
+            "closeout_text": " "
+        }
+    ]
+}

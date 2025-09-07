@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2010",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "923553",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2010/12/06",
+            "brand_name": "FREESTYLE FLASH",
+            "generic_name": "BLOOD GLUCOSE MONITORING SYSTEM",
+            "manufacturer_d_name": "ABBOTT DIABETES CARE INC, USA",
+            "manufacturer_d_address_1": "1360 SOUTH LOOP RD.",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ALAMEDA",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": null,
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": null,
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "17001",
+            "lot_number": "0622943",
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "LFR",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "1567780",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2010/01/03",
+            "brand_name": "ORTHORALIX 8500 DDE",
+            "generic_name": "PANORAMIC DENTAL X-RAY SYSTEM",
+            "manufacturer_d_name": "GENDEX DENTAL SYSTEMS",
+            "manufacturer_d_address_1": "901 WEST OAKTON STREET",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "DES PLAINES",
+            "manufacturer_d_state_code": "IL",
+            "manufacturer_d_zip_code": "60018",
+            "manufacturer_d_zip_code_ext": "188",
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "60018 1884",
+            "device_operator": "000",
+            "expiration_date_of_device": null,
+            "model_number": "8500 DDE",
+            "catalog_number": "A8500DDENA",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "EHD",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "1567822",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2010/01/04",
+            "brand_name": "REFURBED COLLEAGUE CX TRIPLE CCHANNEL VOLUMETRIC INFUSION PU",
+            "generic_name": "PUMP, INFUSION",
+            "manufacturer_d_name": "BAXTER HEALTHCARE - SINGAPORE",
+            "manufacturer_d_address_1": "2 WOODLANDS INDUSTRIAL PARK",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SINGAPORE",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "2573",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SN",
+            "manufacturer_d_postal_code": "2573",
+            "device_operator": "0",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "2M8163R",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "R",
+            "date_returned_to_manufacturer": "2009/12/08",
+            "device_report_product_code": "FRN",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

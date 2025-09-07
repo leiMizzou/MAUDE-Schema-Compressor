@@ -1,0 +1,292 @@
+{
+    "table_name": "DEVICE2014",
+    "structure": [
+        {
+            "name": "mdr_report_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_event_key",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "implant_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_removed_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_sequence_no",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_received",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "brand_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "generic_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_name",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_1",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_address_2",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_city",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_state_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_zip_code_ext",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_country_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "manufacturer_d_postal_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_operator",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "expiration_date_of_device",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "model_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "catalog_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "lot_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "other_id_number",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_availability",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "date_returned_to_manufacturer",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_report_product_code",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_age_text",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "device_evaluated_by_manufactur",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "combination_product_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_di",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "udi_public",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "sample_data": [
+        {
+            "mdr_report_key": "3075221",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2014/01/30",
+            "brand_name": "DIAMONDBACK 360 ORBITAL ATHERECTOMY SYSTEM",
+            "generic_name": "ORBITAL ATHERECTOMY SYSTEM, PRODUCT CODE: MCW",
+            "manufacturer_d_name": "CARDIOVASCULAR SYSTEMS INCORPORATED",
+            "manufacturer_d_address_1": "651 CAMPUS DRIVE",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "SAINT PAUL",
+            "manufacturer_d_state_code": "MN",
+            "manufacturer_d_zip_code": "55112",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "55112",
+            "device_operator": "000",
+            "expiration_date_of_device": "2015/11/30",
+            "model_number": "PRD-SC30-125S",
+            "catalog_number": "PRD-SC30-125S",
+            "lot_number": "69288",
+            "other_id_number": null,
+            "device_availability": "Y",
+            "date_returned_to_manufacturer": "2013/03/26",
+            "device_report_product_code": "MCW",
+            "device_age_text": "DA",
+            "device_evaluated_by_manufactur": "N",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "3545727",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2014/01/01",
+            "brand_name": "PAIN MANAGEMENT GENERATOR",
+            "generic_name": "PAIN MANAGEMENT GENERATOR",
+            "manufacturer_d_name": "KIMBERLY-CLARK HEALTH CARE",
+            "manufacturer_d_address_1": "1400 HOLCOMB BRIDGE RD",
+            "manufacturer_d_address_2": "BLDG 200",
+            "manufacturer_d_city": "ROSWELL",
+            "manufacturer_d_state_code": "GA",
+            "manufacturer_d_zip_code": "30076",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "US",
+            "manufacturer_d_postal_code": "30076",
+            "device_operator": "001",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": "PMG-115",
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "GXD",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        },
+        {
+            "mdr_report_key": "3545728",
+            "device_event_key": null,
+            "implant_flag": null,
+            "date_removed_flag": null,
+            "device_sequence_no": "1",
+            "date_received": "2014/01/01",
+            "brand_name": "OT VERIO IQ METER",
+            "generic_name": "GLUCOSE MONITORING SYS/KIT",
+            "manufacturer_d_name": "LIFESCAN EUROPE, A DIVISION OF CILAG GMBH INTL",
+            "manufacturer_d_address_1": "GUBELSTRASSE 34",
+            "manufacturer_d_address_2": null,
+            "manufacturer_d_city": "ZUG",
+            "manufacturer_d_state_code": null,
+            "manufacturer_d_zip_code": "6300",
+            "manufacturer_d_zip_code_ext": null,
+            "manufacturer_d_country_code": "SZ",
+            "manufacturer_d_postal_code": "6300",
+            "device_operator": "0LP",
+            "expiration_date_of_device": null,
+            "model_number": null,
+            "catalog_number": null,
+            "lot_number": null,
+            "other_id_number": null,
+            "device_availability": "N",
+            "date_returned_to_manufacturer": null,
+            "device_report_product_code": "NBW",
+            "device_age_text": null,
+            "device_evaluated_by_manufactur": "R",
+            "combination_product_flag": "N",
+            "udi_di": null,
+            "udi_public": null
+        }
+    ]
+}

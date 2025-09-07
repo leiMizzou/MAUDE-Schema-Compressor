@@ -2,37 +2,79 @@
     "table_name": "Merged_Table_4",
     "structure": [
         {
-            "name": "mdr_report_key",
+            "name": "exemptn_no",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "device_event_key",
+            "name": "mfr_no",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "implant_flag",
+            "name": "mfr_name",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "date_removed_flag",
+            "name": "report_id",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "device_sequence_no",
+            "name": "date_of_event",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "date_received",
+            "name": "mfr_aware_date",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "event_type",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_prob_cd",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_year",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "report_qtr",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "initial_report_flag",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "dev_id",
+            "type": "TEXT",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "product_code",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -44,73 +86,67 @@
             "default": null
         },
         {
-            "name": "generic_name",
+            "name": "model_no",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_name",
+            "name": "catalog_no",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_address_1",
+            "name": "impl_avail_for_eval",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_address_2",
+            "name": "impl_ret_to_mfr",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_city",
+            "name": "exemption_number",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_state_code",
+            "name": "manufacturer_registration_number",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_zip_code",
+            "name": "manufacturer_name",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_zip_code_ext",
+            "name": "manufacturer_aware_date",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_country_code",
+            "name": "device_problem_codes",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "manufacturer_d_postal_code",
+            "name": "report_quarter",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "device_operator",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "expiration_date_of_device",
+            "name": "device_id",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -128,163 +164,13 @@
             "default": null
         },
         {
-            "name": "lot_number",
+            "name": "implant_available_for_evaluation",
             "type": "TEXT",
             "nullable": true,
             "default": null
         },
         {
-            "name": "other_id_number",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "device_availability",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "date_returned_to_manufacturer",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "device_report_product_code",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "device_age_text",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "device_evaluated_by_manufactur",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "combination_product_flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "udi_di",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "udi_public",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_brand_name",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_generic_name",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_model_no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_catalog_no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_other_id_no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_device_family",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_shelf_life_contained",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_shelf_life_in_months",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_pma_flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_pma_no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_510_k__flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_510_k__no",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_preamendment",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_transitional",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_510_k__exempt_flag",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_date_first_marketed",
-            "type": "TEXT",
-            "nullable": true,
-            "default": null
-        },
-        {
-            "name": "baseline_date_ceased_marketing",
+            "name": "implant_returned_to_manufacturer",
             "type": "TEXT",
             "nullable": true,
             "default": null
@@ -292,103 +178,64 @@
     ],
     "sample_data": [
         {
-            "mdr_report_key": "2119070",
-            "device_event_key": null,
-            "implant_flag": null,
-            "date_removed_flag": null,
-            "device_sequence_no": "1",
-            "date_received": "2011/06/09",
-            "brand_name": "PHYSIOMESH UNKNOWN PRODUCT",
-            "generic_name": "MESH, SURGICAL",
-            "manufacturer_d_name": "ETHICON INC.",
-            "manufacturer_d_address_1": "1000 ROUTE 202",
-            "manufacturer_d_address_2": null,
-            "manufacturer_d_city": "RARITAN",
-            "manufacturer_d_state_code": "NJ",
-            "manufacturer_d_zip_code": "08869",
-            "manufacturer_d_zip_code_ext": null,
-            "manufacturer_d_country_code": "US",
-            "manufacturer_d_postal_code": "08869",
-            "device_operator": "0HP",
-            "expiration_date_of_device": null,
-            "model_number": null,
-            "catalog_number": "PHYSIOMUNK",
-            "lot_number": null,
-            "other_id_number": null,
-            "device_availability": "N",
-            "date_returned_to_manufacturer": null,
-            "device_report_product_code": "FTL",
-            "device_age_text": null,
-            "device_evaluated_by_manufactur": "R",
-            "combination_product_flag": "N",
-            "udi_di": null,
-            "udi_public": null
+            "exemptn_no": "1999011",
+            "mfr_no": "2183157",
+            "mfr_name": "MALLINCKRODT INC. TYCO HEALTHCARE",
+            "report_id": "2004-00002",
+            "date_of_event": null,
+            "mfr_aware_date": "02/06/2004",
+            "event_type": "M",
+            "dev_prob_cd": "1142",
+            "report_year": "2004",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "LP10",
+            "product_code": "CBK",
+            "brand_name": "VOLUME VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
         },
         {
-            "mdr_report_key": "7811695",
-            "device_event_key": null,
-            "implant_flag": null,
-            "date_removed_flag": null,
-            "device_sequence_no": "1",
-            "date_received": "2019/03/08",
-            "brand_name": "MONOPOLAR ACTIVE CORD, BOVIE/VALLEYLAB GENERATORS",
-            "generic_name": "MONOPOLAR ACTIVE CORD",
-            "manufacturer_d_name": "GYRUS ACMI, INC",
-            "manufacturer_d_address_1": "136 TURNPIKE ROAD",
-            "manufacturer_d_address_2": null,
-            "manufacturer_d_city": "SOUTHBOROUGH",
-            "manufacturer_d_state_code": "MA",
-            "manufacturer_d_zip_code": "01772",
-            "manufacturer_d_zip_code_ext": null,
-            "manufacturer_d_country_code": "US",
-            "manufacturer_d_postal_code": "01772",
-            "device_operator": "0HP",
-            "expiration_date_of_device": null,
-            "model_number": "C650-129A",
-            "catalog_number": "C650-129A",
-            "lot_number": "1K",
-            "other_id_number": null,
-            "device_availability": "R",
-            "date_returned_to_manufacturer": "2019/02/07",
-            "device_report_product_code": "FAS",
-            "device_age_text": "DA",
-            "device_evaluated_by_manufactur": "Y",
-            "combination_product_flag": "N",
-            "udi_di": null,
-            "udi_public": null
+            "exemptn_no": "1999011",
+            "mfr_no": "2183157",
+            "mfr_name": "MALLINCKRODT INC. TYCO HEALTHCARE",
+            "report_id": "2000-00024",
+            "date_of_event": null,
+            "mfr_aware_date": "02/04/2000",
+            "event_type": "M",
+            "dev_prob_cd": "1019",
+            "report_year": "2000",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "LP10",
+            "product_code": "CBK",
+            "brand_name": "VOLUME VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
         },
         {
-            "mdr_report_key": "206710",
-            "device_event_key": null,
-            "implant_flag": null,
-            "date_removed_flag": null,
-            "device_sequence_no": "1",
-            "date_received": "2000/01/06",
-            "brand_name": "HOMECHOICE AUTOMATED PD SYSTEM 115 VOLT",
-            "generic_name": "HOMECHOICE",
-            "manufacturer_d_name": "BAXTER HEALTHCARE CORP.",
-            "manufacturer_d_address_1": "7511 114TH AVE NORTH",
-            "manufacturer_d_address_2": null,
-            "manufacturer_d_city": "LARGO",
-            "manufacturer_d_state_code": "FL",
-            "manufacturer_d_zip_code": "34643",
-            "manufacturer_d_zip_code_ext": null,
-            "manufacturer_d_country_code": "US",
-            "manufacturer_d_postal_code": "34643",
-            "device_operator": "0LP",
-            "expiration_date_of_device": null,
-            "model_number": null,
-            "catalog_number": "5C4471",
-            "lot_number": null,
-            "other_id_number": null,
-            "device_availability": "N",
-            "date_returned_to_manufacturer": null,
-            "device_report_product_code": "FKX",
-            "device_age_text": null,
-            "device_evaluated_by_manufactur": "R",
-            "combination_product_flag": null,
-            "udi_di": null,
-            "udi_public": null
+            "exemptn_no": "1999011",
+            "mfr_no": "2183157",
+            "mfr_name": "MALLINCKRODT INC. TYCO HEALTHCARE",
+            "report_id": "218315700001",
+            "date_of_event": null,
+            "mfr_aware_date": "01/22/2007",
+            "event_type": "M",
+            "dev_prob_cd": "1142",
+            "report_year": "2007",
+            "report_qtr": "1",
+            "initial_report_flag": "I",
+            "dev_id": "LP10",
+            "product_code": "CBK",
+            "brand_name": "VOLUME VENTILATOR",
+            "model_no": null,
+            "catalog_no": null,
+            "impl_avail_for_eval": null,
+            "impl_ret_to_mfr": null
         }
     ]
 }
